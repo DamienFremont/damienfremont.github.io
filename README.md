@@ -23,3 +23,31 @@ bundle exec jekyll serve --watch
 
 # Test
 http://127.0.0.1:4000/
+
+# Resources
+
+- templates
+  - Menu
+    - search
+  - Dev
+    - layouts
+      - Post https://www.journaldev.com/python-tutorial
+      - index
+      - tutorials
+    - includes
+      - links
+      - tops
+      - bio include
+  - Pro
+    - layouts
+      - About page  https://online-cv.webjeda.com/
+  - Games 
+    - layouts
+      - game http://www.thefirsttree.com/
+      - index
+      - demo
+      - presskit
+      - privacy
+      - term of services
+      - ads.txt ?
+    - includes

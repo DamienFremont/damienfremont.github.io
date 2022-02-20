@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include dev/header.html %}
+</head>
+
+<body class="d-flex flex-column">
+    <section class="container flex-grow">
+        <div class="row">
+            <div class="offset-md-2 col-md-8" role="main">
+
+                <div>
+                    <small class="date">{{ page.date | date: "%F" }}</small> {% for c in page.categories %}
+                    <a href="#!" class="badge rounded-pill bg-secondary text-decoration-none">{{c}}</a> {% endfor %}
+                </div>
+
+                {% if page.title != null %}
+                <h1>{{ page.title }}</h1>
+                {% endif %}
+
+                <article class=post>
+                    {{ content }}
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+
+<head>
+    {% include dev/header.html %}
+</head>
+
+</html>

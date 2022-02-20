@@ -1,28 +1,16 @@
 ---
-layout: post
+layout: dev/post
 date:   2021-02-01
+title: Test Driven Development (TDD) in Java - HelloWorld Examples
 categories: dev
 ---
-<style type="text/css">
 
-  img[alt=post-thumbnail] { 
-    width:100%;
-    height:auto
-  }
-
-  img[alt=attachment] { 
-    width:100%;
-    height:auto
-  }  
-  
-</style>
-
-Test Driven Development (TDD) in Java - HelloWorld Examples
-===========================================================
 
 ![post-thumbnail](/upload/post-thumbnail-tdd.png)
 
 Test-driven development is not about testing. Test-driven development is about development (and design), specifically improving the quality and design of code. The resulting unit tests are just an extremely useful by-product.
+
+---
 
 ### TDD life-cycle
 
@@ -40,7 +28,8 @@ Before explaining best practices, it is important to understand the TDD life-cyc
 
 ## Result
 
-HelloWorldTest.java
+`HelloWorldTest.java`
+
 ```java
 package com.damienfremont.blog;
 
