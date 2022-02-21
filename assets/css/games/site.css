@@ -1,0 +1,26 @@
+/* PALETTE (BOOTSTRAP) */
+
+:root {
+    --bs-body-color: #fdf5e2;
+    --bs-body-bg: #204a72;
+    --bs-primary: #123b62;
+    --bs-secondary: rgb(18, 59, 98);
+    --bs-secondary-rgb: 18, 59, 98;
+    --bs-dark: rgb(8, 79, 54);
+    --bs-dark-rgb: 8, 79, 54;
+    --bs-light: rgb(253, 245, 226);
+    --bs-light-rgb: 253, 245, 226;
+}
+
+
+/* SITE */
+
+.navbar .navbar-brand img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .navbar-nav-svg {
+    width: 1rem;
+    height: 1rem
+}

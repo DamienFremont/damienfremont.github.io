@@ -1,0 +1,60 @@
+/* PALETTE (BOOTSTRAP) */
+
+:root {
+    --bs-body-color: #fff;
+    --bs-body-bg: #204a72;
+    --bs-primary: #123b62;
+    --bs-dark: rgb(18, 59, 98);
+    --bs-dark-rgb: 18, 59, 98;
+    --bs-light: rgb(253, 245, 226);
+    --bs-light-rgb: 253, 245, 226;
+}
+
+:root {
+    --code: rgb(1, 2, 2);
+}
+
+
+/* SITE */
+
+.navbar .navbar-brand img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .navbar-nav-svg {
+    width: 1rem;
+    height: 1rem
+}
+
+/* INDEX */
+
+
+/* POST */
+
+img[alt=post-thumbnail] {
+    width: 100%;
+    height: auto
+}
+
+img[alt=attachment] {
+    width: 100%;
+    height: auto
+}
+
+
+/* CODE */
+
+pre.highlight {
+    background-color: var(--code);
+    padding: 16px;
+}
+
+code.language-plaintext {
+    background-color: var(--code);
+    color: var(--light);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

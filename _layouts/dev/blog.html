@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include dev/head.html %}
+
+<body>
+    <main>
+        {% include dev/header.html %}
+
+        <div class="container-fluid bg-dark pb-5 pt-5">
+            <div class="row">
+
+                <div class="col-md-6 col-lg-4">
+                    <h4>Top Posts</h4>
+                    <div class="list-group">
+                        {% for post in site.posts %}
+
+                        <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
+                            {% include dev/summary-small.html post=post %}
+                        </a>
+
+                        {%endfor%}
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <h4>Top Posts in Java</h4>
+                    <div class="list-group">
+                        {% for post in site.posts %}
+
+                        <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
+                            {% include dev/summary-small.html post=post %}
+                        </a>
+
+                        {%endfor%}
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <h4>Top Posts in Cucumber</h4>
+                    <div class="list-group">
+                        {% for post in site.posts %}
+
+                        <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
+                            {% include dev/summary-small.html post=post %}
+                        </a>
+
+                        {%endfor%}
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid pb-5 pt-5">
+            <div class="row">
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2">
+
+                    <h4>Tutorials</h4>
+                    {% include dev/tutorials.html %}
+
+                </div>
+                <div class="col-sm-12 col-lg-8">
+
+                    <h2>Latest Posts</h2>
+                    <div class="list-group">
+                        {% for post in site.posts %}
+                        <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
+                            {% include dev/summary.html post=post %}
+                        </a>
+                        {%endfor%}
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-lg-2">
+
+                    <h4>Follow on</h4>
+                    {% include dev/follow.html %}
+
+                </div>
+            </div>
+        </div>
+
+        {% include dev/footer.html %}
+    </main>
+</body>
+
+</html>

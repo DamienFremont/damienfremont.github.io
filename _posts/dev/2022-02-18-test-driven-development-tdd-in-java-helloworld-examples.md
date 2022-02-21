@@ -2,7 +2,9 @@
 layout: dev/post
 date:   2021-02-01
 title: Test Driven Development (TDD) in Java - HelloWorld Examples
-categories: dev
+categories: dev java tdd test
+thumbnail: "/upload/post-thumbnail-tdd.png"
+description: Test-driven development is not about testing. Test-driven development is about development (and design), specifically improving the quality and design of code...
 ---
 
 

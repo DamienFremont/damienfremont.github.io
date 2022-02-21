@@ -1,0 +1,28 @@
+<div class="summary-small">
+    <div class="row">
+        <div class="col-3">
+
+            {% if post.thumbnail %}
+            <img class="img-fluid rounded flex-shrink-0" alt="{{ post.title }}"
+                src="{{ post.thumbnail | relative_url }}" />
+            {% else %}
+            <img class="img-fluid rounded flex-shrink-0" alt="{{ post.title }}"
+                src="{{ site.baseurl }}/assets/img/Full-Stack-Developer-Tutorials.jpg" />
+            {% endif %}
+
+        </div>
+        <div class="col-9">
+
+            <div>
+                <h6 class="mb-0">{{ post.title }}</h6>
+                <p>
+                    <small class="text-muted">{{ post.date | date: "%F" }}</small>
+                    {% for c in post.categories limit:3 %}
+                    · <span class="text-muted"> {{c}} </span>
+                    {% endfor %}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
