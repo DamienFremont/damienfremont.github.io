@@ -11,7 +11,7 @@
                 <div class="post offset-md-2 col-md-8 pt-5" role="main">
                     <h2>Tag: {{ page.tag | capitalize }}</h2>
                     {% assign posts = site.tags[page.tag] %}
-                    {% include dev/index.html posts=posts limit=20 %}
+                    {% include dev/posts.html posts=posts limit=20 %}
                 </div>
             </div>
         </section>

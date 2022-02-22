@@ -11,7 +11,7 @@
                 <div class="post offset-md-2 col-md-8 pt-5" role="main">
                     <h2>Category: {{ page.category | capitalize }}</h2>
                     {% assign posts = site.categories[page.category] %}
-                    {% include dev/index.html posts=posts limit=20 %}
+                    {% include dev/posts.html posts=posts limit=20 %}
                 </div>
             </div>
         </section>
