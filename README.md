@@ -24,27 +24,88 @@ bundle exec jekyll serve --watch
 # Test
 http://127.0.0.1:4000/
 
+
+
+# Project
+
+|  Stack   |                Tools |
+| :------: | -------------------: |
+| Language | HTML, Markdown, Ruby |
+|    UI    |     Bootstrap 5, CSS |
+|   App    |             Jekyll 4 |
+
+|     Feature     |              State |
+| :-------------: | -----------------: |
+|      post       | :heavy_check_mark: |
+|    template     | :heavy_check_mark: |
+|     navbar      | :heavy_check_mark: |
+|     palette     | :heavy_check_mark: |
+|      blog       | :heavy_check_mark: |
+|      tags       | :heavy_check_mark: |
+|   categories    | :heavy_check_mark: |
+|   pagination    | :heavy_check_mark: |
+|   text-limit    | :heavy_check_mark: |
+|  links-widget   |                :x: |
+| latests-widget  |                :x: |
+|       bio       |                :x: |
+|     author      |                :x: |
+|    analytic     |                :x: |
+|     search      |                :x: |
+|      video      |                :x: |
+|  share-widget   |                :x: |
+| infinite-scroll |         :no_entry: |
+|    comments     |         :no_entry: |
+
+|     Content      |              State |
+| :--------------: | -----------------: |
+|    home page     | :heavy_check_mark: |
+|    terms page    | :heavy_check_mark: |
+|     dev page     | :heavy_check_mark: |
+|      posts       |          :warning: |
+|      medias      |                :x: |
+|    blog page     |          :warning: |
+|    about page    |                :x: |
+|    games page    |                :x: |
+|     404 page     |                :x: |
+|     cv page      |                :x: |
+|    game page     |                :x: |
+| comments archive |                :x: |
+|   socials page   |                :x: |
+|    demos page    |         :no_entry: |
+|   support page   |         :no_entry: |
+|   contact page   |         :no_entry: |
+
+
+
 # Resources
 
 - Examples
   - Portfolio
     - https://webflow.com/blog/design-portfolio-examples
     - https://nad.is/
-
+- Style
+  - svg
+    - https://iconmonstr.com/linkedin-3-svg/
+  - palettes
+    - http://colormind.io/bootstrap/
+  - css
+    - text limit https://www.codegrepper.com/code-examples/css/css+text+limit 
 - Bootstrap
   - https://getbootstrap.com/docs/5.1/getting-started/introduction/
   - override vars
     - https://css-tricks.com/quick-and-dirty-bootstrap-overrides-at-runtime/
+- Jekyll
+  - themes
+    - https://jekyllrb.com/docs/themes/
+  - tags and categs and drafts
+    - post  https://jekyllrb.com/docs/posts/
+    - index https://jekyllrb.com/docs/plugins/generators/
+  - pagination
+    - https://jekyllrb.com/docs/pagination/
 
-- svg
-  - https://iconmonstr.com/linkedin-3-svg/
+# References
 
-- palettes
-  - http://colormind.io/bootstrap/
-
-- themes
-  - https://jekyllrb.com/docs/themes/
-- templates
+- design
   - Menu
     - search
   - Privacy https://www.journaldev.com/privacy-policy

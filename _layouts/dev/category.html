@@ -7,14 +7,12 @@
         {% include dev/header.html %}
 
         <section class="container flex-grow">
-            <h2>{{ page.category | capitalize }}</h2>
-            {% assign posts = site.categories[page.category] %}
-            <div class="list-group">
-                {% for post in posts limit:20 %}
-                <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
-                    {% include dev/summary.html post=post %}
-                </a>
-                {%endfor%}
+            <div class="row">
+                <div class="post offset-md-2 col-md-8 pt-5" role="main">
+                    <h2>Category: {{ page.category | capitalize }}</h2>
+                    {% assign posts = site.categories[page.category] %}
+                    {% include dev/index.html posts=posts limit=20 %}
+                </div>
             </div>
         </section>
 

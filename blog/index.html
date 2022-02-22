@@ -2,57 +2,19 @@
 layout: dev/default
 ---
 
-{% for post in paginator.posts %}
-{% include dev/summary.html post=post %}
-{%endfor%}
+<section class="container flex-grow">
+    <div class="row">
+        <div class="post offset-md-2 col-md-8 pt-5" role="main">
+            <p>
+                {% include common/pagination.html %}
+            </p>
 
-{% if paginator.total_pages > 1 %}
-<nav aria-label="Page navigation example">
-    <ul class="pagination">
-        {% if paginator.previous_page %}
-        <li class="page-item">
-            <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        {% else %}
-        <li class="page-item disabled">
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        {% endif %}
+            {% assign posts = paginator.posts %}
+            {% include dev/posts.html posts=posts limit=10 %}
 
-        {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-        <li class="page-item active" aria-current="page">
-            <a class="page-link" href="#">{{ page }}</a>
-        </li>
-        {% elsif page == 1 %}
-        <li class="page-item">
-            <a class="page-link" href="{{ '/blog/' | relative_url }}">{{ page }}</a>
-        </li>
-        {% else %}
-        <li class="page-item">
-            <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-        <li class="page-item">
-            <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
-        {% else %}
-        <li class="page-item disabled">
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
-        {% endif %}
-
-    </ul>
-</nav>
-{% endif %}
+            <p>
+                {% include common/pagination.html %}
+            </p>
+        </div>
+    </div>
+</section>
