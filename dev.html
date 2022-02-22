@@ -5,89 +5,52 @@
 layout: dev/default
 ---
 
-<div class="container-fluid bg-dark pb-5 pt-5">
-    <div class="row">
+<div class="row">
 
-        <div class="col-md-6 col-lg-4">
-            <h4>Top Posts</h4>
-            <div class="list-group">
-                {% for post in site.posts limit:3 %}
-                <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
-                    {% include dev/summary-small.html post=post %}
-                </a>
-                {%endfor%}
-                <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <a class="text-reset text-decoration-none" href="{{ site.baseurl }}/blog">More posts like this
-                        &raquo</a>
-                </div>
-            </div>
-        </div>
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <h4 class="pt-0 pb-3">Top Posts</h4>
+        {% assign posts = site.tags['top'] %}
+        {% include dev/posts-small.html posts=posts limit=3 %}
+    </div>
 
-        <div class="col-md-6 col-lg-4">
-            <h4>Top Posts in Java</h4>
-            <div class="list-group">
-                {% for post in site.posts limit:3 %}
-                <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
-                    {% include dev/summary-small.html post=post %}
-                </a>
-                {%endfor%}
-                <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <a class="text-reset text-decoration-none" href="{{ site.baseurl }}/tag/java">More posts like this
-                        &raquo</a>
-                </div>
-            </div>
-        </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 offset-xl-1">
+        <h4 class="pt-0 pb-3">Top Posts in Java</h4>
+        {% assign posts = site.tags['topjava'] %}
+        {% include dev/posts-small.html posts=posts limit=3 %}
+    </div>
 
-        <div class="col-md-6 col-lg-4">
-            <h4>Top Posts in Cucumber</h4>
-            <div class="list-group">
-                {% for post in site.posts limit:3 %}
-                <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
-                    {% include dev/summary-small.html post=post %}
-                </a>
-                {%endfor%}
-                <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <a class="text-reset text-decoration-none" href="{{ site.baseurl }}/tag/test/">More posts like this
-                        &raquo</a>
-                </div>
-            </div>
-        </div>
-
+    <div class="col-md-6 col-lg-4 col-xl-3 offset-xl-1">
+        <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
+        {% assign posts = site.tags['toptest'] %}
+        {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
 </div>
 
-<div class="container-fluid pb-5 pt-5">
-    <div class="row">
-        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
+<div class="row d-none d-md-inline">&nbsp;</div>
 
-            <h4>Tutorials</h4>
-            {% include dev/tutorials.html %}
+<div class="row pt-3 pt-md-5">
+    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
 
-        </div>
-        <div class="col-sm-12 col-md-8 col-lg-6">
+        <h4 class="pt-0 pb-3">Tutorials</h4>
+        {% include dev/tutorials.html %}
 
-            <h2>Latest Posts</h2>
-            <div class="list-group">
-                {% for post in site.posts limit:10 %}
-                <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
-                    {% include dev/summary.html post=post %}
-                </a>
-                {%endfor%}
-                <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <a class="btn btn-primary" href="{{ site.baseurl }}/blog/">More posts like this
-                        &raquo</a>
-                </div>
-            </div>
-            <p>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-6">
 
-            </p>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <h2 class="pt-0 pb-3">Latest Posts</h2>
+        {% assign posts = site.posts %}
+        {% include dev/posts.html posts=site.posts limit=10 %}
+        <p class="pagination justify-content-center p-3">
+            <a class="btn btn-outline-secondary" href="{{ site.baseurl }}/blog/">More posts like this
+                &raquo</a>
+        </p>
 
-            <h4>Follow on</h4>
-            {% include dev/follow.html %}
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
 
-        </div>
+        <h4 class="pt-0 pb-3">Follow on</h4>
+        {% include dev/follow.html %}
+
     </div>
 </div>

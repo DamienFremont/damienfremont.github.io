@@ -1,0 +1,10 @@
+<!-- parameter: posts -->
+<!-- parameter: limit -->
+
+<div class="list-group">
+    {% for post in posts limit:limit %}
+    <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="{{ post.url }}">
+        {% include dev/summary.html post=post %}
+    </a>
+    {%endfor%}
+</div>

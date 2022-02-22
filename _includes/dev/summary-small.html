@@ -1,6 +1,8 @@
+<!-- parameter: post -->
+
 <div class="summary-small">
     <div class="row">
-        <div class="col-3">
+        <div class="col-4 col-md-3">
 
             {% if post.thumbnail %}
             <img class="img-fluid rounded flex-shrink-0" alt="{{ post.title }}"
@@ -11,14 +13,13 @@
             {% endif %}
 
         </div>
-        <div class="col-9">
+        <div class="col-8 col-md-9">
 
             <div>
-                <h6 class="mb-0">{{ post.title }}</h6>
+                <h6 class="mb-0 text-limit-line-1">{{ post.title }}</h6>
                 <p>
-                    <small class="text-muted">{{ post.date | date: "%F" }}</small>
-                    {% for c in post.tags limit:3 %}
-                    · <span class="text-muted"> {{c}} </span>
+                    {% for c in post.tags limit:2 %}
+                    <span class="text-muted"> {{c}} </span>
                     {% endfor %}
                 </p>
             </div>
