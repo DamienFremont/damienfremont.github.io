@@ -7,12 +7,14 @@
         {% include dev/header.html %}
         <section class="container flex-grow">
             <div class="row">
-                <div class="offset-md-2 col-md-8" role="main">
+                <div class="post offset-md-2 col-md-8" role="main">
                     <div class="article-header">
                         <h2 class="article-title">{{page.title}}</h2>
                         <p>
-                            <small class="date">{{ page.date | date: "%F" }}</small> {% for c in page.categories %}
-                            <a href="#!" class="badge rounded-pill bg-secondary text-decoration-none">{{c}}</a> {% endfor %}
+                            <small class="date">{{ page.date | date: "%F" }}</small> 
+                            {% for tag in page.tags %}
+                            <a href="{{ site.baseurl }}/tag/{{ tag }}" class="badge rounded-pill bg-secondary text-decoration-none">{{tag}}</a> 
+                            {% endfor %}
                         </p>
                     </div>
                     <div class="content">{{content}}</div>

@@ -19,7 +19,7 @@
                 <p class="mb-0 opacity-75">{{ post.description }}</p>
                 <p>
                     <small class="text-muted">{{ post.date | date: "%F" }}</small>
-                    {% for c in post.categories limit:3 %}
+                    {% for c in post.tags limit:3 %}
                     · <span class="text-muted"> {{c}} </span>
                     {% endfor %}
                 </p>
