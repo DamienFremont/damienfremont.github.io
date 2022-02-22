@@ -1,8 +1,7 @@
 ---
 layout: dev/post
-date:   2020-07-05
 title: Software Architecture – “Train wagons” – Be agile and prioritize your stack
-categories: dev architecture
+tags: dev architecture
 thumbnail: "/upload/softarchi-logo.png"
 description: You can view an application as a train, and components as wagons. It’s possible to let go some of them if needed, like features for a project backlog...
 ---

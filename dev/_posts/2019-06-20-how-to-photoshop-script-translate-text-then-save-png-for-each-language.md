@@ -1,8 +1,7 @@
 ---
 layout: dev/post
-date:   2019-06-20
 title: "How to Photoshop Script: Translate Text Then Save PNG for Each Language"
-categories: dev java tdd test
+tags: photoshop
 thumbnail: "/upload/photoshop-logo.png"
 description: Photoshop script to translate text layers based on language JSON files, then export project to PNG images for each language...
 ---

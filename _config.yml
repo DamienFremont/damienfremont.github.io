@@ -29,14 +29,39 @@ twitter_username: damien_fremont
 github_username:  damienfremont
 linkedin_username:  damienfremont
 
-twitter_username2: DFremontGameDev
+games:
+  twitter_username: FremontGames
+  facebook_username: atalantoo
+  youtube_username: UCHN8g_PTmmdkJ291QmNSjQA
+  discord_username: TBA
+  instagram_username: fremontgames
+  reddit_username: DadaVinblanc
+  tumblr_username: atalantoo
+  itchio_username: TBA
+  imgur_username: atalantoo
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 permalink: /:year/:month/:day/:title
+# https://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 browsercolor: #000
 copyright: © 2012-2022 Damien Fremont, All Rights Reserved
+
+defaults:
+  - scope:
+      type: categories  # select all categories pages
+    values:
+      layout: dev/category
+      permalink: category/:category/
+  - scope:
+      type: tags  # select all tag pages
+    values:
+      layout: dev/tag
+      permalink: tag/:tag/
