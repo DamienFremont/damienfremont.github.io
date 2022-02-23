@@ -1,0 +1,20 @@
+---
+layout: none
+---
+{
+  "posts": [
+    {% for post in site.posts %}
+    {
+      "url": "{{ post.url }}",
+      "title": "{{ post.title }}",
+      "categories": "{{ post.tags }}",
+      "tags": "{{ post.tags }}",
+      "thumbnail": "{{ post.thumbnail }}",
+      "description": "{{ post.description }}"
+    }
+      {% unless forloop.last %}
+      ,
+      {% endunless %}
+    {% endfor %}
+  ]
+}
