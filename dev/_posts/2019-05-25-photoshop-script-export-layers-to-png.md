@@ -1,12 +1,12 @@
 ---
 layout: dev/post
 title: "How to Photoshop Script: Export Layers to PNG Files"
-tags: photoshop
-thumbnail: "/upload/photoshop-logo.png"
+tags: assets javascript photoshop tools
+thumbnail: "/upload/screenshot006.png"
 description: "When you don’t want to do repetitive tasks in Photoshop… This script exports root layers from your current project..."
 ---
 
-![photoshop-logo](/upload/photoshop-logo.png)
+![post-image](/upload/screenshot006.png)
 
 When you don’t want to do repetitive tasks in Photoshop… This script exports root layers from your current project to separate PNG files.
 
@@ -62,12 +62,12 @@ NOTE: only ‘root’ layers or groups will generate files, you don’t have to 
 
 ## Example
 
-![ScreenShot000](screenshots/screenshot000.png)
+![post-image](/upload/screenshot000.png)
 
-![ScreenShot002](screenshots/screenshot002.png)
+![post-image](/upload/screenshot002.png)
 
-![ScreenShot003](screenshots/screenshot003.png)
+![post-image](/upload/screenshot003.png)
 
-![ScreenShot005](screenshots/screenshot005.png)
+![post-image](/upload/screenshot005.png)
 
-![ScreenShot006](screenshots/screenshot006.png)
+![post-image](/upload/screenshot006.png)

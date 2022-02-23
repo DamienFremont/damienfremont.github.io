@@ -1,17 +1,16 @@
 ---
 layout: dev/post
 title: Software Architecture – “Train wagons” – Be agile and prioritize your stack
-tags: dev architecture 
-categories: top
-thumbnail: "/upload/softarchi-logo.png"
+tags: agile design method 
+categories: top topdesign
+thumbnail: "/upload/2020-07-05-diapositive2-Copy.jpg"
 description: You can view an application as a train, and components as wagons. It’s possible to let go some of them if needed, like features for a project backlog...
 ---
 
-![post-thumbnail](/upload/softarchi-logo.png)
+![post-image](/upload/2020-07-05-diapositive2-Copy.jpg)
 
 You can view an application as a train, and components as wagons. It’s possible to let go some of them if needed, like features for a project backlog. But here, instead of saving now on time or cost (implementation), you mostly save on future cost (maintenance).  
 
-![Diapositive2 - Copy](/upload/diapositive2-Copy.jpg)
 
 ## Content:
 
@@ -27,27 +26,27 @@ You can view an application as a train, and components as wagons. It’s possibl
 
 You can view tasks in a list, as wagons attached to a train. First wagon is the most important (a must have), last wagon is the least important (nice to have).  
 
-![Diapositive1](screenshots/diapositive1.jpg)
+![post-image](/upload/2020-07-05-diapositive1.jpg)
 
 …and when you can’t make it to the end in the required budget or time, you could let go some wagons from the tail (actual benefice).  
 
-![Diapositive2](screenshots/diapositive3.jpg)
+![post-image](/upload/2020-07-05-diapositive3.jpg)
 
 It’s also possible to view an application stack, or software architecture, in the same way. The train is the application, parts of it are wagons and you can let go some wagons. But here, instead of saving on time, you save on maintenance cost (future benefice).
 
-![Diapositive2](screenshots/diapositive2.jpg)
+![post-image](/upload/2020-07-05-diapositive2.jpg)
 
 ## Example – Classic Full-stack Javascript Project
 
 Here is a simple example, a Single Page App (SPA) using classic stack from 2019: a server running NodeJS, PostgreSQL, and also a browser like Firefox executing ReactJS, Bootstrap.
 
-![README-screenshot](screenshots/readme-screenshot.png)
+![post-image](/upload/2020-07-05-readme-screenshot.png)
 
-![README-tech-stack](screenshots/readme-tech-stack.png)
+![post-image](/upload/2020-07-05-readme-tech-stack.png)
 
 It’s obvious that’s not enough to build your project. You also need third-part library to build on top of your main components, like ExpressJS for NodeJS, and tools or even a new language, like TypeScript for JavaScript.
 
-![README-tech-architecture](screenshots/readme-tech-architecture.png)
+![post-image](/upload/2020-07-05-readme-tech-architecture.png)
 
 ## Step 1 – Prioritize Stack
 
@@ -55,7 +54,7 @@ Not all components are equals. You need to identify which depends on which (A ->
 
 The classic way is to group them by software layers, then do the dependency graph. Usually with full-stack applications, you’ll find 2 layers (back-end server, database), up to sometimes 4 layers (+proxy, +front-end).
 
-![Diapositive4](screenshots/diapositive4.jpg)
+![post-image](/upload/2020-07-05-diapositive4.jpg)
 
 In this diagram, there are two layers: front-end (browser) and back-end (server). It’s obvious that the front-end is kinda bloated, specifically with add-ons!
 
@@ -73,9 +72,9 @@ Constant refactoring: library without Long Term Support (LTS) or community (ex: 
 
 Over-testing: why doing unit testing (Mocha) on front-end ? when you already do UI testing with full coverage (Selenium, Protractor)
 
-![Diapositive5](screenshots/diapositive5.jpg)
+![post-image](/upload/2020-07-05-diapositive5.jpg)
 
-![Diapositive6](screenshots/diapositive6.jpg)
+![post-image](/upload/2020-07-05-diapositive6.jpg)
 
 ## Step 3 – Repeat until best-value is achieved
 
@@ -85,15 +84,15 @@ Client side: maybe your users don’t need it (simple website or business applic
 
 Tests: maybe your tests are bad (low coverage, disabled, unmaintained) or your source code is bullet-proof (generated code, simple), or site downtime is OK (non-critical app).
 
-![Diapositive7](screenshots/diapositive7.jpg)
+![post-image](/upload/2020-07-05-diapositive7.jpg)
 
-![Diapositive8](screenshots/diapositive8.jpg)
+![post-image](/upload/2020-07-05-diapositive8.jpg)
 
 ## Conclusion
 
 You need to answer these questions: Are all components essentials ? and not just here for the hype ? Do I need a perfect clean project ? What is the future cost of each non-essential components ?
 
-![Diapositive9](screenshots/diapositive9.jpg)
+![post-image](/upload/2020-07-05-diapositive9.jpg)
 
 ## Resources
 

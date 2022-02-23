@@ -1,12 +1,11 @@
 ---
 layout: dev/post
-title: Test Driven Development (TDD) in Java - HelloWorld Examples
-tags: dev java tdd test
-categories: top toptest topjava
+tags: java junit spring tdd test
+categories: top topjava
 thumbnail: "/upload/post-thumbnail-tdd.png"
 description: Test-driven development is not about testing. Test-driven development is about development (and design), specifically improving the quality and design of code...
 ---
-
+    
 
 ![post-thumbnail](/upload/post-thumbnail-tdd.png)
 
@@ -24,7 +23,7 @@ Before explaining best practices, it is important to understand the TDD life-cyc
 - Refactor
 - Repeat
 
-![attachment](/upload/README-tddillustration.png)
+![post-image](/upload/README-tddillustration.png)
 
 ---
 
@@ -162,7 +161,7 @@ public class HelloWorldTest extends JUnit4Parent {
 
 Run the test (test does not pass)
 
-![alt text](screenshots/README-testreport-helloworld0-fail.png)
+![post-image](/upload/README-testreport-helloworld0-fail.png)
 
 Complete the test
 
@@ -187,7 +186,7 @@ public class HelloWorld1Test extends JUnit4Parent {
 
 Run the test (test does not pass)
 
-![alt text](screenshots/README-testreport-helloworld1-fail.png)
+![post-image](/upload/README-testreport-helloworld1-fail.png)
 
 Write just enough implementation code to make the test pass
 
@@ -204,7 +203,7 @@ public class HelloWorld1 {
 }
 ```
 
-![alt text](screenshots/README-testreport-helloworld1-ok.png)
+![post-image](/upload/README-testreport-helloworld1-ok.png)
 
 ---
 
@@ -284,7 +283,7 @@ public class HelloWorld2Test extends JUnit4Parent {
 
 Run the test (test does not pass)
 
-![alt text](screenshots/README-testreport-helloworld2-fail.png)
+![post-image](/upload/README-testreport-helloworld2-fail.png)
 
 Write just enough implementation code to make the test pass
 
@@ -301,7 +300,7 @@ public class HelloWorld2 {
 }
 ```
 
-![alt text](screenshots/README-testreport-helloworld2-ok.png)
+![post-image](/upload/README-testreport-helloworld2-ok.png)
 
 ---
 
@@ -412,7 +411,7 @@ public class HelloWorld3Test extends JUnit4Parent {
 
 Run the test (test does not pass)
 
-![alt text](screenshots/README-testreport-helloworld3-fail.png)
+![post-image](/upload/README-testreport-helloworld2-fail.png)
 
 Write just enough implementation code to make the test pass
 
@@ -430,7 +429,7 @@ public class HelloWorld3 {
 }
 ```
 
-![alt text](screenshots/README-testreport-helloworld3-ok.png)
+![post-image](/upload/README-testreport-helloworld3-ok.png)
 
 ---
 
@@ -492,7 +491,7 @@ public class HelloWorld5 {
 
 Run all tests (tests pass)
 
-![alt text](screenshots/README-testreport-helloworld3-ok.png)
+![post-image](/upload/README-testreport-helloworld3-ok.png)
 
 ---
 
@@ -593,7 +592,7 @@ public class HelloWorld6FinalTest extends JUnit5Parent {
 
 Run the test (test does not pass)
 
-![alt text](screenshots/README-testreport-helloworld5-fail.png)
+![post-image](/upload/README-testreport-helloworld5-fail.png)
 
 HelloWorld.java
 ```java
@@ -629,7 +628,7 @@ public class HelloWorld6Final {
 
 Run all tests (tests pass)
 
-![alt text](screenshots/README-testreport-helloworld5-ok.png)
+![post-image](/upload/README-testreport-helloworld5-ok.png)
 
 
 And it's finished !!!
