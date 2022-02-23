@@ -45,10 +45,12 @@ http://127.0.0.1:4000/
 |   categories    | :heavy_check_mark: |
 |   pagination    | :heavy_check_mark: |
 |   text-limit    | :heavy_check_mark: |
-|  links-widget   |                :x: |
-| latests-widget  |                :x: |
-|       bio       |                :x: |
-|     author      |                :x: |
+|  links-widget   | :heavy_check_mark: |
+|   top-widget    | :heavy_check_mark: |
+| latests-widget  |         :no_entry: |
+|       bio       |         :no_entry: |
+|     author      | :heavy_check_mark: |
+|  github-ribbon  | :heavy_check_mark: |
 |    analytic     |                :x: |
 |     search      |                :x: |
 |      video      |                :x: |
@@ -90,6 +92,9 @@ http://127.0.0.1:4000/
     - http://colormind.io/bootstrap/
   - css
     - text limit https://www.codegrepper.com/code-examples/css/css+text+limit 
+  - code
+    - https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting
+    - https://github.com/jwarby/jekyll-pygments-themes
 - Bootstrap
   - https://getbootstrap.com/docs/5.1/getting-started/introduction/
   - override vars
@@ -114,6 +119,7 @@ http://127.0.0.1:4000/
     - layouts
       - Post https://www.journaldev.com/python-tutorial
         - https://jamstackthemes.dev/theme/jekyll-theme-serial-programmer/
+        - https://mkyong.com/java/java-lang-classnotfoundexception-com-sun-xml-bind-v2-contextfactory/
       - index
         - https://jamstackthemes.dev/demo/theme/jekyll-atlantic/
       - tutorials

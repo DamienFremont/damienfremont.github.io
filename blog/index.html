@@ -1,20 +1,15 @@
 ---
-layout: dev/default
+layout: dev/blog
 ---
+<h2>Posts: page {{ paginator.page }}</h2>
 
-<section class="container flex-grow">
-    <div class="row">
-        <div class="post offset-md-2 col-md-8 pt-5" role="main">
-            <p>
-                {% include common/pagination.html %}
-            </p>
+<p>
+    {% include common/pagination.html %}
+</p>
 
-            {% assign posts = paginator.posts %}
-            {% include dev/posts.html posts=posts limit=10 %}
+{% assign posts = paginator.posts %}
+{% include dev/posts.html posts=posts limit=10 %}
 
-            <p>
-                {% include common/pagination.html %}
-            </p>
-        </div>
-    </div>
-</section>
+<p>
+    {% include common/pagination.html %}
+</p>

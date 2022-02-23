@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: dev/default
 ---
 
@@ -9,19 +6,19 @@ layout: dev/default
 
     <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts</h4>
-        {% assign posts = site.tags['top'] %}
+        {% assign posts = site.categories['top'] %}
         {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
     <div class="col-md-6 col-lg-4 col-xl-3 offset-xl-1">
         <h4 class="pt-0 pb-3">Top Posts in Java</h4>
-        {% assign posts = site.tags['topjava'] %}
+        {% assign posts = site.categories['topjava'] %}
         {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
     <div class="col-md-6 col-lg-4 col-xl-3 offset-xl-1">
         <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
-        {% assign posts = site.tags['toptest'] %}
+        {% assign posts = site.categories['toptest'] %}
         {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
@@ -40,7 +37,7 @@ layout: dev/default
 
         <h2 class="pt-0 pb-3">Latest Posts</h2>
         {% assign posts = site.posts %}
-        {% include dev/posts.html posts=site.posts limit=10 %}
+        {% include dev/posts.html posts=posts limit=10 %}
         <p class="pagination justify-content-center p-3">
             <a class="btn btn-outline-secondary" href="{{ site.baseurl }}/blog/">More posts like this
                 &raquo</a>

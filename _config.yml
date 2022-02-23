@@ -41,7 +41,6 @@ games:
   imgur_username: atalantoo
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate

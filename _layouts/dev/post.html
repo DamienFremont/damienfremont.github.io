@@ -1,28 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include dev/head.html %}
+---
+layout: dev/blog
+---
 
-<body class="d-flex flex-column">
-    <main>
-        {% include dev/header.html %}
-        <section class="container flex-grow">
-            <div class="row">
-                <div class="post offset-md-2 col-md-8 pt-5" role="main">
-                    <div class="article-header">
-                        <h2 class="article-title">{{page.title}}</h2>
-                        <p>
-                            <small class="date">{{ page.date | date: "%F" }}</small> 
-                            {% for tag in page.tags %}
-                            <a href="{{ site.baseurl }}/tag/{{ tag }}" class="badge rounded-pill bg-secondary text-decoration-none">{{tag}}</a> 
-                            {% endfor %}
-                        </p>
-                    </div>
-                    <div class="content">{{content}}</div>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
-{% include dev/footer.html %}
+<div class="article-header">
+    <h2 class="article-title">{{page.title}}</h2>
+    <p class="text-muted">
+        <small>By <a class="text-reset" href="{{ site.baseurl }}/about">Damien</a></small>
+        ·
+        <small class="date">{{ page.date | date: "%F" }}</small>
+        ·
+        {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag }}"
+            class="badge rounded-pill bg-secondary text-decoration-none">{{tag}}</a>
+        {% endfor %}
+    </p>
+</div>
 
-</html>
+<div class="content">{{content}}</div>

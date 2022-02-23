@@ -1,22 +1,42 @@
-<div class="container">
-  <footer class="py-5">
+<footer class="bg-dark text-light">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-sm-8">
 
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <h4>About damienfremont.com</h4>
+        <p>
+          damienfremont.com is providing Java and Dev tutorials and code snippets since 2012. All published articles are
+          simple and easy to understand and well tested in our development environment.
+        </p>
+        <p>
+          Source code in damienfremont.com is licensed under the MIT License, read this Code License.
+        </p>
+
+      </div>
+      <div class="col-sm-4">
+
+        {% include dev/links.html %}
+
+      </div>
+    </div>
+    <div class="row border-top py-3">
+
       <p>
         {{ site.copyright }}
         ·
-        <a href="{{ site.url }}/privacy-policy" target="_blank" class="text-reset text-decoration-none">Privacy Policy</a>
+        <a href="{{ site.url }}/privacy-policy" target="_blank" class="text-reset">Privacy Policy</a>
         ·
-        <a href="{{ site.url }}/terms-and-conditions" target="_blank" class="text-reset text-decoration-none">Terms and
+        <a href="{{ site.url }}/terms-and-conditions" target="_blank" class="text-reset">Terms and
           Conditions</a>
         ·
-        <a href="{{ site.url }}/contact" target="_blank" class="text-reset text-decoration-none">Contact Us</a>
+        <a href="{{ site.url }}/contact" target="_blank" class="text-reset">Contact Us</a>
         ·
-        <a href="{{ site.url }}/about" target="_blank" class="text-reset text-decoration-none">About</a>
+        <a href="{{ site.url }}/about" target="_blank" class="text-reset">About</a>
       </p>
+
     </div>
-  </footer>
-</div>
+  </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

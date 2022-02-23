@@ -15,8 +15,8 @@
 
             <div>
 
-                <h4 class="mb-0">{{ post.title }}</h4>
-                <p class="mb-0 opacity-75">{{ post.description }}</p>
+                <h4 class="mb-0 text-limit-line-2">{{ post.title }}</h4>
+                <p class="mb-0 opacity-75 text-limit-line-2">{{ post.description }}</p>
                 <p>
                     <small class="text-muted">{{ post.date | date: "%F" }}</small>
                     {% for c in post.tags limit:3 %}

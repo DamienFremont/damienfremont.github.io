@@ -6,7 +6,10 @@
     <main>
         {% include dev/header.html %}
 
-        <div class="container-fluid flex-wrap flex-md-nowrap p-xl-3 p-xxl-5">
+        {% assign repo = 'DamienFremont/blog' %}
+        {% include dev/github-ribbon.html repo=repo %}
+
+        <div class="container-fluid flex-wrap flex-md-nowrap p-xl-3 p-xxl-5 py-2 p-md-5">
             {{content}}
         </div>
 

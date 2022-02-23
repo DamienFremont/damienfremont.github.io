@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include dev/head.html %}
+---
+layout: dev/blog
+---
 
-<body>
-    <main>
-        {% include dev/header.html %}
+<h2>Tag: {{ page.tag | capitalize }}</h2>
 
-        <section class="container flex-grow">
-            <div class="row">
-                <div class="post offset-md-2 col-md-8 pt-5" role="main">
-                    <h2>Tag: {{ page.tag | capitalize }}</h2>
-                    {% assign posts = site.tags[page.tag] %}
-                    {% include dev/posts.html posts=posts limit=20 %}
-                </div>
-            </div>
-        </section>
-
-        {% include dev/footer.html %}
-    </main>
-</body>
-
-</html>
+{% assign posts = site.tags[page.tag] %}
+{% include dev/posts.html posts=posts limit=20 %}

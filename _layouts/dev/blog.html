@@ -1,0 +1,30 @@
+---
+layout: dev/default
+---
+
+<section class="container-fluid flex-grow">
+    <div class="row">
+
+        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3 text-muted">
+
+            <h4 class="pt-0 pb-3">Tutorials</h4>
+            {% include dev/tutorials.html %}
+
+        </div>
+        <div class="col-md-8 col-lg-6 px-md-5" role="main">
+
+            {{content}}
+
+            {% include dev/author.html %}
+
+        </div>
+        <div class="d-none d-sm-none d-md-block col-md-4 d-lg-block col-lg-3 text-muted ">
+
+            <h4 class="pt-0 pb-3">Top Posts</h4>
+            {% assign posts = site.categories['top'] %}
+            {% include dev/posts-small.html posts=posts limit=10 %}
+
+        </div>
+
+    </div>
+</section>

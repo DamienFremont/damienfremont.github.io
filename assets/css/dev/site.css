@@ -11,7 +11,8 @@
 } */
 
 :root {
-    --code: rgb(1, 2, 2);
+    --code-bg: rgb(70, 75, 85);
+    --code-color: rgb(201, 209, 217);
 }
 
 
@@ -19,7 +20,7 @@
 
 .bd-navbar {
     padding:.75rem 0;
-    background-color:var(--bs-dark);
+    background-color: #0f3b68;
 }
 .bd-navbar .navbar-toggler {
     padding:0;
@@ -68,16 +69,22 @@ img[alt=attachment] {
 
 /* CODE */
 
-pre.highlight {
-    background-color: var(--code);
-    padding: 16px;
+code.language-plaintext, pre.highlight {
+    border-radius: 6px;
 }
 
 code.language-plaintext {
-    background-color: var(--code);
-    color: var(--light);
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: var(--code-bg);
+    color: var(--code-color);
+}
+
+pre.highlight {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #161b22 !important;
 }
