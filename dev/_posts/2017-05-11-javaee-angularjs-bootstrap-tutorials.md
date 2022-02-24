@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: angularjs, bootstrap, java, javascript, webapp
+tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "Here are all my tutorials about JavaEE/AngularJS/Bootstrap, from 2015 to 2016 (it's time to change..."
 ---

@@ -1,11 +1,12 @@
 ---
 layout: dev/post
 tags: bdd cucumber java junit test
-thumbnail: "/upload/160523003729065.png"
+categories: top topcucumber
+thumbnail: "/upload/160523003729271.png"
 description: "It is often useful to show the results of our tests to others people who are not developers..."
 ---
  
-![alt text](/upload/160523003729065.png)
+![alt text](/upload/160523003729271.png)
  
 It is often useful to show the results of our tests to others people who are not developers, like managers or executive. This tutorial shows how to integrate a Cucumber reporting a Java plugin in Maven project. The result is a simple web page, which does not require a special tool to be read.
  
