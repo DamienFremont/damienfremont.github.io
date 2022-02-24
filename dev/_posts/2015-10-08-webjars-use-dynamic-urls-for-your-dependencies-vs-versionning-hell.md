@@ -1,11 +1,11 @@
 ---
 layout: dev/post
 tags: java javascript maven webapp webjars
-thumbnail: "/upload/160523003344256.png"
+thumbnail: "/upload/post-thumbnail-java.png"
 description: "WebJars is a useful tool. It’s a client-side web libraries (e.g. jQuery & Bootstrap) packaged..."
 ---
 
-![alt text](/upload/160523003344256.png)
+![alt text](/upload/post-thumbnail-java.png)
  
 WebJars is a useful tool. It’s a client-side web libraries (e.g. jQuery & Bootstrap) packaged into JAR (Java Archive) files. But a static URL for your dependency is painfull to maintain. This tutorial provides a simpler way of managing version and URL in only one location.
  
