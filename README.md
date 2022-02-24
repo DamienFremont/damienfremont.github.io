@@ -51,6 +51,7 @@ http://127.0.0.1:4000/
 |       bio       |         :no_entry: |
 |     author      | :heavy_check_mark: |
 |  github-ribbon  | :heavy_check_mark: |
+|  breadcrumb     |                :x: |
 |    analytic     |                :x: |
 |     search      |                :x: |
 |      video      |                :x: |
