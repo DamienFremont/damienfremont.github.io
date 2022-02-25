@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: angularjs, expressjs, javascript, nodejs, webapp
+tags: angularjs expressjs javascript nodejs
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "Ce tutoriel est le dev d’une simple TODO list de type client-serveur (front-end + back-end)..."
 ---

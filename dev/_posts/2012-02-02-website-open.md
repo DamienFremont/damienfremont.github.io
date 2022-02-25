@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: 
+tags: other
 thumbnail: "/upload/champagne1.jpg"
 description: "..."
 ---

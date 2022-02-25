@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: agile method quicktip
+tags: agile quicktip
 categories: top topdesign
 thumbnail: "/upload/171111002555610.png"
 description: "A remake of the Maslow’s pyramid, but for software developers...."

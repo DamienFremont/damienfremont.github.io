@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: hibernate java jpa spring
+tags: hibernate java spring
 categories: top topjava
 thumbnail: "/upload/post-thumbnail-springboot.jpg"
 description: "To configure your own DataSource for SpringBoot, with fully automatic initialization, semi-auto..."

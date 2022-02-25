@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: freelance job web
+tags: other
 thumbnail: "/upload/170604105827473.jpg"
 description: "Ceci est mon retour d’expérience du passage de salarié en SSII vers développeur freelance après deux premiers mois d’activité..."
 ---

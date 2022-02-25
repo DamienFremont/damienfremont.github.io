@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: api design method rest
+tags: design rest
 categories: top topdesign
 thumbnail: "/upload/171123171941151.png"
 description: "This article is about RESTful maturity. It’s not a definition of levels of REST itself, but a simple approach..."

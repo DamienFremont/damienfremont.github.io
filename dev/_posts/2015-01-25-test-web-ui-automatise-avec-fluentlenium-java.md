@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: fluentlenium, java, maven, selenium, test, webapp
+tags: java selenium test
 thumbnail: "/upload/160523003159655.jpg"
 description: "Ce tuto permet de tester une interface web de façon rapide et maintenable en utilisant Fluentlenium..."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: eclipse java quicktip tools
+tags: java quicktip tools
 thumbnail: "/upload/171124142351681.png"
 description: "When you let your Eclipse IDE auto-organize your List/Map imports, it struggles with it and break …it’s a loss..."
 ---

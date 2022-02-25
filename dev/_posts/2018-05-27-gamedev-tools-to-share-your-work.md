@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: gamedev indiegame social tools
+tags: tools
 thumbnail: "/upload/screen-shot-05-27-18-at-06-40-pm-001.png"
 description: "What tools and techniques do you use to record and share your work? Along with any tips, tutorials..."
 ---

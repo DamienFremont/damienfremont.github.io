@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: apache-commons guava java java8
+tags: java
 categories: top topjava
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "This tutorial cover code migration from different historical technical stacks. It goes from Java 1.4..."

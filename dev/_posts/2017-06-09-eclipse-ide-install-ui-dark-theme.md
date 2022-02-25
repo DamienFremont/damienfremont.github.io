@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: eclipse quicktip
+tags: tools quicktip
 thumbnail: "/upload/170610105642247.png"
 description: "A quicktip about how to change the User Interface in Eclise IDE to MoonRiseUI...."
 ---

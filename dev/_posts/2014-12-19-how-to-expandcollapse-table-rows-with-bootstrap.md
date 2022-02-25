@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: bootstrap bootstrap2 css web javascript
+tags: bootstrap css javascript
 categories: top topjavascript
 thumbnail: "/upload/post-thumbnail-bootstrap.jpg"
 description: "How to do accordions effect on table rows with Bootstrap?..."

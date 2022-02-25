@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: book
+tags: other
 thumbnail: "/upload/post-thumbnail-book.png"
 description: "Here are some, well known, books that I think are useful … at least they were for me! Some are about Java or JavaEE, other Object Oriented Programming..."
 ---

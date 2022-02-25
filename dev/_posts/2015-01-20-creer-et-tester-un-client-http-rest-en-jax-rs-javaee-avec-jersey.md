@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: jadler, java, jaxrs, jersey, json, maven, rest, test
+tags: java rest test
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "Voici comment créer un client HTTP REST en Java appelant un simple service CRUD. La solution se base..."
 ---

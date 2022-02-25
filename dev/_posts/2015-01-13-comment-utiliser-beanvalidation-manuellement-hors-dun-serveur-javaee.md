@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: beanvalidation, java, jersey, json, maven, rest, spring
+tags: java rest spring
 thumbnail: "/upload/160523003120694.png"
 description: "Ce tuto décrit comment valider un modèle de données manuellement avec JavaEE BeanValidation (JSR 303)..."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: bdd, cucumber, java, maven, test
+tags: bdd cucumber java test
 thumbnail: "/upload/160523003208159.png"
 description: "Ce tutorial explique comment écrire et coder des tests BDD (Behavior Driven Development)..."
 ---

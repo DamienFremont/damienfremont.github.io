@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: angularjs build css javascript java
+tags: angularjs css javascript java
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: ".This tutorial is intended to make a Maven web packaging like NodeJS+Brunch or NodeJS+WebPack..."
 ---

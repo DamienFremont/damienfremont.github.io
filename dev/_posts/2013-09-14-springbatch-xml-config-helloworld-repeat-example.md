@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: batch, java, maven, spring, springbatch
+tags: java spring
 thumbnail: "/upload/post-thumbnail-springboot.jpg"
 description: "In Java, the development of batch can be achieved with few solutions. Most applications use SpringBatch..."
 ---

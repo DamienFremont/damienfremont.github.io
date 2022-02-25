@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: java, junit, junit3, junit4, maven, test
+tags: java junit test
 thumbnail: "/upload/160523003036184.jpg"
 description: "A post about simple JUnit tests. Unit testing is necessary, but reduce its volume (source test) is always interrestin..."
 ---

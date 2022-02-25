@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: build, gamedev, unity3d
+tags: unity3d
 thumbnail: "/upload/160523003233055.jpg"
 description: "This tuturial explains how to build application without using the pro edition of Unity3d editor..."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: git github
+tags: other
 thumbnail: "/upload/blog-github.png"
 description: "Java projects for each posts are now available on my GitHub account..."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: dev
+tags: other
 thumbnail: "/upload/if_programming_languages_were_boats_ruby.jpg"
 description: "Aujourd’hui c’est vendredi, et comme tous les vendredis on se détend à l’approche du week-end..."
 ---

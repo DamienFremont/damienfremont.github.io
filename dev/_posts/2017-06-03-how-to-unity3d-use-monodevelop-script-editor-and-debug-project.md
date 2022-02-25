@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: csharp gamedev monodevelop unity3d
+tags: csharp unity3d
 thumbnail: "/upload/170603170824621.png"
 description: "In this tutorial, you’ll see a project configured with MonoDevelop. And how to run and debug it..."
 ---

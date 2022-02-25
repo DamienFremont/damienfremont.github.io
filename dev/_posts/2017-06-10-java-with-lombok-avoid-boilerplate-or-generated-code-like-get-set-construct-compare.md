@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: java lombok
+tags: java
 thumbnail: "/upload/170610105636974.png"
 description: "In this tutorial, you will compare the code between a “vanilla” approach..."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: batch, java
+tags: java
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "You’re tired of spring batch? the future JavaEE batch API  leaves you cold?  
 I’m trying to make a basic implementation of batch..."

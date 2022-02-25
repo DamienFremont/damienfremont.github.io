@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: food
+tags: other
 thumbnail: "/upload/photo.jpg"
 description: "Lasagnes légères aux champignons, épinards et emmental. Pour 8 personnes, Très facile, Bon marché, Préparation 15 min, Cuisson 40 min..."
 ---

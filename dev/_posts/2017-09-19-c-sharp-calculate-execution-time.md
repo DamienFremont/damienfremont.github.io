@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: csharp unity3d quicktip visualstudio
+tags: csharp unity3d quicktip
 thumbnail: "/upload/170919162910499.png"
 description: "Stopwatch is designed for this purpose, and is one of the best way to measure time execution in .NET..."
 ---

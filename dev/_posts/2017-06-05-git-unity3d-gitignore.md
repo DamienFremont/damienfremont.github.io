@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: git quicktip unity3d vcs
+tags: git quicktip unity3d
 thumbnail: "/upload/post-thumbnail-git.png"
 description: "A fulll .gitignore content for Unity3d users...."
 ---

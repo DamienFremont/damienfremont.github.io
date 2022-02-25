@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: android, mobile
+tags: android
 thumbnail: "/upload/20150313-screenshot_2015-03-12-13-35-19.png"
 description: "Sortir de Google c’est possible, ou au moins ne plus en dépendre directement..."
 ---

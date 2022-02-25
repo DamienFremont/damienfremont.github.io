@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: java javascript maven webapp webjars
+tags: java javascript
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "No more /src/main/webapp/vendor/jquery.min.js, or /styles/bootstrap.css! Just a Maven dependency..."
 ---

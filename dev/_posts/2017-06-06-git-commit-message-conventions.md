@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: git quicktip vcs
+tags: git quicktip
 thumbnail: "/upload/170606091622436.png"
 description: "A quicktip about writing good commit messages. It’s inspired by major open sources projects..."
 ---

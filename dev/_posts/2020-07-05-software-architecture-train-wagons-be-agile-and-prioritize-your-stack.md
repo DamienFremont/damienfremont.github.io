@@ -1,7 +1,7 @@
 ---
 layout: dev/post
 title: Software Architecture – “Train wagons” – Be agile and prioritize your stack
-tags: agile design method 
+tags: agile design 
 categories: top topdesign
 thumbnail: "/upload/2020-07-05-diapositive2-copy.jpg"
 description: You can view an application as a train, and components as wagons. It’s possible to let go some of them if needed, like features for a project backlog...
