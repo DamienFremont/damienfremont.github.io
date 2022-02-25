@@ -64,12 +64,12 @@ http://127.0.0.1:4000/
 |    home page     | :heavy_check_mark: |
 |    terms page    | :heavy_check_mark: |
 |     dev page     | :heavy_check_mark: |
-|      posts       |          :warning: |
-|      medias      |                :x: |
-|    blog page     |          :warning: |
-|    about page    |                :x: |
-|    games page    |                :x: |
-|     404 page     |                :x: |
+|      posts       | :heavy_check_mark: |
+|      medias      | :heavy_check_mark: |
+|    blog page     | :heavy_check_mark: |
+|    about page    | :heavy_check_mark: |
+|    games page    |          :warning: |
+|     404 page     | :heavy_check_mark: |
 |     cv page      |                :x: |
 |    game page     |                :x: |
 | comments archive |                :x: |
