@@ -27,7 +27,8 @@ games:
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
+  - jekyll-redirect-from
+  
 permalink: /:year/:month/:day/:title
 # https://jekyllrb.com/docs/pagination/
 paginate: 10

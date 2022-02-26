@@ -58,6 +58,7 @@ http://127.0.0.1:4000/
 |  share-widget   |                :x: |
 | infinite-scroll |         :no_entry: |
 |    comments     |         :no_entry: |
+|    redirect     | :heavy_check_mark: |
 
 |     Content      |              State |
 | :--------------: | -----------------: |
@@ -108,6 +109,8 @@ http://127.0.0.1:4000/
     - index https://jekyllrb.com/docs/plugins/generators/
   - pagination
     - https://jekyllrb.com/docs/pagination/
+- GitHub pages
+  - plugins https://pages.github.com/versions/
 
 # References
 
