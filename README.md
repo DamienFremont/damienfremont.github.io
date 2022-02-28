@@ -57,6 +57,9 @@ http://127.0.0.1:4000/
 |  share-widget   |                :x: |
 | infinite-scroll |         :no_entry: |
 |    comments     |         :no_entry: |
+|    thumbnail    |         :no_entry: |
+|     sitemap     |                :x: |
+|       seo       |                :x: |
 
 |     Content      |              State |
 | :--------------: | -----------------: |
@@ -107,6 +110,9 @@ http://127.0.0.1:4000/
     - index https://jekyllrb.com/docs/plugins/generators/
   - pagination
     - https://jekyllrb.com/docs/pagination/
+  - thumbnail for perf
+    - https://superterran.net/jekyll-thumbnail/
+
 
 # References
 
