@@ -1,19 +1,17 @@
 /* PALETTE (BOOTSTRAP) */
 
-:root {
-    --bs-body-color: #fdf5e2;
-    --bs-body-bg: #204a72;
-    --bs-primary: #123b62;
-    --bs-secondary: rgb(18, 59, 98);
-    --bs-secondary-rgb: 18, 59, 98;
-    --bs-dark: rgb(8, 79, 54);
-    --bs-dark-rgb: 8, 79, 54;
-    --bs-light: rgb(253, 245, 226);
-    --bs-light-rgb: 253, 245, 226;
-}
 
 
 /* SITE */
+
+.bd-navbar {
+    padding:.75rem 0;
+    background-color: #0f3b68;
+}
+.bd-navbar .navbar-toggler {
+    padding:0;
+    border:0
+   }
 
 .navbar .navbar-brand img {
     height: 40px;
@@ -23,4 +21,13 @@
 .navbar .navbar-nav-svg {
     width: 1rem;
     height: 1rem
+}
+
+
+.game {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.9)) , 
+        url(/assets/img/2048-game.png);
 }

@@ -2,19 +2,14 @@
 <html lang="en">
 {% include games/head.html %}
 
-<body class="d-flex flex-column">
+<body class="">
+    {% include dev/header.html %}
     <main>
-        {% include dev/header.html %}
-
-        <section class="container flex-grow">
-            <div class="row">
-                <div class="offset-md-2 col-md-8" role="main">
-                    <div class="content">{{content}}</div>
-                </div>
-            </div>
+        <section class="">
+            <div class="content">{{content}}</div>
         </section>
     </main>
+    {% include dev/footer.html %}
 </body>
-{% include dev/footer.html %}
 
 </html>

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /terms-and-conditions/
 ---
 
 # Terms and Conditions

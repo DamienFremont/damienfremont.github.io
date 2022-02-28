@@ -1,11 +1,11 @@
 ---
 layout: dev/post
+tags: expressjs javascript nodejs 
+thumbnail: "/upload/post-thumbnail-nodejs.jpg"
+description: "Express has support for REST API. This example is inspired by SpringBoot’s Data/REST generated API..."
 ---
-
-HowTo JS – Node Express REST API
-======
  
-![alt text](screenshots/171207000337390.jpg)
+![post-image](/upload/post-thumbnail-nodejs.jpg)
  
 Express has support for REST API. This example is inspired by SpringBoot’s Data/REST generated API, with auto-doc. Here’s how.
  
@@ -250,7 +250,7 @@ package.json
  
 Start VSC -> View -> Terminal -> “npm install”
  
-![alt text](screenshots/171207000338132.png)
+![post-image](/upload/171207000338132.png)
  
 
  
@@ -258,11 +258,11 @@ Start VSC -> View -> Terminal -> “npm install”
  
 Terminal -> “npm start”
  
-![alt text](screenshots/171207000338733.png)
+![post-image](/upload/171207000338733.png)
  
 
  
-![alt text](screenshots/171207000339299.png)
+![post-image](/upload/171207000339299.png)
  
 
  
@@ -270,43 +270,43 @@ Terminal -> “npm start”
  
 Start FireFox / Chrome -> type “localhost:3000” -> “localhost:3000/api” -> “localhost:3000/users” -> GET “localhost:3000/users”  -> POST -> etc…
  
-![alt text](screenshots/171207000339741.png)
+![post-image](/upload/171207000339741.png)
  
 
  
-![alt text](screenshots/171207000340132.png)
+![post-image](/upload/171207000340132.png)
  
 
  
-![alt text](screenshots/171207000340515.png)
+![post-image](/upload/171207000340515.png)
  
 
  
-![alt text](screenshots/171207000340907.png)
+![post-image](/upload/171207000340907.png)
  
 
  
-![alt text](screenshots/171207000341473.png)
+![post-image](/upload/171207000341473.png)
  
 
  
-![alt text](screenshots/171207000341976.png)
+![post-image](/upload/171207000341976.png)
  
 
  
-![alt text](screenshots/171207000342553.png)
+![post-image](/upload/171207000342553.png)
  
 
  
-![alt text](screenshots/171207000343118.png)
+![post-image](/upload/171207000343118.png)
  
 
  
-![alt text](screenshots/171207000343702.png)
+![post-image](/upload/171207000343702.png)
  
 
  
-![alt text](screenshots/171207000344057.png)
+![post-image](/upload/171207000344057.png)
  
 
  

@@ -56,12 +56,7 @@
 
 /* POST */
 
-img[alt=post-thumbnail] {
-    width: 100%;
-    height: auto
-}
-
-img[alt=attachment] {
+img[alt=post-thumbnail], img[alt=post-image], .post-content img {
     width: 100%;
     height: auto
 }

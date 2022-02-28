@@ -1,13 +1,13 @@
 ---
 layout: dev/post
 title: "How to Photoshop Script: Translate Text Then Save PNG for Each Language"
-tags: photoshop
-thumbnail: "/upload/photoshop-logo.png"
+tags: assets javascript photoshop tools
+thumbnail: "/upload/example-screenshot007.png"
 description: Photoshop script to translate text layers based on language JSON files, then export project to PNG images for each language...
 ---
 
 
-![post-thumbnail](/upload/photoshop-logo.png)
+![post-image](/upload/example-screenshot007.png)
 
 Photoshop script to translate text layers based on language JSON files, then export project to PNG images for each language. Save a lot of time!
 
@@ -15,7 +15,6 @@ Usage: generate screenshots files for your app (ex: Googleplay, etc).
 
 One project is converted to X languages screenshots. With the seconde script, you can also convert each group layer as a separate files (for multi-screenshots project).
 
-![example-ScreenShot007](/upload/example-screenshot007.png)
 
 ## Getting started (one screenshot by project)
 
@@ -148,19 +147,19 @@ for (var t = 0; t &lt; langs.length; t++) {
 }
 ````
 
-![project-ScreenShot000.png](screenshots/project-screenshot000.png)
+![post-image](/upload/project-screenshot000.png)
 
-![project-ScreenShot001.png](screenshots/project-screenshot001-1.png)
+![post-image](/upload/project-screenshot001-1.png)
 
-![project-ScreenShot002](screenshots/project-screenshot002.png)
+![post-image](/upload/project-screenshot002.png)
 
-![project-ScreenShot003](screenshots/project-screenshot003.png)
+![post-image](/upload/project-screenshot003.png)
 
-![project-ScreenShot004](screenshots/project-screenshot004.png)
+![post-image](/upload/project-screenshot004.png)
 
-![project-ScreenShot005](screenshots/project-screenshot005.png)
+![post-image](/upload/project-screenshot005.png)
 
-![project-ScreenShot006.png](screenshots/project-screenshot006.png)
+![post-image](/upload/project-screenshot006.png)
 
 ## Getting started (multiple screenshot layers by project)
 
@@ -300,21 +299,21 @@ for (var y = 0; y &lt; doc.layers.length; y++) {
 }
 ````
 
-![group-ScreenShot000](screenshots/group-screenshot000.png)
+![group-ScreenShot000](/upload/group-screenshot000.png)
 
-![group-ScreenShot001](screenshots/group-screenshot001.png)
+![group-ScreenShot001](/upload/group-screenshot001.png)
 
-![group-ScreenShot002](screenshots/group-screenshot002-1.png)
+![group-ScreenShot002](/upload/group-screenshot002-1.png)
 
-![group-ScreenShot003](screenshots/group-screenshot003.png)
+![group-ScreenShot003](/upload/group-screenshot003.png)
 
-![group-ScreenShot004](screenshots/group-screenshot004.png)
+![group-ScreenShot004](/upload/group-screenshot004.png)
 
-![group-ScreenShot005](screenshots/group-screenshot005.png)
+![group-ScreenShot005](/upload/group-screenshot005.png)
 
-![group-ScreenShot006](screenshots/group-screenshot006.png)
+![group-ScreenShot006](/upload/group-screenshot006.png)
 
-![group-ScreenShot007](screenshots/group-screenshot007.png)
+![group-ScreenShot007](/upload/group-screenshot007.png)
 
 ## Example – External Project
 
@@ -323,15 +322,15 @@ text-group-translate.bat
 <pre class="language-javascript"><span class="token string">"C:\Program Files (x86)\Photoshop\Photoshop.exe"</span> c<span class="token punctuation">:</span>\Users\damien\git\photoshop<span class="token operator">-</span>script<span class="token operator">-</span>text<span class="token operator">-</span>translator\text<span class="token operator">-</span>groups<span class="token operator">-</span>translate<span class="token punctuation">.</span>jsx
 </pre>
 
-![example-ScreenShot002](screenshots/example-screenshot002.png)
+![post-image](/upload/example-screenshot002.png)
 
-![example-ScreenShot004](screenshots/example-screenshot004.png)
+![post-image](/upload/example-screenshot004.png)
 
-![example-ScreenShot005.png](screenshots/example-screenshot005-1.png)
+![post-image](/upload/example-screenshot005-1.png)
 
-![example-ScreenShot006](screenshots/example-screenshot006.png)
+![post-image](/upload/example-screenshot006.png)
 
-![example-ScreenShot007](screenshots/example-screenshot007.png)
+![post-image](/upload/example-screenshot007.png)
 
 ## References
 

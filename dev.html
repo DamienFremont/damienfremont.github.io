@@ -1,24 +1,35 @@
 ---
 layout: dev/default
+permalink: /dev/
+redirect_from:
+  - /tutorials/
+  - /feed/
+  - /category/posts/tutorials/
 ---
 
 <div class="row">
 
     <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts</h4>
-        {% assign posts = site.categories['top'] %}
+        {% assign posts = site.categories['topdesign'] %}
         {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
-    <div class="col-md-6 col-lg-4 col-xl-3 offset-xl-1">
+    <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts in Java</h4>
         {% assign posts = site.categories['topjava'] %}
         {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
-    <div class="col-md-6 col-lg-4 col-xl-3 offset-xl-1">
+    <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
-        {% assign posts = site.categories['toptest'] %}
+        {% assign posts = site.categories['topcucumber'] %}
+        {% include dev/posts-small.html posts=posts limit=3 %}
+    </div>
+
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <h4 class="pt-0 pb-3">Top Posts in JS</h4>
+        {% assign posts = site.categories['topjavascript'] %}
         {% include dev/posts-small.html posts=posts limit=3 %}
     </div>
 
@@ -37,9 +48,10 @@ layout: dev/default
 
         <h2 class="pt-0 pb-3">Latest Posts</h2>
         {% assign posts = site.posts %}
-        {% include dev/posts.html posts=posts limit=10 %}
+        {% assign limit = 10 %}
+        {% include dev/posts.html posts=posts limit=limit %}
         <p class="pagination justify-content-center p-3">
-            <a class="btn btn-primary" href="{{ site.baseurl }}/blog/">More posts like this
+            <a class="btn btn-primary" href="{{ site.baseurl }}/posts/">More posts like this
                 &raquo</a>
         </p>
 

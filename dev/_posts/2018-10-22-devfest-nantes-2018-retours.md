@@ -1,9 +1,11 @@
 ---
 layout: dev/post
+tags: other
+thumbnail: "/upload/devfestnantes2018-log.pict-site.png"
+description: "Nous avons pu participer pour la première fois à la conférence DevFest à Nantes le 18 octobre 2018..."
 ---
 
-Retour sur DevFest Nantes 2018
----
+![picture](/upload/devfestnantes2018-log.pict-site.png)
 
 Nous avons pu participer pour la première fois à la conférence DevFest à Nantes le 18 octobre 2018. Dans cet article à deux mains, nous vous proposons quelques morceaux choisis sur cette expérience et ses talks/conférences.
 
@@ -11,7 +13,6 @@ Pour rappel, DevFest est un événement présent dans plusieurs pays et villes, 
 
 - [-> Le site](https://devfest.gdgnantes.com/)
 
-![picture](devfestnantes2018-log.pict-site.png)
 
 # JEUDI 18 OCTOBRE - 1ER JOUR
 
@@ -28,9 +29,9 @@ Bon point pour l'organisation: le badge est aussi un planning des talks ET un pl
 - [-> Aperçu des stands](https://twitter.com/devfestnantes/status/1052838192649367552)
 - [-> Sans oublier SQLI !!!](https://mobile.twitter.com/mperrien44/status/1052808577570635776)
 
-![picture](devfestnantes2018-log.pict-accueil.png)
+![picture](/upload/devfestnantes2018-log.pict-accueil.png)
 
-![picture](devfestnantes2018-log.pict-sqli.png)
+![picture](/upload/devfestnantes2018-log.pict-sqli.png)
 
 ## 9h00 - Keynote d'ouverture
 
@@ -41,9 +42,9 @@ Nous avons eu la chance d'avoir un speaker expérimenté pour ce premier talk: C
 - [-> L'intro de la keynote](https://twitter.com/devfestnantes/status/1052821317303590912)
 - [-> Le twitter du speaker](https://twitter.com/codepo8)
 
-![picture](devfestnantes2018-log.pict-intro.png)
+![picture](/upload/devfestnantes2018-log.pict-intro.png)
 
-![picture](devfestnantes2018-log.pict-keynote.jpg) 
+![picture](/upload/devfestnantes2018-log.pict-keynote.jpg) 
 
 ---
 
@@ -66,11 +67,11 @@ Bilan? natif, performant, léger (<1kb), futur-proof car fournit par le navigate
 - [-> La présentation sur le templating ES6](https://www.slideshare.net/FilipBruunBechLarsen/whats-next-in-clientside-templating-119875258)
 - [-> Le twitter du speaker](https://twitter.com/Filipbech)
 
-![picture](devfestnantes2018-log.pict-jstemplating1.jpg)
+![picture](/upload/devfestnantes2018-log.pict-jstemplating1.jpg)
 
-![picture](devfestnantes2018-log.pict-jstemplating2.png)
+![picture](/upload/devfestnantes2018-log.pict-jstemplating2.png)
 
-![picture](devfestnantes2018-log.pict-jstemplating3.png)
+![picture](/upload/devfestnantes2018-log.pict-jstemplating3.png)
 
 ---
 
@@ -94,9 +95,9 @@ Les préconisations: reposer sur ce que fait la plateforme (navigateur) plutôt 
 - [-> La présentation sur la Typographie et accessibilité](https://devfest2018.access42.net/)
 - [-> Le twitter du speaker](https://twitter.com/kReEsTaL)
 
-![picture](devfestnantes2018-log.pict-typoaccess.jpg)
+![picture](/upload/devfestnantes2018-log.pict-typoaccess.jpg)
 
-![picture](devfestnantes2018-log.pict-typoaccess2.png)
+![picture](/upload/devfestnantes2018-log.pict-typoaccess2.png)
 
 ## 15h00 - L'infrastructure as code avec Terraform
 
@@ -114,7 +115,7 @@ Conclusion: par rapport à Ansible, il y a plus de complexité introduite (via l
 
 - [-> Le twitter du speaker](https://twitter.com/MathieuHerbert)
 
-![picture](devfestnantes2018-log.pict-infraterraform.png)
+![picture](/upload/devfestnantes2018-log.pict-infraterraform.png)
 
 ## 16h00 - A la découverte des algorithmes génétiques
 
@@ -132,9 +133,9 @@ Bilan: petit plaisir coupable, mon équipe (en violet ci-dessous) s'en est bien 
 - [-> Le twitter du speaker](https://twitter.com/seb_express)
 - [-> Un peu de littérature pour comprendre](http://www.theprojectspot.com/tutorial-post/creating-a-genetic-algorithm-for-beginners/3)
 
-![picture](devfestnantes2018-log.pict-algogenetique1.png)
+![picture](/upload/devfestnantes2018-log.pict-algogenetique1.png)
 
-![picture](devfestnantes2018-log.pict-algogenetique2.png)
+![picture](/upload/devfestnantes2018-log.pict-algogenetique2.png)
 
 ---
 

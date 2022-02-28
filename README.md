@@ -51,6 +51,7 @@ http://127.0.0.1:4000/
 |       bio       |         :no_entry: |
 |     author      | :heavy_check_mark: |
 |  github-ribbon  | :heavy_check_mark: |
+|  breadcrumb     |                :x: |
 |    analytic     |                :x: |
 |     search      |                :x: |
 |      video      |                :x: |
@@ -60,18 +61,19 @@ http://127.0.0.1:4000/
 |    thumbnail    |         :no_entry: |
 |     sitemap     |                :x: |
 |       seo       |                :x: |
+|    redirect     | :heavy_check_mark: |
 
 |     Content      |              State |
 | :--------------: | -----------------: |
 |    home page     | :heavy_check_mark: |
 |    terms page    | :heavy_check_mark: |
 |     dev page     | :heavy_check_mark: |
-|      posts       |          :warning: |
-|      medias      |                :x: |
-|    blog page     |          :warning: |
-|    about page    |                :x: |
-|    games page    |                :x: |
-|     404 page     |                :x: |
+|      posts       | :heavy_check_mark: |
+|      medias      | :heavy_check_mark: |
+|    blog page     | :heavy_check_mark: |
+|    about page    | :heavy_check_mark: |
+|    games page    |          :warning: |
+|     404 page     | :heavy_check_mark: |
 |     cv page      |                :x: |
 |    game page     |                :x: |
 | comments archive |                :x: |
@@ -113,6 +115,8 @@ http://127.0.0.1:4000/
   - thumbnail for perf
     - https://superterran.net/jekyll-thumbnail/
 
+- GitHub pages
+  - plugins https://pages.github.com/versions/
 
 # References
 
