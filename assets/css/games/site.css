@@ -1,12 +1,15 @@
 /* PALETTE (BOOTSTRAP) */
 
 
+:root {
+    --bs-primary: #ca0000;
+} 
 
 /* SITE */
 
 .bd-navbar {
     padding:.75rem 0;
-    background-color: #0f3b68;
+    background-color: var(--bs-primary);
 }
 .bd-navbar .navbar-toggler {
     padding:0;
@@ -23,11 +26,32 @@
     height: 1rem
 }
 
+/* GAME PAGE */
 
-.game {
+.header-bg {
+    background:url(/assets/img/pw_maze_white.png) #fff;
+    border-bottom:1px solid #fff;
+}
+
+.header-title {
+    color: var(--bs-primary);
+}
+
+.home-game {
     background-image: 
         linear-gradient(
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.9)) , 
         url(/assets/img/2048-game.png);
+}
+
+.home-game .dropdown-divider {
+    border-width: 5px;
+    border-color: rgb(140, 18, 10);
+    opacity: 1;
+}
+
+.store-btn img {
+    height: 40px;
+    width: 140px;
 }
