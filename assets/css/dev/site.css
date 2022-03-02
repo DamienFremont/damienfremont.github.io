@@ -37,6 +37,17 @@
     height: 1rem
 }
 
+.dev-head {
+    background-color: #171b1e;
+}
+
+/* HOME */
+
+.bg-red {
+    background-color: #f21313;
+}
+
+
 /* INDEX */
 
 .text-limit-line-1 {
