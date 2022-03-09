@@ -38,11 +38,25 @@
 }
 
 .home-game {
+    border-top: 1px solid #222;
+}
+
+.home-game-cars2048 {
     background-image: 
         linear-gradient(
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.9)) , 
-        url(/assets/img/2048-game.png);
+        url(/assets/img/home-game-cars2048.jpg);
+    background-size: cover;
+}
+
+.home-game-fractalcity {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.9)) , 
+        url(/assets/img/home-game-fractalcity.jpg);
+    background-size: cover;
 }
 
 .home-game .dropdown-divider {
