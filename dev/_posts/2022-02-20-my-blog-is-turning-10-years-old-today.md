@@ -1,12 +1,12 @@
 ---
 layout: dev/post
 tags: other
-thumbnail: "/upload/10years2.jpg"
+thumbnail: "/upload/10years3.jpg"
 title: My blog is turning 10 years old today!
 description: "A decade has gone since I browse through the web looking for a platform for blogging and then decided to join WordPress after Blogge..."
 ---
 
-![alt text](/upload/10years2.jpg)
+![alt text](/upload/10years3.jpg)
 
 
 Today (20 February 2022) is a very meaningful and historic day for me as it marks the 10th anniversary of my blog here. A decade has gone since I browse through the web looking for a platform for blogging and then decided to join WordPress after Blogger.
