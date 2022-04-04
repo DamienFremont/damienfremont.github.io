@@ -71,3 +71,7 @@ NOTE: only ‘root’ layers or groups will generate files, you don’t have to 
 ![post-image](/upload/screenshot005.png)
 
 ![post-image](/upload/screenshot006.png)
+
+Source
+
+[https://github.com/DamienFremont/blog/tree/master/20190525-photoshop-script-export-layers-to-png](https://github.com/DamienFremont/blog/tree/master/20190525-photoshop-script-export-layers-to-png)

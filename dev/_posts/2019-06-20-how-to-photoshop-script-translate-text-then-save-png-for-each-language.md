@@ -336,3 +336,7 @@ text-group-translate.bat
 
 *   [Photoshop read json file](https://github.com/fabianmoronzirfas/extendscript/wiki/Read-In-JSON-From-File-And-DONT-Eval)
 *   [Photoshop get layer type](http://creativetuts.com/photoshop-script-determine-layer-kind/)
+
+Source
+
+[https://github.com/DamienFremont/blog/tree/master/20190620-photoshop-script-translate-text-then-export](https://github.com/DamienFremont/blog/tree/master/20190620-photoshop-script-translate-text-then-export)
