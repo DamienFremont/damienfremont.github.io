@@ -7,18 +7,14 @@ permalink: /games/
 <div class="container">
 
     <div id="carouselExample" class="carousel slide shadow-lg" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"
-                class="active" aria-current="true"></button>
-        </div>
         <div class="carousel-inner ">
 
             <div class="carousel-item active">
                 <a class="text-decoration-none text-reset" target="_blank"
-                href="https://store.steampowered.com/app/1920830/Fractal_City/">
-                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 h-100 rounded " width="800"
-                    height="600" src="{{ site.baseurl }}/assets/img/site-games-fractalcity-carousel.jpg" />
-                    </a>
+                    href="https://store.steampowered.com/app/1920830/Fractal_City/">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 h-100 rounded " width="800"
+                        height="600" src="{{ site.baseurl }}/assets/img/site-games-fractalcity-carousel.jpg" />
+                </a>
                 <div class="carousel-caption">
                     <a class="btn btn-primary btn-lg shadow-lg border border-secondary" target="_blank"
                         href="https://store.steampowered.com/app/1920830/Fractal_City/">Add
@@ -38,11 +34,11 @@ permalink: /games/
 
     <h2 class="mt-4"><strong>FEATURED GAMES</strong></h2>
 
-    <div class="d-flex flex-row bd-highlight mb-4 mt-4">
+    <div class="d-flex flex-wrap mb-4 mt-4">
 
         <div class="card h-100 me-4" style="width: 18rem;height: 30rem;">
             <a class="text-decoration-none text-reset" target="_blank"
-            href="https://store.steampowered.com/app/1920830/Fractal_City/">
+                href="https://store.steampowered.com/app/1920830/Fractal_City/">
                 <img src="{{ site.baseurl }}/assets/img/site-games-fractalcity-card.jpg"
                     class="card-img-top rounded shadow" alt="...">
                 <div class="card-body">
@@ -97,12 +93,52 @@ permalink: /games/
 
     </div>
 
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-bs-toggle="collapse"
+            data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
+            See All Games</button>
+    </div>
+
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="d-flex flex-wrap mb-4 mt-4">
+
+            <div class="card h-100 me-4" style="width: 18rem;height: 30rem;">
+                <a class="text-decoration-none text-reset" target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion">
+                    <img src="{{ site.baseurl }}/assets/img/site-games-zombiesmustdie-card.jpg"
+                        class="card-img-top rounded shadow" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Zombies Must Die (colab)</strong></h5>
+                        <p class="card-subtitle text-muted"><strong>Shooter</strong></p>
+                        <div class="card-text mt-2">
+                            <a class="store-btn" target="_blank"
+                                href="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion">
+                                <img src="/assets/img/btn-googleplay.png">
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card h-100 me-4 grayscale" style="width: 18rem;height: 30rem;">
+                <img src="{{ site.baseurl }}/assets/img/site-games-bikes2048-card.jpg"
+                    class="card-img-top rounded shadow" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Bikes 2048 (discontinued)</strong></h5>
+                    <p class="card-subtitle text-muted"><strong>Puzzle</strong></p>
+                </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
     <h2 class="mt-4"><strong>PRESS KITS</strong></h2>
 
     <div class="d-flex flex-row bd-highlight mb-4 mt-4">
 
-        <a class="btn btn-secondary shadow-lg"
-            href="{{ site.baseurl }}/games/cars2048-presskit">Cars 2048</a>
+        <a class="btn btn-secondary shadow-lg" href="{{ site.baseurl }}/games/cars2048-presskit">Cars 2048</a>
 
     </div>
 
