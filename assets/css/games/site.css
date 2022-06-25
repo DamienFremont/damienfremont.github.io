@@ -83,7 +83,7 @@ body  {
     background-color: transparent !important;
 }
 
-.grayscale img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+.discontinued img {
+    -webkit-filter: grayscale(100%) contrast(75%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) contrast(75%);
 }
