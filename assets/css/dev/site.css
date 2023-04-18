@@ -72,6 +72,14 @@ img[alt=post-thumbnail], img[alt=post-image], .post-content img {
     height: auto
 }
 
+.post-content a {
+    color: var(--code-color);
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+.post-content a:hover {
+    border-bottom: 1px solid;
+}
 
 /* CODE */
 
@@ -94,3 +102,16 @@ pre.highlight {
     line-height: 1.45;
     background-color: #161b22 !important;
 }
+
+/* PAGINATION */
+
+.page-item .page-link {
+    color: var(--code-bg);
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--code-bg);
+    border-color: var(--code-bg);
+  }
