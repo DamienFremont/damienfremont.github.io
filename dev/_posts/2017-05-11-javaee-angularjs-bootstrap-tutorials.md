@@ -15,21 +15,21 @@ Here are all my tutorials about JavaEE/AngularJS/Bootstrap, from 2015 to 2016 (i
 
 ## List
 
-[JavaEE AngularJS : Web Packaging – Concat – Minify](../20160522-javaee-angularjs-webpackaging_min_single_file)
+[JavaEE AngularJS : Web Packaging – Concat – Minify](../../../2016/05/22/javaee-angularjs-web-packaging-concat-minify)
 
-[JavaEE AngularJS : Loading Screen](../20160118-javaee-angularjs-loading_screen)
+[JavaEE AngularJS : Loading Screen](../../../2016/01/18/javaee-angularjs-loading-screen)
 
-[JavaEE AngularJs: Browser Compatibility Alert](../20160117-javaee-angularjs-browser_compatibility_alert)
+[JavaEE AngularJs: Browser Compatibility Alert](../../../2016/01/17/javaee-angularjs-browser-compatibility-alert)
 
-[JavaEE AngularJs: Browser URLs Cache and Version](../20160109-javaee-angularjs-browser_url_version_cache)
+[JavaEE AngularJs: Browser URLs Cache and Version](../../../2016/01/09/javaee-angularjs-browser-urls-cache-and-version)
 
-[JavaEE AngularJS Bootstrap: How to Authent (Basic)](../20151119-javaee-angularjs-bootstrap-auth_basic)
+[JavaEE AngularJS Bootstrap: How to Authent (Basic)](../../../2015/11/19/javaee-angularjs-bootstrap-how-to-authent-basic)
 
-[JavaEE AngularJS Bootstrap: HowTo Charts with D3JS](../20151108-javaee-angularjs-bootstrap-charts_d3js)
+[JavaEE AngularJS Bootstrap: HowTo Charts with D3JS](../../../2015/11/08/javaee-angularjs-bootstrap-howto-charts-with-d3js)
 
-[JavaEE AngularJS Bootstrap: How to Multilingual (i18n, l10n)](../20151106-javaee-angularjs-bootstrap-multilingual-i18n-l10n)
+[JavaEE AngularJS Bootstrap: How to Multilingual (i18n, l10n)](../../../2015/11/06/javaee-angularjs-bootstrap-how-to-multilingual-i18n-l10n)
 
-[JavaEE AngularJS Bootstrap: How to Breadcrumb and NavBar](../20151105-javaee-angularjs-bootstrap-breadcrumb)
+[JavaEE AngularJS Bootstrap: How to Breadcrumb and NavBar](../../../2015/11/05/javaee-angularjs-bootstrap-how-to-breadcrumb-and-navbar)
 
 [JavaEE AngularJS Bootstrap: How to Infinite-Scroll](../20151104-javaee-angularjs-bootstrap-infinite_scroll)
 
