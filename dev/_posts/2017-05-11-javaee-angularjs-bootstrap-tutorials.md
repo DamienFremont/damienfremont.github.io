@@ -41,17 +41,17 @@ Here are all my tutorials about JavaEE/AngularJS/Bootstrap, from 2015 to 2016 (i
 
 [JavaEE AngularJS Bootstrap: DataTable and Excel Export](../../../2015/10/20/javaee-angularjs-bootstrap-datatable-and-excel-export)
 
-[JavaEE AngularJS Bootstrap: File Upload](../20151019-javaee-angularjs-bootstrap-upload_file)
+[JavaEE AngularJS Bootstrap: File Upload](../../../2015/10/19/javaee-angularjs-bootstrap-file-upload)
 
-[JavaEE AngularJS Bootstrap: Date Picker](../20151018-javaee-angularjs-bootstrap-datepicker)
+[JavaEE AngularJS Bootstrap: Date Picker](../../../2015/10/17/javaee-angularjs-bootstrap-date-picker)
 
-[JavaEE AngularJS Bootstrap: Form Bean Validation (front and back)](../20151017-javaee-angularjs-bootstrap-validation)
+[JavaEE AngularJS Bootstrap: Form Bean Validation (front and back)](../../../2015/10/17/javaee-angularjs-bootstrap-form-bean-validation-front-and-back)
 
-[JavaEE AngularJS Bootstrap: Form (Basic: read, post)](../20151016-javaee-angularjs-bootstrap-form-basic)
+[JavaEE AngularJS Bootstrap: Form (Basic: read, post)](../../../2015/10/16/javaee-angularjs-bootstrap-form-basic-read-post)
 
-[JavaEE AngularJS Bootstrap: routes, templates, redirection and params](../20151015-javaee-angularjs-bootstrap-route-template)
+[JavaEE AngularJS Bootstrap: routes, templates, redirection and params](../../../2015/10/15/javaee-angularjs-bootstrap-routes-templates-redirection-and-params)
 
-[JavaEE AngularJS Bootstrap: Integration](../20151013-javaee-angularjs-bootstrap)
+[JavaEE AngularJS Bootstrap: Integration](../../../2015/10/13/javaee-angularjs-bootstrap-integration)
 
 ## Origin
 
