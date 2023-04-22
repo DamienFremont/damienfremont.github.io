@@ -31,15 +31,15 @@ Here are all my tutorials about JavaEE/AngularJS/Bootstrap, from 2015 to 2016 (i
 
 [JavaEE AngularJS Bootstrap: How to Breadcrumb and NavBar](../../../2015/11/05/javaee-angularjs-bootstrap-how-to-breadcrumb-and-navbar)
 
-[JavaEE AngularJS Bootstrap: How to Infinite-Scroll](../20151104-javaee-angularjs-bootstrap-infinite_scroll)
+[JavaEE AngularJS Bootstrap: How to Infinite-Scroll](../../../2015/11/04/javaee-angularjs-bootstrap-how-to-infinite-scroll)
 
-[JavaEE AngularJS Bootstrap: How to Sort with Smart-Table](../20151103-javaee-angularjs-bootstrap-sort)
+[JavaEE AngularJS Bootstrap: How to Sort with Smart-Table](../../../2015/11/03/javaee-angularjs-bootstrap-how-to-sort-with-smart-table)
 
-[JavaEE AngularJS Bootstrap: How to Pagination with Smart-Table](../20151102-javaee-angularjs-bootstrap-pagination)
+[JavaEE AngularJS Bootstrap: How to Pagination with Smart-Table](../../../2015/11/02/javaee-angularjs-bootstrap-how-to-pagination-with-smart-table)
 
-[JavaEE AngularJS Bootstrap: How to Filtering](../20151031-javaee-angularjs-bootstrap-filter)
+[JavaEE AngularJS Bootstrap: How to Filtering](../../../2015/10/31/javaee-angularjs-bootstrap-how-to-filtering)
 
-[JavaEE AngularJS Bootstrap: DataTable and Excel Export](../20151020-javaee-angularjs-bootstrap-table_export)
+[JavaEE AngularJS Bootstrap: DataTable and Excel Export](../../../2015/10/20/javaee-angularjs-bootstrap-datatable-and-excel-export)
 
 [JavaEE AngularJS Bootstrap: File Upload](../20151019-javaee-angularjs-bootstrap-upload_file)
 
@@ -55,5 +55,5 @@ Here are all my tutorials about JavaEE/AngularJS/Bootstrap, from 2015 to 2016 (i
 
 ## Origin
 
-[https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials/](https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials// )
+[https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials/](https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials/ )
  
