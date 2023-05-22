@@ -55,5 +55,5 @@ Here are all my tutorials about JavaEE/AngularJS/Bootstrap, from 2015 to 2016 (i
 
 ## Origin
 
-[https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials/](https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials/ )
+[https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials/](https://damienfremont.com/2017/05/11/javaee-angularjs-bootstrap-tutorials)
  

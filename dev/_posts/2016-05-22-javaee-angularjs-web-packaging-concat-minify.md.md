@@ -651,5 +651,5 @@ http://stackoverflow.com/questions/35784489/angular-javascript-minification-caus
  
  
 ## Origin
-[https://damienfremont.com/2016/05/22/javaee-angularjs-web-packaging-concat-minify/ ](https://damienfremont.com/2016/05/22/javaee-angularjs-web-packaging-concat-minify/ )
+[https://damienfremont.com/2016/05/22/javaee-angularjs-web-packaging-concat-minify/ ](https://damienfremont.com/2016/05/22/javaee-angularjs-web-packaging-concat-minify)
  

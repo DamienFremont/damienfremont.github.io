@@ -402,5 +402,5 @@ https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanillajs
  
  
 ## Origin
-[https://damienfremont.com/2015/07/23/how-to-cucumber-java-reuse-same-scenario-for-core-service-and-web-ui-tests/ ](https://damienfremont.com/2015/07/23/how-to-cucumber-java-reuse-same-scenario-for-core-service-and-web-ui-tests/ )
+[https://damienfremont.com/2015/07/23/how-to-cucumber-java-reuse-same-scenario-for-core-service-and-web-ui-tests/ ](https://damienfremont.com/2015/07/23/how-to-cucumber-java-reuse-same-scenario-for-core-service-and-web-ui-tests)
  
