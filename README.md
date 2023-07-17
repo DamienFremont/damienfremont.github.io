@@ -5,6 +5,8 @@ Official website (static)
 - http://damienfremont.com
 
 
+![img](./doc/README.md-screenshot.png)
+
 # Getting started
 
 - install ruby 2 rubyinstaller-devkit-2.7.5-1-x64.exe from https://rubyinstaller.org/downloads/
@@ -12,7 +14,6 @@ Official website (static)
 gem install jekyll bundler
 bundle install
 ````
-
 
 # Use
 
@@ -23,7 +24,6 @@ bundle exec jekyll serve --watch
 
 # Test
 http://127.0.0.1:4000/
-
 
 
 # Project
@@ -81,8 +81,6 @@ http://127.0.0.1:4000/
 |    demos page    |         :no_entry: |
 |   support page   |         :no_entry: |
 |   contact page   |         :no_entry: |
-
-
 
 # Resources
 
