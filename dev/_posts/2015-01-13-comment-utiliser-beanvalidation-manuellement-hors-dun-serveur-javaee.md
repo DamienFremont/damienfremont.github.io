@@ -1,12 +1,13 @@
 ---
 layout: dev/post
 tags: java rest spring
-thumbnail: "/upload/160523003120694.png"
+categories: top topjava
+thumbnail: "/upload/post-thumbnail-java.png"
 description: "Ce tuto décrit comment valider un modèle de données manuellement avec JavaEE BeanValidation (JSR 303)..."
 ---
 
  
-![alt text](/upload/160523003120694.png)
+![alt text](/upload/post-thumbnail-java.png)
  
 Ce tuto décrit comment valider un modèle de données manuellement avec JavaEE BeanValidation (JSR 303). L’intérêt ? Eviter une pile de <If> inmaintenable dans le code quand on n’a pas accès à l’annotation @Valid (pas de server JavaEE, un Tomcat par exemple). Ce point étant couvert par la spécification mais rarement décrit. Les exceptions et les messages d’erreurs seront également abordés.
  
