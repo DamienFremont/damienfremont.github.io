@@ -7,6 +7,8 @@ Official website (static)
 
 ![img](./doc/README.md-screenshot.png)
 
+----
+
 # Getting started
 
 - install ruby 2 rubyinstaller-devkit-2.7.5-1-x64.exe from https://rubyinstaller.org/downloads/
@@ -15,16 +17,30 @@ gem install jekyll bundler
 bundle install
 ````
 
-# Use
+# Usage
 
 Build and hot reload.
 ````
 bundle exec jekyll serve --watch
 ````
 
-# Test
 http://127.0.0.1:4000/
 
+
+# Release
+
+## Github (no plugins)
+
+replace /tag folder
+````bash
+rm -rf ./tag
+rm -rf ./_site
+bundle exec jekyll build
+cp -r ./_site/tag ./tag
+
+````
+
+----
 
 # Project
 
