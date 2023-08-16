@@ -135,6 +135,11 @@ pre.highlight {
     text-decoration: underline;
 }
 
+.summary-small img {
+    width: 90px;
+    height: 45px;
+}
+
 /* SOCIAL */
 
 a.social-link span {
