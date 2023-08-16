@@ -115,3 +115,31 @@ pre.highlight {
     background-color: var(--code-bg);
     border-color: var(--code-bg);
 }
+
+/* TAGS */
+
+.tag-list a {
+    text-decoration: none;
+}
+.tag-list a:hover {
+    border-bottom: 1px solid;
+}
+
+/* HEADER */
+
+.summary-small h6 {
+    text-decoration: none;
+
+}
+.summary-small:hover h6 {
+    text-decoration: underline;
+}
+
+/* SOCIAL */
+
+a.social-link span {
+    text-decoration: none;
+}
+a.social-link:hover span {
+    border-bottom: 1px solid;
+}
