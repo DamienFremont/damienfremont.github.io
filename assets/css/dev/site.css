@@ -138,6 +138,13 @@ pre.highlight {
 .summary-small img {
     width: 90px;
     height: 45px;
+    object-fit: cover;
+}
+
+.summary img {
+    width: 270px;
+    height: 150px;
+    object-fit: cover;
 }
 
 /* SOCIAL */
