@@ -76,13 +76,14 @@ header {
 
 img[alt=post-thumbnail], img[alt=post-image], .post-content img {
     width: 100%;
-    height: auto
+    max-height: 400px;
+    object-fit: contain;
 }
 
-.post-content img {
+img[alt=post-thumbnail] {
     border-radius: 16px;
-    border-bottom: 8px solid var(--code-bg);
-    border-right: 8px solid var(--code-bg);
+    border-bottom: 4px solid var(--code-bg);
+    border-right: 4px solid var(--code-bg);
 }
 
 .post-content a {
@@ -93,8 +94,6 @@ img[alt=post-thumbnail], img[alt=post-image], .post-content img {
 .post-content a:hover {
     border-bottom: 1px solid;
 }
-
-
 
 /* CODE */
 
@@ -155,8 +154,8 @@ pre.highlight {
     height: 45px;
     object-fit: cover;
 
-    border-bottom: 3px solid var(--code-bg);
-    border-right: 3px solid var(--code-bg);
+    border-bottom: 2px solid var(--code-bg);
+    border-right: 2px solid var(--code-bg);
 }
 
 .summary img {
