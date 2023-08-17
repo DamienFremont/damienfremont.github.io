@@ -41,12 +41,19 @@
     background-color: #171b1e;
 }
 
+header {
+    filter: drop-shadow(0px 0px 2px var(--code-bg));
+}
+
 /* HOME */
 
 .bg-red {
     background-color: #f21313;
 }
 
+.card {
+    filter: drop-shadow(2px 2px 3px var(--code-bg));
+}
 
 /* INDEX */
 
@@ -72,6 +79,12 @@ img[alt=post-thumbnail], img[alt=post-image], .post-content img {
     height: auto
 }
 
+.post-content img {
+    border-radius: 16px;
+    border-bottom: 8px solid var(--code-bg);
+    border-right: 8px solid var(--code-bg);
+}
+
 .post-content a {
     color: var(--code-color);
     border-bottom: 1px dotted;
@@ -80,6 +93,8 @@ img[alt=post-thumbnail], img[alt=post-image], .post-content img {
 .post-content a:hover {
     border-bottom: 1px solid;
 }
+
+
 
 /* CODE */
 
@@ -139,6 +154,9 @@ pre.highlight {
     width: 90px;
     height: 45px;
     object-fit: cover;
+
+    border-bottom: 3px solid var(--code-bg);
+    border-right: 3px solid var(--code-bg);
 }
 
 .summary img {
