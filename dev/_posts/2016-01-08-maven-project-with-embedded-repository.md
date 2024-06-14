@@ -94,8 +94,8 @@ public class TestDependencies {
  
 ## Project
  
-[https://github.com/DamienFremont/blog/tree/master/20160108-maven-project_embedded_repo](https://github.com/DamienFremont/blog/tree/master/20160108-maven-project_embedded_repo)
-https://github.com/DamienFremont/blog/tree/master/20160108-maven-project_embedded_repo
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160108-maven-project_embedded_repo](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160108-maven-project_embedded_repo)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160108-maven-project_embedded_repo
  
 ## References
  

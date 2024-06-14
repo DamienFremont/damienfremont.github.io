@@ -228,8 +228,8 @@ web.xml
  
 ## Project
  
-[https://github.com/DamienFremont/blog/tree/master/20160117-javaee-angularjs-browser_compatibility_alert](https://github.com/DamienFremont/blog/tree/master/20160117-javaee-angularjs-browser_compatibility_alert)
-https://github.com/DamienFremont/blog/tree/master/20160117-javaee-angularjs-browser_compatibility_alert
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160117-javaee-angularjs-browser_compatibility_alert](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160117-javaee-angularjs-browser_compatibility_alert)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160117-javaee-angularjs-browser_compatibility_alert
  
 ## References
  

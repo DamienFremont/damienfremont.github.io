@@ -88,8 +88,8 @@ public class HelloWorldBatch {
  
 ## View source code and more tests
  
-[https://github.com/damienfremont/blog/tree/master/20130913-javabatch-helloworld](https://github.com/damienfremont/blog/tree/master/20130913-javabatch-helloworld)
-https://github.com/damienfremont/blog/tree/master/20130913-javabatch-helloworld
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20130913-javabatch-helloworld](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20130913-javabatch-helloworld)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20130913-javabatch-helloworld
  
  
 ## Origin

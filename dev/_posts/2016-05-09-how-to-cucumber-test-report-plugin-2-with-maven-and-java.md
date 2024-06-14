@@ -287,8 +287,8 @@ Cucumber-Reports is good for reporting outside of the dev team (like managers).
 [https://damienfremont.com/2016/05/09/how-to-cucumber-test-report-plugin-2-with-maven-and-java](https://damienfremont.com/2016/05/09/how-to-cucumber-test-report-plugin-2-with-maven-and-java)
 https://damienfremont.com/2016/05/09/how-to-cucumber-test-report-plugin-2-with-maven-and-java
  
-[https://github.com/DamienFremont/blog/tree/master/20160509-test-cucumber_plugin_reporting_2](https://github.com/DamienFremont/blog/tree/master/20160509-test-cucumber_plugin_reporting_2)
-https://github.com/DamienFremont/blog/tree/master/20160509-test-cucumber_plugin_reporting_2
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160509-test-cucumber_plugin_reporting_2](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160509-test-cucumber_plugin_reporting_2)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160509-test-cucumber_plugin_reporting_2
  
 # References
  

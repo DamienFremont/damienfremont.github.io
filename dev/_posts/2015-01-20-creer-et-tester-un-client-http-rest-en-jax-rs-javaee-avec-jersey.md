@@ -414,8 +414,8 @@ Le plus intéressant étant que la maintenance en est grandement simplifié …l
  
 # Source code
  
-[https://github.com/damienfremont/blog/tree/master/20150120-javaee-jersey_client](https://github.com/damienfremont/blog/tree/master/20150120-javaee-jersey_client)
-https://github.com/damienfremont/blog/tree/master/20150120-javaee-jersey_client
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150120-javaee-jersey_client](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150120-javaee-jersey_client)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150120-javaee-jersey_client
  
 # References
  

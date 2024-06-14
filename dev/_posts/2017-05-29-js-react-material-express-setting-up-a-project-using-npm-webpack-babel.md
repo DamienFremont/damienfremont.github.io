@@ -562,8 +562,8 @@ export default class App extends React.Component {
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170529-js-react-material-express-setting_up_a_project](https://github.com/DamienFremont/blog/tree/master/20170529-js-react-material-express-setting_up_a_project)
-https://github.com/DamienFremont/blog/tree/master/20170529-js-react-material-express-setting_up_a_project
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170529-js-react-material-express-setting_up_a_project](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170529-js-react-material-express-setting_up_a_project)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170529-js-react-material-express-setting_up_a_project
  
 ## Reference
  

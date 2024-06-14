@@ -131,8 +131,8 @@ With this method, commit history and order (by date) is preserved.
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170614-git-merge-repositories-without-losing-commit-history](https://github.com/DamienFremont/blog/tree/master/20170614-git-merge-repositories-without-losing-commit-history)
-https://github.com/DamienFremont/blog/tree/master/20170614-git-merge-repositories-without-losing-commit-history
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170614-git-merge-repositories-without-losing-commit-history](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170614-git-merge-repositories-without-losing-commit-history)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170614-git-merge-repositories-without-losing-commit-history
  
 ## References
  

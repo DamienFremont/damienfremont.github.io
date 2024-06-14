@@ -282,8 +282,8 @@ web.xml
  
 ## Project
  
-[https://github.com/DamienFremont/blog/tree/master/20160109-javaee-angularjs-browser_url_version_cache](https://github.com/DamienFremont/blog/tree/master/20160109-javaee-angularjs-browser_url_version_cache)
-https://github.com/DamienFremont/blog/tree/master/20160109-javaee-angularjs-browser_url_version_cache
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160109-javaee-angularjs-browser_url_version_cache](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160109-javaee-angularjs-browser_url_version_cache)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160109-javaee-angularjs-browser_url_version_cache
  
  
  

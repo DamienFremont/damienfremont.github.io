@@ -443,8 +443,8 @@ pom.xml
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151017-javaee-angularjs-bootstrap-validation](https://github.com/DamienFremont/blog/tree/master/20151017-javaee-angularjs-bootstrap-validation)
-https://github.com/DamienFremont/blog/tree/master/20151017-javaee-angularjs-bootstrap-validation
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151017-javaee-angularjs-bootstrap-validation](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151017-javaee-angularjs-bootstrap-validation)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151017-javaee-angularjs-bootstrap-validation
  
 # References
  

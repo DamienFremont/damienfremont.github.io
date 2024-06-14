@@ -159,8 +159,8 @@ Here is the same project opened on VisualStudio, MonoDevelop and a text Editor.
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170603-unity3d-use-monodevelop-script-editor-and-debug/](https://github.com/DamienFremont/blog/tree/master/20170603-unity3d-use-monodevelop-script-editor-and-debug/)
-https://github.com/DamienFremont/blog/tree/master/20170603-unity3d-use-monodevelop-script-editor-and-debug/
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170603-unity3d-use-monodevelop-script-editor-and-debug/](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170603-unity3d-use-monodevelop-script-editor-and-debug/)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170603-unity3d-use-monodevelop-script-editor-and-debug/
  
 ## References
  

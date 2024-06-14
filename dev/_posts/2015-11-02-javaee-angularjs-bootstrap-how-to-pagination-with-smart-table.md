@@ -484,8 +484,8 @@ pom.xml
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151102-javaee-angularjs-bootstrap-pagination](https://github.com/DamienFremont/blog/tree/master/20151102-javaee-angularjs-bootstrap-pagination)
-https://github.com/DamienFremont/blog/tree/master/20151102-javaee-angularjs-bootstrap-pagination
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151102-javaee-angularjs-bootstrap-pagination](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151102-javaee-angularjs-bootstrap-pagination)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151102-javaee-angularjs-bootstrap-pagination
  
 # References
  

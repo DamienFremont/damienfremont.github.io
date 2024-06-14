@@ -209,8 +209,8 @@ web.xml
  
 ## Project
  
-[https://github.com/DamienFremont/blog/tree/master/20160118-javaee-angularjs-loading_screen](https://github.com/DamienFremont/blog/tree/master/20160118-javaee-angularjs-loading_screen)
-https://github.com/DamienFremont/blog/tree/master/20160118-javaee-angularjs-loading_screen
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160118-javaee-angularjs-loading_screen](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160118-javaee-angularjs-loading_screen)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160118-javaee-angularjs-loading_screen
  
 ## References
  

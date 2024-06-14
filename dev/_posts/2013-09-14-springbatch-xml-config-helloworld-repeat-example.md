@@ -174,8 +174,8 @@ http://www.springframework.org/schema/batch/spring-batch-2.1.xsd">
  
 ## View source code and more tests
  
-[https://github.com/damienfremont/blog/tree/master/20130914-springbatch-xmlconfig](https://github.com/damienfremont/blog/tree/master/20130914-springbatch-xmlconfig)
-https://github.com/damienfremont/blog/tree/master/20130914-springbatch-xmlconfig
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20130914-springbatch-xmlconfig](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20130914-springbatch-xmlconfig)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20130914-springbatch-xmlconfig
  
  
 ## Origin

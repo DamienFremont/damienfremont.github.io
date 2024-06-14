@@ -234,8 +234,8 @@ Run ti with JUnit.
  
 ## Sources
  
-[https://github.com/DamienFremont/blog/tree/master/20150807-test-cucumber_migrating_from_junit](https://github.com/DamienFremont/blog/tree/master/20150807-test-cucumber_migrating_from_junit)
-https://github.com/DamienFremont/blog/tree/master/20150807-test-cucumber_migrating_from_junit
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150807-test-cucumber_migrating_from_junit](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150807-test-cucumber_migrating_from_junit)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150807-test-cucumber_migrating_from_junit
  
 ## References
  

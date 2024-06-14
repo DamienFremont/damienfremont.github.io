@@ -386,8 +386,8 @@ And launching all tests with Maven:
  
 # Source
  
-[https://github.com/DamienFremont/blog/tree/master/20150722-test-cucumber_scenario_reuse](https://github.com/DamienFremont/blog/tree/master/20150722-test-cucumber_scenario_reuse)
-https://github.com/DamienFremont/blog/tree/master/20150722-test-cucumber_scenario_reuse
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150722-test-cucumber_scenario_reuse](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150722-test-cucumber_scenario_reuse)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150722-test-cucumber_scenario_reuse
  
 # References
  

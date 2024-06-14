@@ -336,8 +336,8 @@ If you change your mind about the Android Version, just relaunch AndroidWorks.
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170601-unity3d-configure-project-for-android-and-run-it](https://github.com/DamienFremont/blog/tree/master/20170601-unity3d-configure-project-for-android-and-run-it)
-https://github.com/DamienFremont/blog/tree/master/20170601-unity3d-configure-project-for-android-and-run-it
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170601-unity3d-configure-project-for-android-and-run-it](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170601-unity3d-configure-project-for-android-and-run-it)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170601-unity3d-configure-project-for-android-and-run-it
  
 ## References
  

@@ -27,7 +27,7 @@ La structure (classique) est composé d’un MVC coté front et d’un service R
  
 # Code
  
-[github ici](https://github.com/damienfremont/blog/tree/master/20141214-todoapp-javascript)
+[github ici](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20141214-todoapp-javascript)
 
 ![alt text](/upload/160523003051792.jpg)
  
@@ -158,8 +158,8 @@ npm install -g express
  
 # Sources
  
-[https://github.com/damienfremont/blog/tree/master/20141214-todoapp-javascript](https://github.com/damienfremont/blog/tree/master/20141214-todoapp-javascript)
-https://github.com/damienfremont/blog/tree/master/20141214-todoapp-javascript
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20141214-todoapp-javascript](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20141214-todoapp-javascript)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20141214-todoapp-javascript
  
 # References
  

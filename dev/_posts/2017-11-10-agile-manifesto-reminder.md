@@ -187,8 +187,8 @@ https://en.wikipedia.org/wiki/Burn_down_chart
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20171110-agile-manifesto-reminder](https://github.com/DamienFremont/blog/tree/master/20171110-agile-manifesto-reminder)
-https://github.com/DamienFremont/blog/tree/master/20171110-agile-manifesto-reminder
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171110-agile-manifesto-reminder](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171110-agile-manifesto-reminder)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171110-agile-manifesto-reminder
  
  
 ## Origin

@@ -424,8 +424,8 @@ pom.xml
  
 ## Source Code
  
-[https://github.com/DamienFremont/blog/tree/master/20171119-springboot-datasource](https://github.com/DamienFremont/blog/tree/master/20171119-springboot-datasource)
-https://github.com/DamienFremont/blog/tree/master/20171119-springboot-datasource
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171119-springboot-datasource](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171119-springboot-datasource)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171119-springboot-datasource
  
 ## References
  

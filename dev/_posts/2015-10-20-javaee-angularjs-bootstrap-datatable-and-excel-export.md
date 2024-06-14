@@ -441,8 +441,8 @@ index.jsp
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151020-javaee-angularjs-bootstrap-table_export](https://github.com/DamienFremont/blog/tree/master/20151020-javaee-angularjs-bootstrap-table_export)
-https://github.com/DamienFremont/blog/tree/master/20151020-javaee-angularjs-bootstrap-table_export
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151020-javaee-angularjs-bootstrap-table_export](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151020-javaee-angularjs-bootstrap-table_export)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151020-javaee-angularjs-bootstrap-table_export
  
 # References
  

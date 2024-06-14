@@ -152,8 +152,8 @@ Unity3d web site is poorly documented on this usage.
  
 # Sources
  
-[https://github.com/DamienFremont/blog/tree/master/20150625-unity3d-build_command](https://github.com/DamienFremont/blog/tree/master/20150625-unity3d-build_command)
-https://github.com/DamienFremont/blog/tree/master/20150625-unity3d-build_command
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150625-unity3d-build_command](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150625-unity3d-build_command)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150625-unity3d-build_command
  
 # References
  

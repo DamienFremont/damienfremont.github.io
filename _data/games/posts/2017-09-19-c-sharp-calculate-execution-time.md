@@ -52,8 +52,8 @@ Debug.Log("Total Execution time in ms: "
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170919-c-sharp-calculate-execution-time](https://github.com/DamienFremont/blog/tree/master/20170919-c-sharp-calculate-execution-time)
-https://github.com/DamienFremont/blog/tree/master/20170919-c-sharp-calculate-execution-time
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170919-c-sharp-calculate-execution-time](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170919-c-sharp-calculate-execution-time)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170919-c-sharp-calculate-execution-time
  
 ## References
  

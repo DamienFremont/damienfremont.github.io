@@ -201,8 +201,8 @@ public class JUnit4WrongTest {
  
 ## View source code
  
-[https://github.com/damienfremont/blog/tree/master/20120227-junit3_to_junit4](https://github.com/damienfremont/blog/tree/master/20120227-junit3_to_junit4)
-https://github.com/damienfremont/blog/tree/master/20120227-junit3_to_junit4
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20120227-junit3_to_junit4](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20120227-junit3_to_junit4)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20120227-junit3_to_junit4
  
  
 ## Origin

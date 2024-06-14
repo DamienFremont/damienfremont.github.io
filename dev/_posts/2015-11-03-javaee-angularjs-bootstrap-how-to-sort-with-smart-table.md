@@ -365,8 +365,8 @@ style.css
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151103-javaee-angularjs-bootstrap-sort](https://github.com/DamienFremont/blog/tree/master/20151103-javaee-angularjs-bootstrap-sort)
-https://github.com/DamienFremont/blog/tree/master/20151103-javaee-angularjs-bootstrap-sort
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151103-javaee-angularjs-bootstrap-sort](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151103-javaee-angularjs-bootstrap-sort)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151103-javaee-angularjs-bootstrap-sort
  
 # References
  

@@ -302,8 +302,8 @@ En Java8, l’écriture se rapproche de Groovy par exemple grâce aux lambda. La
  
 # Source
  
-[https://github.com/DamienFremont/blog/tree/master/20150419-test-cucumber_java8_lambda](https://github.com/DamienFremont/blog/tree/master/20150419-test-cucumber_java8_lambda)
-https://github.com/DamienFremont/blog/tree/master/20150419-test-cucumber_java8_lambda
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150419-test-cucumber_java8_lambda](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150419-test-cucumber_java8_lambda)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150419-test-cucumber_java8_lambda
  
 # References
  

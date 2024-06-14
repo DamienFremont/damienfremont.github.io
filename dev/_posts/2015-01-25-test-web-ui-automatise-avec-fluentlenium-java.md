@@ -346,8 +346,8 @@ Pour aller plus loin, il est possible d’industrialiser l’initialisation des 
  
 # Source code
  
-[https://github.com/damienfremont/blog/tree/master/20150125-test-fluentlenium](https://github.com/damienfremont/blog/tree/master/20150125-test-fluentlenium)
-https://github.com/damienfremont/blog/tree/master/20150125-test-fluentlenium
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150125-test-fluentlenium](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150125-test-fluentlenium)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150125-test-fluentlenium
  
 # References
  

@@ -140,8 +140,8 @@ http://stackoverflow.com/questions/2073913/eclipse-exclude-specific-packages-whe
  
 ## On GitHub
  
-[https://github.com/DamienFremont/blog/tree/master/20171124-eclipse-ide-fix-autoimport-config](https://github.com/DamienFremont/blog/tree/master/20171124-eclipse-ide-fix-autoimport-config)
-https://github.com/DamienFremont/blog/tree/master/20171124-eclipse-ide-fix-autoimport-config
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171124-eclipse-ide-fix-autoimport-config](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171124-eclipse-ide-fix-autoimport-config)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171124-eclipse-ide-fix-autoimport-config
  
  
 ## Origin

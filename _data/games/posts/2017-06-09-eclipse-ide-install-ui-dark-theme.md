@@ -148,8 +148,8 @@ In Eclipse: File > Import > General > Preferences > open RainbowDrops.epf > Fini
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170609-eclipse-ide-install-ui-dark-theme](https://github.com/DamienFremont/blog/tree/master/20170609-eclipse-ide-install-ui-dark-theme)
-https://github.com/DamienFremont/blog/tree/master/20170609-eclipse-ide-install-ui-dark-theme
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170609-eclipse-ide-install-ui-dark-theme](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170609-eclipse-ide-install-ui-dark-theme)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170609-eclipse-ide-install-ui-dark-theme
  
 ## Reference
  

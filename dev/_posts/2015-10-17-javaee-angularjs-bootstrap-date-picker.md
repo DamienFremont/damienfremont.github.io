@@ -441,8 +441,8 @@ https://github.com/twbs/bootstrap/issues/10482
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151018-javaee-angularjs-bootstrap-datepicker](https://github.com/DamienFremont/blog/tree/master/20151018-javaee-angularjs-bootstrap-datepicker)
-https://github.com/DamienFremont/blog/tree/master/20151018-javaee-angularjs-bootstrap-datepicker
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151018-javaee-angularjs-bootstrap-datepicker](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151018-javaee-angularjs-bootstrap-datepicker)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151018-javaee-angularjs-bootstrap-datepicker
  
 # References
  

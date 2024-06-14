@@ -259,7 +259,7 @@ Now, you have faster feedback:
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151027-test-cucumber-wants_to_quit](https://github.com/DamienFremont/blog/tree/master/20151027-test-cucumber-wants_to_quit)
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151027-test-cucumber-wants_to_quit](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151027-test-cucumber-wants_to_quit)
 # References
  
 [https://github.com/cucumber/cucumber/wiki/Hooks](https://github.com/cucumber/cucumber/wiki/Hooks)

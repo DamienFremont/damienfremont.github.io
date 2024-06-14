@@ -272,8 +272,8 @@ It’s not a turnkey solution, but it does the job.
  
 # Source
  
-[https://github.com/DamienFremont/blog/tree/master/20150625-c_compiler_win_shell](https://github.com/DamienFremont/blog/tree/master/20150625-c_compiler_win_shell)
-https://github.com/DamienFremont/blog/tree/master/20150625-c_compiler_win_shell
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150625-c_compiler_win_shell](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150625-c_compiler_win_shell)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150625-c_compiler_win_shell
  
 # References
  

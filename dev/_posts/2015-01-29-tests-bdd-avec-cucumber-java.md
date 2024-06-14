@@ -557,8 +557,8 @@ https://github.com/cucumber/gherkin-editor
  
 # Source
  
-[https://github.com/damienfremont/blog/tree/master/20150129-test-cucumber_java](https://github.com/damienfremont/blog/tree/master/20150129-test-cucumber_java)
-https://github.com/damienfremont/blog/tree/master/20150129-test-cucumber_java
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150129-test-cucumber_java](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150129-test-cucumber_java)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150129-test-cucumber_java
  
 # References
  

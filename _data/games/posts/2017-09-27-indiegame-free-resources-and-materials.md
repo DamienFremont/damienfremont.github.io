@@ -94,8 +94,8 @@ To make the stuff you can’t found free!
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170927-indiegame-free-resources-and-materials](https://github.com/DamienFremont/blog/tree/master/20170927-indiegame-free-resources-and-materials)
-https://github.com/DamienFremont/blog/tree/master/20170927-indiegame-free-resources-and-materials
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170927-indiegame-free-resources-and-materials](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170927-indiegame-free-resources-and-materials)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170927-indiegame-free-resources-and-materials
  
  
 ## Origin

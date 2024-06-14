@@ -566,8 +566,8 @@ https://www.infoq.com/fr/presentations/bow-virginie-bardales-rest-world?utm_sour
  
 ## On GitHub
  
-[https://github.com/DamienFremont/blog/tree/master/20171123-rest-api-maturity-levels-from-0-to-5](https://github.com/DamienFremont/blog/tree/master/20171123-rest-api-maturity-levels-from-0-to-5)
-https://github.com/DamienFremont/blog/tree/master/20171123-rest-api-maturity-levels-from-0-to-5
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171123-rest-api-maturity-levels-from-0-to-5](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171123-rest-api-maturity-levels-from-0-to-5)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171123-rest-api-maturity-levels-from-0-to-5
  
  
 ## Origin

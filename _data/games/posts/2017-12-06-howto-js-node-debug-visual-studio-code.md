@@ -168,8 +168,8 @@ Debug Stop Icon
  
 ## Source on GitHub
  
-[https://github.com/DamienFremont/blog/tree/master/20171206-js-node-debug-visualstudiocode](https://github.com/DamienFremont/blog/tree/master/20171206-js-node-debug-visualstudiocode)
-https://github.com/DamienFremont/blog/tree/master/20171206-js-node-debug-visualstudiocode
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171206-js-node-debug-visualstudiocode](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171206-js-node-debug-visualstudiocode)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171206-js-node-debug-visualstudiocode
  
 ## References
  

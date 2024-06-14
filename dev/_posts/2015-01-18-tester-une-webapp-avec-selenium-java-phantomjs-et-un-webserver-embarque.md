@@ -452,8 +452,8 @@ Des solution à base de refactoring du code (Page pattern par exemple) ou carré
  
 # Source code
  
-[https://github.com/damienfremont/blog/tree/master/20150118-test-selenium](https://github.com/damienfremont/blog/tree/master/20150118-test-selenium)
-https://github.com/damienfremont/blog/tree/master/20150118-test-selenium
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150118-test-selenium](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150118-test-selenium)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150118-test-selenium
  
 # References
  

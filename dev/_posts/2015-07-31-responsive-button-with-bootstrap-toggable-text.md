@@ -221,8 +221,8 @@ Responsive Buttons
  
 # Source
  
-[https://github.com/DamienFremont/blog/tree/master/20150731-bootstrap-responsive_button](https://github.com/DamienFremont/blog/tree/master/20150731-bootstrap-responsive_button)
-https://github.com/DamienFremont/blog/tree/master/20150731-bootstrap-responsive_button
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150731-bootstrap-responsive_button](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150731-bootstrap-responsive_button)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150731-bootstrap-responsive_button
  
 # References
  

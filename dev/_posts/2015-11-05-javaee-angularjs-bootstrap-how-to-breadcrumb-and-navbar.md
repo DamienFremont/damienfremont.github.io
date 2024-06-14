@@ -392,8 +392,8 @@ web.xml
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151105-javaee-angularjs-bootstrap-breadcrumb](https://github.com/DamienFremont/blog/tree/master/20151105-javaee-angularjs-bootstrap-breadcrumb)
-https://github.com/DamienFremont/blog/tree/master/20151105-javaee-angularjs-bootstrap-breadcrumb
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151105-javaee-angularjs-bootstrap-breadcrumb](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151105-javaee-angularjs-bootstrap-breadcrumb)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151105-javaee-angularjs-bootstrap-breadcrumb
  
 # References
  

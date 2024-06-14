@@ -309,8 +309,8 @@ Never put a raw url in your html for the sake of maintenability. It’s controll
  
 # Sources
  
-[https://github.com/DamienFremont/blog/tree/master/20151015-javaee-angularjs-bootstrap-route-template](https://github.com/DamienFremont/blog/tree/master/20151015-javaee-angularjs-bootstrap-route-template)
-https://github.com/DamienFremont/blog/tree/master/20151015-javaee-angularjs-bootstrap-route-template
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151015-javaee-angularjs-bootstrap-route-template](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151015-javaee-angularjs-bootstrap-route-template)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151015-javaee-angularjs-bootstrap-route-template
  
 # References
  

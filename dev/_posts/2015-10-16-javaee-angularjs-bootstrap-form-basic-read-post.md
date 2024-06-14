@@ -529,8 +529,8 @@ animation.css
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151016-javaee-angularjs-bootstrap-form-basic](https://github.com/DamienFremont/blog/tree/master/20151016-javaee-angularjs-bootstrap-form-basic)
-https://github.com/DamienFremont/blog/tree/master/20151016-javaee-angularjs-bootstrap-form-basic
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151016-javaee-angularjs-bootstrap-form-basic](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151016-javaee-angularjs-bootstrap-form-basic)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151016-javaee-angularjs-bootstrap-form-basic
  
 # References
  

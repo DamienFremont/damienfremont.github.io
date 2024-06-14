@@ -802,8 +802,8 @@ web.xml
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151119-javaee-angularjs-bootstrap-auth_basic](https://github.com/DamienFremont/blog/tree/master/20151119-javaee-angularjs-bootstrap-auth_basic)
-https://github.com/DamienFremont/blog/tree/master/20151119-javaee-angularjs-bootstrap-auth_basic
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151119-javaee-angularjs-bootstrap-auth_basic](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151119-javaee-angularjs-bootstrap-auth_basic)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151119-javaee-angularjs-bootstrap-auth_basic
  
 # References
  

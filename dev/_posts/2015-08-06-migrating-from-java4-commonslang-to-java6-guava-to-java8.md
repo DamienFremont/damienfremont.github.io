@@ -458,8 +458,8 @@ There is no going back, for the purpose of quality and productivity. The only re
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20150806-java-commonslang_guava_java8](https://github.com/DamienFremont/blog/tree/master/20150806-java-commonslang_guava_java8)
-https://github.com/DamienFremont/blog/tree/master/20150806-java-commonslang_guava_java8
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150806-java-commonslang_guava_java8](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150806-java-commonslang_guava_java8)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150806-java-commonslang_guava_java8
  
 ## References
  

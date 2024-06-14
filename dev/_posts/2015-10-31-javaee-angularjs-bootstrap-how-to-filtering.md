@@ -391,8 +391,8 @@ pom.xml
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151031-javaee-angularjs-bootstrap-filter](https://github.com/DamienFremont/blog/tree/master/20151031-javaee-angularjs-bootstrap-filter)
-https://github.com/DamienFremont/blog/tree/master/20151031-javaee-angularjs-bootstrap-filter
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151031-javaee-angularjs-bootstrap-filter](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151031-javaee-angularjs-bootstrap-filter)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151031-javaee-angularjs-bootstrap-filter
  
 # References
  

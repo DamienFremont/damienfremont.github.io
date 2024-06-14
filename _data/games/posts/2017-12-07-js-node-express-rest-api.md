@@ -320,8 +320,8 @@ https://github.com/expressjs/express/tree/master/examples
  
 ## Source on Github
  
-[https://github.com/DamienFremont/blog/tree/master/20171207-js-node-express-rest-api](https://github.com/DamienFremont/blog/tree/master/20171207-js-node-express-rest-api)
-https://github.com/DamienFremont/blog/tree/master/20171207-js-node-express-rest-api
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171207-js-node-express-rest-api](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171207-js-node-express-rest-api)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20171207-js-node-express-rest-api
  
  
 ## Post on Wordpress

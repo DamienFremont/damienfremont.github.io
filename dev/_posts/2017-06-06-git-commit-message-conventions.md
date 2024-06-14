@@ -64,8 +64,8 @@ fix: remove deprecated fonts (#901)
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170606-git-commit-message-conventions/](https://github.com/DamienFremont/blog/tree/master/20170606-git-commit-message-conventions/)
-https://github.com/DamienFremont/blog/tree/master/20170606-git-commit-message-conventions/
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170606-git-commit-message-conventions/](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170606-git-commit-message-conventions/)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170606-git-commit-message-conventions/
  
  
  

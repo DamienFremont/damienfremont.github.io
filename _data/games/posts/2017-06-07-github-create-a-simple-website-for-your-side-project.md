@@ -171,8 +171,8 @@ The simplest way is to edit your files with GitHub website (no merge problem, no
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170607-github-create-simple-website](https://github.com/DamienFremont/blog/tree/master/20170607-github-create-simple-website)
-https://github.com/DamienFremont/blog/tree/master/20170607-github-create-simple-website
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170607-github-create-simple-website](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170607-github-create-simple-website)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170607-github-create-simple-website
  
 ## References
  

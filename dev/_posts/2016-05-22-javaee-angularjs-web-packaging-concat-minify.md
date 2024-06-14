@@ -633,8 +633,8 @@ For big projects: use nodejs build for front-end, and maven for back-end.
  
 ## Project
  
-[https://github.com/DamienFremont/blog/tree/master/20160522-javaee-angularjs-webpackaging_min_single_file](https://github.com/DamienFremont/blog/tree/master/20160522-javaee-angularjs-webpackaging_min_single_file)
-https://github.com/DamienFremont/blog/tree/master/20160522-javaee-angularjs-webpackaging_min_single_file
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160522-javaee-angularjs-webpackaging_min_single_file](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160522-javaee-angularjs-webpackaging_min_single_file)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160522-javaee-angularjs-webpackaging_min_single_file
  
 ## References
  

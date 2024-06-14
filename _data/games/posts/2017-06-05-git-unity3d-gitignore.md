@@ -35,8 +35,8 @@ obj
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170605-git-unity3d-gitignore](https://github.com/DamienFremont/blog/tree/master/20170605-git-unity3d-gitignore)
-https://github.com/DamienFremont/blog/tree/master/20170605-git-unity3d-gitignore
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170605-git-unity3d-gitignore](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170605-git-unity3d-gitignore)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170605-git-unity3d-gitignore
  
  
 ## Origin

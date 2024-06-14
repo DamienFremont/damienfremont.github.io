@@ -185,8 +185,8 @@ Cons:
  
 # Sources
  
-[https://github.com/DamienFremont/blog/tree/master/20151008-javaee-webjars-versions](https://github.com/DamienFremont/blog/tree/master/20151008-javaee-webjars-versions)
-https://github.com/DamienFremont/blog/tree/master/20151008-javaee-webjars-versions
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151008-javaee-webjars-versions](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151008-javaee-webjars-versions)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151008-javaee-webjars-versions
  
 # References
  

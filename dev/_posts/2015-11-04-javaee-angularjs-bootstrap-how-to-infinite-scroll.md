@@ -440,8 +440,8 @@ pom.xml
  
 # Project
  
-[https://github.com/DamienFremont/blog/tree/master/20151104-javaee-angularjs-bootstrap-infinite_scroll](https://github.com/DamienFremont/blog/tree/master/20151104-javaee-angularjs-bootstrap-infinite_scroll)
-https://github.com/DamienFremont/blog/tree/master/20151104-javaee-angularjs-bootstrap-infinite_scroll
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151104-javaee-angularjs-bootstrap-infinite_scroll](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151104-javaee-angularjs-bootstrap-infinite_scroll)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151104-javaee-angularjs-bootstrap-infinite_scroll
  
 # References
  

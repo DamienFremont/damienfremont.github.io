@@ -103,8 +103,8 @@ Start GitHub desktop client > Add message ‘Update README’ > Commit > Push > 
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170608-github-edit-markdown-files-locally](https://github.com/DamienFremont/blog/tree/master/20170608-github-edit-markdown-files-locally)
-https://github.com/DamienFremont/blog/tree/master/20170608-github-edit-markdown-files-locally
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170608-github-edit-markdown-files-locally](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170608-github-edit-markdown-files-locally)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170608-github-edit-markdown-files-locally
  
 ## References
  

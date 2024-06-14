@@ -26,8 +26,8 @@ target
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170605-git-java-gitignore](https://github.com/DamienFremont/blog/tree/master/20170605-git-java-gitignore)
-https://github.com/DamienFremont/blog/tree/master/20170605-git-java-gitignore
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170605-git-java-gitignore](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170605-git-java-gitignore)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170605-git-java-gitignore
  
  
 ## Origin

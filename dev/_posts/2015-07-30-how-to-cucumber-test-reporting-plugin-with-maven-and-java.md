@@ -286,8 +286,8 @@ Cucumber-Reports is good for reporting outside of the dev team (like managers).
  
 # Source
  
-[https://github.com/DamienFremont/blog/tree/master/20150730-test-cucumber_plugin_reporting](https://github.com/DamienFremont/blog/tree/master/20150730-test-cucumber_plugin_reporting)
-https://github.com/DamienFremont/blog/tree/master/20150730-test-cucumber_plugin_reporting
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150730-test-cucumber_plugin_reporting](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150730-test-cucumber_plugin_reporting)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150730-test-cucumber_plugin_reporting
  
 # References
  

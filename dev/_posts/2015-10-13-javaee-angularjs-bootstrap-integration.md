@@ -519,8 +519,8 @@ Cons: not so shiny from a web developer point of view (legacy, performance)
  
 # Sources
  
-[https://github.com/DamienFremont/blog/tree/master/20151013-javaee-angularjs-bootstrap](https://github.com/DamienFremont/blog/tree/master/20151013-javaee-angularjs-bootstrap)
-https://github.com/DamienFremont/blog/tree/master/20151013-javaee-angularjs-bootstrap
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151013-javaee-angularjs-bootstrap](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151013-javaee-angularjs-bootstrap)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20151013-javaee-angularjs-bootstrap
  
 # References
  

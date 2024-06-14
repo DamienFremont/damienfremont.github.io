@@ -39,7 +39,7 @@ La structure (classique) est composé d’un MVC coté front et d’un service R
  
 # Code
  
-[github source](https://github.com/damienfremont/blog/tree/master/20141215-todoapp-java)
+[github source](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20141215-todoapp-java)
 Récupérer le code à partir de github source puis builder le projet.
  
 ![alt text](/upload/160523003104758.jpg)

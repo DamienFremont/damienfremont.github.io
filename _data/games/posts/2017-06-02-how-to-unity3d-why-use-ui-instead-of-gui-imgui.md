@@ -68,8 +68,8 @@ You can download or code this example project.
 * run it on mobile
 * compare the result
  
-[https://github.com/DamienFremont/blog/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/](https://github.com/DamienFremont/blog/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/)
-https://github.com/DamienFremont/blog/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/
  
 Assets/Startup.cs
  
@@ -343,8 +343,8 @@ In this demo, we will test the two API side by side.
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/](https://github.com/DamienFremont/blog/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/)
-https://github.com/DamienFremont/blog/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170602-unity3d-use-ui-instead-of-gui-or-imgui/
  
 ## References
  

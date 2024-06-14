@@ -396,8 +396,8 @@ https://projectlombok.org/setup/eclipse
  
 ## Source
  
-[https://github.com/DamienFremont/blog/tree/master/20170610-java-with-lombok-avoid-boilerplate-or-generated-code](https://github.com/DamienFremont/blog/tree/master/20170610-java-with-lombok-avoid-boilerplate-or-generated-code)
-https://github.com/DamienFremont/blog/tree/master/20170610-java-with-lombok-avoid-boilerplate-or-generated-code
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170610-java-with-lombok-avoid-boilerplate-or-generated-code](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170610-java-with-lombok-avoid-boilerplate-or-generated-code)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20170610-java-with-lombok-avoid-boilerplate-or-generated-code
  
 ## References
  

@@ -339,4 +339,4 @@ text-group-translate.bat
 
 Source
 
-[https://github.com/DamienFremont/blog/tree/master/20190620-photoshop-script-translate-text-then-export](https://github.com/DamienFremont/blog/tree/master/20190620-photoshop-script-translate-text-then-export)
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20190620-photoshop-script-translate-text-then-export](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20190620-photoshop-script-translate-text-then-export)

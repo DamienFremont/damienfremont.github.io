@@ -112,7 +112,7 @@ Next step will be automation with scripts. Like running all tests at once, using
 
 ## Project
 
-https://github.com/DamienFremont/blog/tree/master/20160820-test-silkuli-ide-advanced
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20160820-test-silkuli-ide-advanced
 
 ## References
 

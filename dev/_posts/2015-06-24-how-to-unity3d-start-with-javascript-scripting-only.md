@@ -205,8 +205,8 @@ Tips : for a full scripting, remove default camera and light from the scene, and
  
 # Sources
  
-[https://github.com/DamienFremont/blog/tree/master/20150624-unity3d-start_scripting](https://github.com/DamienFremont/blog/tree/master/20150624-unity3d-start_scripting)
-https://github.com/DamienFremont/blog/tree/master/20150624-unity3d-start_scripting
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150624-unity3d-start_scripting](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150624-unity3d-start_scripting)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150624-unity3d-start_scripting
  
 # References
  

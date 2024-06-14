@@ -617,8 +617,8 @@ La dépendance à jersey-json est manquante. Ajouter au pom.xml
  
 # Sources
  
-[https://github.com/damienfremont/blog/tree/master/20150114-javaee-jersey_server](https://github.com/damienfremont/blog/tree/master/20150114-javaee-jersey_server)
-https://github.com/damienfremont/blog/tree/master/20150114-javaee-jersey_server
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150114-javaee-jersey_server](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150114-javaee-jersey_server)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150114-javaee-jersey_server
  
 # References
  

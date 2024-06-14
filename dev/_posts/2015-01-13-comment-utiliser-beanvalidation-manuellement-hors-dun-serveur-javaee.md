@@ -478,8 +478,8 @@ http://www.mkyong.com/spring-mvc/spring-3-mvc-and-jsr303-valid-example/
  
 # Sources
  
-[https://github.com/damienfremont/blog/tree/master/20150113-javaee-beanvalidator](https://github.com/damienfremont/blog/tree/master/20150113-javaee-beanvalidator)
-https://github.com/damienfremont/blog/tree/master/20150113-javaee-beanvalidator
+[https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150113-javaee-beanvalidator](https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150113-javaee-beanvalidator)
+https://github.com/DamienFremont/damienfremont.com-blog-labs/tree/master/20150113-javaee-beanvalidator
  
 # References
  
