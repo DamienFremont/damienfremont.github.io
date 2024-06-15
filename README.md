@@ -13,7 +13,9 @@ Official website (static)
 
 - install ruby 2 rubyinstaller-devkit-2.7.5-1-x64.exe from https://rubyinstaller.org/downloads/
 ````
-gem install jekyll bundler
+gem install jekyll -v '3.9.5'
+gem install bundler -v '1.17.3'
+
 bundle install
 ````
 
