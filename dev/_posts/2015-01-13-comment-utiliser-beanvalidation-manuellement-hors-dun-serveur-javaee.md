@@ -1,7 +1,7 @@
 ---
 layout: dev/post
 tags: java rest spring
-categories: top topjava
+categories: top
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "Ce tuto décrit comment valider un modèle de données manuellement avec JavaEE BeanValidation (JSR 303)..."
 ---
