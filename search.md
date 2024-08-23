@@ -13,6 +13,7 @@ permalink: /search/
   <!-- Search form -->
   {% include search-box.html %}
   <!-- List where search results will be rendered -->
+  <p> </p>
   <ul id="search-results"></ul>
 </div>
 
