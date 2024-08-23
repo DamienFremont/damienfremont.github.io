@@ -179,3 +179,10 @@ a.social-link span {
 a.social-link:hover span {
     border-bottom: 1px solid;
 }
+
+
+/* SEARCH */
+
+ul#search-results li {
+    list-style-type: none;
+}
