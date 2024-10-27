@@ -6,6 +6,8 @@ email: test@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I'm Damien Fremont.
   Software Developer, 13 years XP (Vancouver, Canada).
+author: Damien Fremont
+keywords: blog,dev,it,web,java,js,test,cucumber
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://damienfremont.com" # the base hostname & protocol for your site, e.g. http://example.com
 
