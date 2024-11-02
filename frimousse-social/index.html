@@ -13,6 +13,7 @@
     <!-- bootstrap 5.3.3 -->
     <meta name="theme-color" content="{{ site.browsercolor }}" />
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/bootstrap-icons.min.css">
 
     <!-- Custom -->
     <link rel="stylesheet" href="./assets/css/dev/site.css?version={{ site.version }}">
@@ -24,22 +25,27 @@
 
     <style>
         :root {
-            --site-bg: #5447EC;
+            --site-bg: black;
         }
+
         @media (min-width: 1200px) {
             .container {
                 max-width: 935px;
             }
         }
-        .border-dark {
-            border-color: var(--site-bg) !important;
-        }
+
+
         body {
             background-color: var(--site-bg) !important;
         }
+
         .navbar {
             background-color: var(--site-bg) !important;
         }
+
+        /* .fs-post img.border-dark {
+            border-color: var(--site-bg) !important;
+        } */
     </style>
 
 </head>
@@ -55,7 +61,28 @@
             </a>
         </div>
     </nav>
-    <div class="container p-0">
+    <div class="fs-social container p-0">
+        <div class="row p-1 m-0">
+            <div class="col p-0 m-0">
+                <a class="btn btn-secondary" href="https://www.instagram.com/frimousse_the_cat/" target="_blank">
+                    <i class="bi bi-instagram"></i></a>
+                <a class="btn btn-secondary" href="https://twitter.com/frimoussethecat" target="_blank">
+                    <i class="bi bi-twitter-x"></i></a>
+                <a class="btn btn-secondary" href="https://www.tiktok.com/@frimousse_the_cat" target="_blank">
+                    <i class="bi bi-tiktok"></i></a>
+                <a class="btn btn-secondary" href="https://www.youtube.com/@FrimousseTheCat" target="_blank">
+                    <i class="bi bi-caret-right-square-fill"></i></a>
+                <a class="btn btn-secondary" href="https://www.facebook.com/frimoussethecat/" target="_blank">
+                    <i class="bi bi-facebook"></i></a>
+                <a class="btn btn-secondary" href="https://mastodon.social/@frimoussethecat" target="_blank">
+                    <i class="bi bi-mastodon"></i></a>
+                <a class="btn btn-secondary" href="https://www.instagram.com/frimousse_the_cat/" target="_blank">
+                    <i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fs-posts container p-0">
 
         <div class="row p-0 m-0">
             <div class="col p-0 m-0">
