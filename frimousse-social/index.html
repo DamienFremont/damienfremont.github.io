@@ -23,15 +23,29 @@
     <meta name="keywords" content="pet,cat,tabby,photo,cute">
 
     <style>
+        :root {
+            --site-bg: #5447EC;
+        }
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 935px;
+            }
+        }
         .border-dark {
-            border-color: black !important;
+            border-color: var(--site-bg) !important;
+        }
+        body {
+            background-color: var(--site-bg) !important;
+        }
+        .navbar {
+            background-color: var(--site-bg) !important;
         }
     </style>
 
 </head>
 
-<body style="background-color: black;">
-    <nav class="navbar" style="background-color: #5447EC;" data-bs-theme="dark">
+<body>
+    <nav class="navbar" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/favicon-64.png" alt="Logo" width="30" height="24"
@@ -45,45 +59,45 @@
 
         <div class="row p-0 m-0">
             <div class="col p-0 m-0">
-                <img src="./content/20220219_222315-compressed.jpg" class="img-fluid border border-2 border-dark"
+                <img src="./content/20220219_222315-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
                     alt="...">
             </div>
             <div class="col p-0 m-0">
-                <img src="./content/20220215_200408-compressed.jpg" class="img-fluid border border-2 border-dark"
+                <img src="./content/20220215_200408-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
                     alt="...">
             </div>
             <div class="col p-0 m-0">
-                <img src="./content/20220212_005832-compressed.jpg" class="img-fluid border border-2 border-dark"
-                    alt="...">
-            </div>
-        </div>
-
-        <div class="row p-0 m-0">
-            <div class="col p-0 m-0">
-                <img src="./content/20220211_202422-compressed.jpg" class="img-fluid border border-2 border-dark"
-                    alt="...">
-            </div>
-            <div class="col p-0 m-0">
-                <img src="./content/20220124_143123-compressed.jpg" class="img-fluid border border-2 border-dark"
-                    alt="...">
-            </div>
-            <div class="col p-0 m-0">
-                <img src="./content/20220114_112300-compressed.jpg" class="img-fluid border border-2 border-dark"
+                <img src="./content/20220212_005832-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
                     alt="...">
             </div>
         </div>
 
         <div class="row p-0 m-0">
             <div class="col p-0 m-0">
-                <img src="./content/20220113_225728-compressed.jpg" class="img-fluid border border-2 border-dark"
+                <img src="./content/20220211_202422-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
                     alt="...">
             </div>
             <div class="col p-0 m-0">
-                <img src="./content/20220112_194449-compressed.jpg" class="img-fluid border border-2 border-dark"
+                <img src="./content/20220124_143123-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
                     alt="...">
             </div>
             <div class="col p-0 m-0">
-                <img src="./content/20220103_213529-compressed.jpg" class="img-fluid border border-2 border-dark"
+                <img src="./content/20220114_112300-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
+                    alt="...">
+            </div>
+        </div>
+
+        <div class="row p-0 m-0">
+            <div class="col p-0 m-0">
+                <img src="./content/20220113_225728-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
+                    alt="...">
+            </div>
+            <div class="col p-0 m-0">
+                <img src="./content/20220112_194449-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
+                    alt="...">
+            </div>
+            <div class="col p-0 m-0">
+                <img src="./content/20220103_213529-compressed.jpg" class="img-fluid border border-2 border-dark rounded rounded-3"
                     alt="...">
             </div>
         </div>
