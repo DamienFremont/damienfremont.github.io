@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="./assets/font/bootstrap-icons.min.css">
 
     <!-- Custom -->
-    <link rel="stylesheet" href="./assets/css/dev/site.css?version={{ site.version }}">
+    <!-- <link rel="stylesheet" href="./assets/css/dev/site.css?version={{ site.version }}"> -->
+
     <!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
     <title>Frimousse Social</title>
     <meta name="description" content="Just your typical tabby cat.">
@@ -92,13 +93,16 @@
 
         <div class="row p-0 m-0">
             <div class="fs-post col p-0 m-0">
-                <img src="./content/20220212_005832-compressed.jpg" class="img-fluid border border-2" alt="...">
+                <img src="./content/64.jpg" class="img-fluid border border-2"
+                    style="width: 100%" alt="..." id="test1">
             </div>
             <div class="fs-post col p-0 m-0">
-                <img src="./content/20220211_202422-compressed.jpg" class="img-fluid border border-2" alt="...">
+                <img src="./content/20220211_202422-compressed.64.jpg" class="img-fluid border border-2"
+                    style="width: 100%" alt="..." id="test2">
             </div>
             <div class="fs-post col p-0 m-0">
-                <img src="./content/20220124_143123-compressed.jpg" class="img-fluid border border-2" alt="...">
+                <img src="./content/20220124_143123-compressed.64.jpg" class="img-fluid border border-2"
+                    style="width: 100%" alt="..." id="test3">
             </div>
         </div>
 
@@ -153,16 +157,31 @@
         <div class="row p-0 m-0">
             <div class="fs-post col p-0 m-0">
                 <img src="./content/20211221_173613-compressed.jpg" class="img-fluid border border-2" alt="...">
-            </div>          
+            </div>
             <div class="fs-post col p-0 m-0">
                 <img src="./content/20211216_035032-compressed.jpg" class="img-fluid border border-2" alt="...">
-            </div>          
+            </div>
             <div class="fs-post col p-0 m-0">
                 <img src="./content/20211112_075603-compressed.jpg" class="img-fluid border border-2" alt="...">
-            </div>          
+            </div>
         </div>
 
     </div>
+
+    <script src="./assets/js/jquery-3.7.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('img#test1').each(function () {
+                $(this).attr('src', './content/20220212_005832-compressed.jpg');
+            });
+            $('img#test2').each(function () {
+                $(this).attr('src', './content/20220211_202422-compressed.jpg');
+            });
+            $('img#test3').each(function () {
+                $(this).attr('src', './content/20220124_143123-compressed.jpg');
+            });
+        });
+    </script>
 </body>
 
 </html>
