@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- favicon -->
+  <link rel="icon" href="./assets/img/favicon-64.png?version=20250323" />
+  <link rel="apple-touch-icon" href="./assets/img/favicon-64.png?version=20250323" />
+  <meta name="msapplication-TileImage" content="./assets/img/favicon-64.png?version=20250323" />
+
+  <!-- bootstrap 5.3.3 -->
+  <meta name="theme-color" content="{{ site.browsercolor }}" />
+  <link href="./assets/css/bootstrap.min.css?version=20250323" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/bootstrap-icons.min.css?version=20250323">
+
+  <!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+  <title>Frimousse Social</title>
+  <meta name="description" content="Just your typical tabby cat.">
+  <meta name="author" content="Damien FREMONT">
+  <meta name="keywords" content="pet,cat,tabby,photo,cute">
+
+  <!-- App -->
+  <link href="./assets/css/my-app.css?version=20250323" rel="stylesheet">
+
+</head>
+
+<body lang="en">
+
+  <!-- App -->
+  <script type="importmap">
+        {
+          "imports": {
+            "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js"      
+            }
+        }
+      </script>
+
+  <div id="app"></div>
+
+  <script type="module">
+    import { createApp } from 'vue'
+    import App from './assets/js/my-app.js?version=20250323'
+
+    createApp(App).mount('#app')
+  </script>
+
+</body>
+
+</html>
