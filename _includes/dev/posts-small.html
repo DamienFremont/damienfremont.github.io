@@ -1,9 +1,9 @@
 <!-- parameter: posts -->
 <!-- parameter: limit -->
 
-<div class="">
+<div class="list-group">
     {% for post in posts limit:limit %}
-    <div class="pb-xl-2">
+    <div class="pb-xl-2 list-group-item list-group-item-action">
         <a class="text-reset text-decoration-none" href="{{ post.url }}">
             {% include dev/summary-small.html post=post %}
         </a>

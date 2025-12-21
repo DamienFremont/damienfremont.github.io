@@ -1,13 +1,10 @@
 ---
 layout: dev/blog
 ---
-<h2>Posts: page {{ paginator.page }}</h2>
-
-<p>
-    {% include common/pagination.html %}
-</p>
+<h2>Posts - Page {{ paginator.page }}</h2>
 
 {% assign posts = paginator.posts %}
+
 {% include dev/posts.html posts=posts limit=10 %}
 
 <p>
