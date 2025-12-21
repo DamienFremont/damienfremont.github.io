@@ -126,6 +126,10 @@ pre.highlight {
 
 /* PAGINATION */
 
+.article {
+    border-radius: 6px;
+}
+
 .page-item .page-link {
     color: var(--shadow-bg);
 }

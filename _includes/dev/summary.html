@@ -11,12 +11,13 @@
             {% endif %}
 
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-8 p-3">
 
-            <div>
-
-                <h4 class="mb-0 text-limit-line-2">{{ post.title }}</h4>
-                <p class="mb-0 opacity-75 text-limit-line-2">{{ post.description }}</p>
+            <div class="fs-6">
+                <h4 class="mb-0 text-limit-line-2 fw-bold">
+                    <span style="color: #f67d6f;">Dev</span>
+                    {{ post.title }}
+                </h4>
                 <p>
                     <small class="text-muted">{{ post.date | date: "%F" }}</small>
                     {% for c in post.tags limit:3 %}
