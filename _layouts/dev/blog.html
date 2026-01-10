@@ -4,7 +4,7 @@ layout: dev/default
 
     <div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
 
-        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3 text-muted">
+        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
 
             <h4 class="pt-0 pb-3">Tutorials</h4>
             {% include dev/tutorials.html %}
@@ -17,11 +17,11 @@ layout: dev/default
             {% include dev/author.html %}
 
         </div>
-        <div class="d-none d-sm-none d-md-block col-md-4 d-lg-block col-lg-3 text-muted ">
+        <div class="d-none d-sm-none d-md-block col-md-4 d-lg-block col-lg-3">
 
             <h4 class="pt-0 pb-3">Top Posts</h4>
-            {% assign posts = site.categories['top'] %}
-            {% include dev/posts-small.html posts=posts limit=10 %}
+            {% assign posts = site.categories['top5'] %}
+            {% include dev/posts-small.html posts=posts %}
 
         </div>
 

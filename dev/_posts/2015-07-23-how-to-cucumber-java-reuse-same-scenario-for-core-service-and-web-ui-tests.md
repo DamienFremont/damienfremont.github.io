@@ -1,7 +1,7 @@
 ---
 layout: dev/post
 tags: bdd cucumber java junit test selenium
-categories: top topcucumber
+categories: top top5 topcucumber
 thumbnail: "/upload/160523003251963.jpg"
 description: "An example of unified code to reuse the same functional test scenario. Over unit tests of the core component code..."
 ---

@@ -1,7 +1,7 @@
 ---
 layout: dev/post
 tags: java junit spring tdd test
-categories: top topjava
+categories: top top5 topjava
 thumbnail: "/upload/post-thumbnail-tdd.png"
 description: Test-driven development is not about testing. Test-driven development is about development (and design), specifically improving the quality and design of code...
 ---
