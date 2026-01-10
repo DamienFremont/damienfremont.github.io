@@ -13,8 +13,9 @@
 :root {
     --code-bg: rgb(70, 75, 85);
     --code-color: rgb(201, 209, 217);
-    --bs-primary: #123b62;
+    --bs-primary: #2b3641;;
     --shadow-bg: rgb(70, 75, 85);
+    --navbar-bg: #2b3641;
 }
 
 
@@ -22,12 +23,12 @@
 
 .bd-navbar {
     padding:.75rem 0;
-    background-color: #0f3b68;
+    background-color: var(--navbar-bg);
 }
 .bd-navbar .navbar-toggler {
     padding:0;
     border:0
-   }
+}
 
 .navbar .navbar-brand img {
     height: 40px;
@@ -179,4 +180,35 @@ a.social-link:hover span {
 
 ul#search-results li {
     list-style-type: none;
+}
+
+
+/* NAV SCROLLER */
+
+.site-header-section {
+    background-color: var(--navbar-bg);
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
 }
