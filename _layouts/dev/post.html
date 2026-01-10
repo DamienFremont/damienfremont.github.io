@@ -3,7 +3,12 @@ layout: dev/blog
 ---
 
 <div class="article-header wp-block-group">
-    <h2 class="article-title wp-block-post-title">{{page.title}}</h2>
+
+    <h2 class="article-title wp-block-post-title fw-bold">
+        <span style="color: #f67d6f;">Dev.</span>
+        {{page.title}}
+    </h2>
+
     <p class="post-meta taxonomy-category">
         <small>By <a class="text-reset wp-block-heading" href="{{ site.baseurl }}/about">Damien</a></small>
         ·
@@ -15,6 +20,7 @@ layout: dev/blog
             rel="tag">{{tag}}</a>
         {% endfor %}
     </p>
+
 </div>
 
 <div class="post-content wp-block-post-content">{{content}}</div>
