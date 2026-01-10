@@ -126,10 +126,6 @@ pre.highlight {
 
 /* PAGINATION */
 
-.article {
-    border-radius: 6px;
-}
-
 .page-item .page-link {
     color: var(--shadow-bg);
 }
@@ -167,12 +163,6 @@ pre.highlight {
 
     border-bottom: 2px solid var(--shadow-bg);
     border-right: 2px solid var(--shadow-bg);
-}
-
-.summary img {
-    width: 270px;
-    height: 150px;
-    object-fit: cover;
 }
 
 /* SOCIAL */

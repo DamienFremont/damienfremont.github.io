@@ -1,0 +1,31 @@
+<!-- parameter: post -->
+
+<a class="list-group-item list-group-item-action 
+          d-flex 
+          gap-3 rounded-3 border border-0" style="padding: 0px;" href="{{ post.url }}">
+
+    <div class="col-auto" style="min-height: 100px; min-width: 120px; width: 120px;">
+
+        {% if post.thumbnail %}
+        <img class="img-fluid flex-shrink-0" style="height: 100%; object-fit: cover; width: 100%; 
+             border-radius: 6px 0px 0px 6px;"
+            alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}" />
+        {% endif %}
+
+    </div>
+    <div class="col gap-2 w-100 justify-content-between py-3">
+
+        <h6 class="mb-0 text-limit-line-2 fw-bold">
+            <span style="color: #f67d6f;">Dev</span>
+            {{ post.title }}
+        </h6>
+
+        <p class="mb-0 opacity-75">
+            <small class="text-muted">{{ post.date | date: "%F" }}</small>
+            {% for c in post.tags limit:3 %}
+            · <span class="text-muted"> {{c}} </span>
+            {% endfor %}
+        </p>
+
+    </div>
+</a>
