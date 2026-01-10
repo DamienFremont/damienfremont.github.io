@@ -17,12 +17,45 @@ layout: dev/default
             {% include dev/author.html %}
 
         </div>
-        <div class="d-none d-sm-none d-md-block col-md-4 d-lg-block col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
 
             <h4 class="pt-0 pb-3">Top Posts</h4>
             {% assign posts = site.categories['top5'] %}
             {% include dev/posts-small.html posts=posts %}
 
+            <br/>
+
+            <h4 class="pt-0 pb-3">Follow on</h4>
+            {% include dev/follow.html %}
+
         </div>
 
     </div>
+
+<div class="row dev-head p-3 p-md-5 p-xl-3 p-xxl-5">
+
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <h4 class="pt-0 pb-3">Top Posts in Tech</h4>
+        {% assign posts = site.categories['topdesign'] %}
+        {% include dev/posts-small.html posts=posts %}
+    </div>
+
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <h4 class="pt-0 pb-3">Top Posts in Java</h4>
+        {% assign posts = site.categories['topjava'] %}
+        {% include dev/posts-small.html posts=posts %}
+    </div>
+
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
+        {% assign posts = site.categories['topcucumber'] %}
+        {% include dev/posts-small.html posts=posts %}
+    </div>
+
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <h4 class="pt-0 pb-3">Top Posts in JS</h4>
+        {% assign posts = site.categories['topjavascript'] %}
+        {% include dev/posts-small.html posts=posts %}
+    </div>
+
+</div>
