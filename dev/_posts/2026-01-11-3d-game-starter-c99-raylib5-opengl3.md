@@ -1,7 +1,8 @@
 ---
 layout: dev/post
-tags: gamedev c opengl raylib
-thumbnail: "/upload/opensource.png"
+title: 3D Game Starter – C99 OpenGL3 Raylib5 CMake (2500+ FPS in 2020!)
+tags: gamedev c opengl raylib cmake
+thumbnail: "/upload/20260111-thumbnail.png"
 description: Hi everyone, this is the complete source code for my game Cars2048 (Android, 2017, Unity3D)...
 ---
 
@@ -17,6 +18,7 @@ description: Hi everyone, this is the complete source code for my game Cars2048 
   - [Install](#install)
   - [Usage](#usage)
   - [Assets](#assets)
+  - [Release](#release)
   - [Resources](#resources)
 
 ---------------------------------------
@@ -237,10 +239,12 @@ Condition: GPU: RTX-2060, CPU: i5-9600K, RAM: 32 GB
 
 ## Release
 
-- Source Code:
+- Source Code (monorepo):
   - [20260111-c99-raylib5-gl3-3dgame-starter-1.0.0-source-code](/upload/20260111-c99-raylib5-gl3-3dgame-starter-1.0.0-source-code)
-- Executable:
+- Executable (Win64):
   - [20260111-c99-raylib5-gl3-3dgame-starter-1.0.0-desktop_win64.zip](/upload/20260111-c99-raylib5-gl3-3dgame-starter-1.0.0-desktop_win64.zip)
+- Repository (GitHub):
+  - [c99-raylib5-gl3-3dgame-starter (GitHub)](https://github.com/DamienFremont/c99-raylib5-gl3-3dgame-starter)
 
 ## Resources
 
