@@ -1,23 +1,13 @@
 /* PALETTE (BOOTSTRAP) */
 
-/* :root {
-    --bs-body-color: #fff;
-    --bs-body-bg: #204a72;
-    --bs-primary: #123b62;
-    --bs-dark: rgb(18, 59, 98);
-    --bs-dark-rgb: 18, 59, 98;
-    --bs-light: rgb(253, 245, 226);
-    --bs-light-rgb: 253, 245, 226;
-} */
-
 :root {
+    --bs-primary: #2b3641;;
+
     --code-bg: rgb(70, 75, 85);
     --code-color: rgb(201, 209, 217);
-    --bs-primary: #2b3641;;
     --shadow-bg: rgb(70, 75, 85);
     --navbar-bg: #2b3641;
 }
-
 
 /* SITE */
 
@@ -36,8 +26,8 @@
 }
 
 .navbar .navbar-nav-svg {
-    width: 1rem;
-    height: 1rem
+    width: 2rem;
+    height: 2rem
 }
 
 .dev-head {
@@ -175,13 +165,11 @@ a.social-link:hover span {
     border-bottom: 1px solid;
 }
 
-
 /* SEARCH */
 
 ul#search-results li {
     list-style-type: none;
 }
-
 
 /* NAV SCROLLER */
 
