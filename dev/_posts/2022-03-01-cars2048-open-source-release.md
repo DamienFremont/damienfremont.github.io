@@ -1,13 +1,11 @@
 ---
 layout: dev/post
-tags: unity3d git
+tags: gamedev unity3d git
 thumbnail: "/upload/opensource.png"
 description: Hi everyone, this is the complete source code for my game Cars2048 (Android, 2017, Unity3D)...
 ---
     
-
 ![post-thumbnail](/upload/opensource.png)
-
 
 Hi everyone,
 

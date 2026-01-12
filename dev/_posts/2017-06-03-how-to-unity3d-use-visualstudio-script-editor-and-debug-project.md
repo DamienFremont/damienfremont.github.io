@@ -1,6 +1,6 @@
 ---
 layout: dev/post
-tags: csharp unity3d tools
+tags: gamedev csharp unity3d tools
 thumbnail: "/upload/170603170836847.png"
 description: "In this tutorial, you’ll see a project configured with VisualStudio. And how to run and debug it..."
 ---
