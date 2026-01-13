@@ -15,7 +15,7 @@ layout: dev/blog
         <small class="date wp-block-post-date">{{ page.date | date: "%F" }}</small>
         ·
         {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/tag/{{ tag }}"
+        <a href="{{ site.baseurl }}/tag/?query={{ tag }}"
             class="badge rounded-pill bg-secondary text-decoration-none"
             rel="tag">{{tag}}</a>
         {% endfor %}
