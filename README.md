@@ -31,18 +31,12 @@ http://127.0.0.1:4000/
 
 # Release
 
-## Github (no plugins)
-
-replace /tag folder
 ````bash
-rm -rf ./tag
-rm -rf ./_site
-bundle exec jekyll build
-cp -r ./_site/tag ./tag
-
-````
-
+git checkout main
+git push
 ----
+
+https://www.damienfremont.com/
 
 # Project
 
