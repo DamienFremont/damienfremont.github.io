@@ -1,0 +1,25 @@
+---
+layout: default
+title: Tag Results
+permalink: /tag/
+---
+
+<!-- REF: https://www.stephanmiller.com/static-site-search/ -->
+
+<div class="pt-3">
+  <p> </p>
+  <h2>Tag</h2>
+  <input id="search-box" type="text" name="query" disabled>
+  <ul id="search-results"></ul>
+</div>
+
+<!-- Import lunr.js from unpkg.com -->
+<script src="/assets/js/lunr-2.3.9.js"></script>
+<!-- Custom search script which we will create below -->
+<script src="/assets/js/search.js"></script>
+
+<script>
+  var searchTerm = getQuery('query');
+  document.getElementById('search-box').setAttribute("value", searchTerm);
+  searchFromUrl("/search-index.json");
+</script>

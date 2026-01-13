@@ -1,7 +1,5 @@
 // REF: https://www.stephanmiller.com/static-site-search/
 
-(function() {
-
     function showResults(results, store) {
       var searchResults = document.getElementById('search-results');
   
@@ -33,7 +31,7 @@
       }
     }
 
-    function searchResult(json) {
+    function searchResult(json, searchTerm) {
       // Initalize lunr.js with the fields to search.
       // The title field is given more weight with the "boost" parameter
       var idx = lunr(function () {
@@ -41,6 +39,7 @@
         this.field('title', { boost: 10 });
         this.field('author');
         this.field('category');
+        this.field('tags');
         this.field('content');
   
         for (var key in json) { // Add the JSON we generated from the site content to Lunr.js.
@@ -49,6 +48,7 @@
             'title': json[key].title,
             'author': json[key].author,
             'category': json[key].category,
+            'tags': json[key].tags,
             'content': json[key].content
           });
         }
@@ -58,15 +58,14 @@
       showResults(results, json);
     }
 
-    // INIT
-    var searchTerm = getQuery('query');
-    if (searchTerm) {
-      document.getElementById('search-box').setAttribute("value", searchTerm);
-      fetch("/search-index.json")
-        .then(response => response.json())
-        .then(json => searchResult(json))
-        .catch(error => console.log(error));
+    function searchFromUrl(url) {
+      var searchTerm = getQuery('query');
+      if (searchTerm) {
+        document.getElementById('search-box').setAttribute("value", searchTerm);
+        fetch(url)
+          .then(response => response.json())
+          .then(json => searchResult(json, searchTerm))
+          .catch(error => console.log(error));
+      }
     }
-
-  })();
   
