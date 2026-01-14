@@ -9,7 +9,7 @@
         {% if post.thumbnail %}
         <img class="img-fluid flex-shrink-0" style="height: 100%; object-fit: cover; width: 100%; 
              border-radius: 6px 0px 0px 6px;"
-            alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}" />
+            alt="{{ post.title }}" src="/upload/256x{{ post.thumbnail | relative_url }}.256x.jpg" />
         {% endif %}
 
     </div>

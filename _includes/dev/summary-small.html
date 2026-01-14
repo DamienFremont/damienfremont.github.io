@@ -6,7 +6,7 @@
 
             {% if post.thumbnail %}
             <img class="img-fluid rounded flex-shrink-0" alt="{{ post.title }}"
-                src="/128px/{{ post.thumbnail | relative_url }}" />
+                src="/upload/128x/{{ post.thumbnail | relative_url }}.128x.jpg" />
             {% else %}
             <img class="img-fluid rounded flex-shrink-0" alt="{{ post.title }}"
                 src="{{ site.baseurl }}/assets/img/Full-Stack-Developer-Tutorials.jpg" />
