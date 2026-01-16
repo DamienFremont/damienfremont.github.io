@@ -4,8 +4,8 @@ layout: dev/blog
 <h1>All Posts - Page {{ paginator.page }}</h1>
 
 {% assign posts = paginator.posts %}
-
-{% include dev/posts.html posts=posts limit=10 %}
+{% assign limit = 14 %}
+{% include dev/posts.html posts=posts limit=limit %}
 
 <p>
     {% include common/pagination.html %}
