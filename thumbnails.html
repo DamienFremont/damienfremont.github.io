@@ -1,0 +1,10 @@
+---
+layout: none
+---
+
+    {% for post in site.posts %}
+
+      <a href="{{ post.thumbnail | xml_escape }}" download>{{ post.thumbnail | xml_escape }}</a> <br/>
+
+      {% unless forloop.last %} {% endunless %}
+    {% endfor %}
