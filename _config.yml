@@ -40,7 +40,7 @@ paginate: 10
 paginate_path: "/posts/page:num/"
 
 browsercolor: #000
-copyright: © 2012-2024 Damien Fremont, All Rights Reserved
+copyright: © 2012-2026 Damien Fremont, All Rights Reserved
 
 defaults:
   - scope:
