@@ -5,4 +5,4 @@ layout: blog
 <h2>Category: {{ page.category | capitalize }}</h2>
 
 {% assign posts = site.categories[page.category] %}
-{% include dev/posts.html posts=posts limit=20 %}
+{% include posts.html posts=posts limit=20 %}

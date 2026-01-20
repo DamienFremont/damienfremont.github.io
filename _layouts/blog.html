@@ -7,26 +7,26 @@ layout: default
         <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
 
             <h2 class="pt-0 pb-3">Popular topics</h2>
-            {% include dev/tutorials.html %}
+            {% include tutorials.html %}
 
         </div>
         <div class="col-md-8 col-lg-6 px-md-5" role="main">
 
             {{content}}
 
-            {% include dev/author.html %}
+            {% include author.html %}
 
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
 
             <h2 class="pt-0 pb-3">Top Posts</h2>
             {% assign posts = site.categories['top5'] %}
-            {% include dev/posts-small.html posts=posts %}
+            {% include posts-small.html posts=posts %}
 
             <br/>
 
             <h4 class="pt-0 pb-3">Follow on</h4>
-            {% include dev/follow.html %}
+            {% include follow.html %}
 
         </div>
 
@@ -37,25 +37,25 @@ layout: default
     <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts in Tech</h4>
         {% assign posts = site.categories['topdesign'] %}
-        {% include dev/posts-small.html posts=posts %}
+        {% include posts-small.html posts=posts %}
     </div>
 
     <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts in Java</h4>
         {% assign posts = site.categories['topjava'] %}
-        {% include dev/posts-small.html posts=posts %}
+        {% include posts-small.html posts=posts %}
     </div>
 
     <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
         {% assign posts = site.categories['topcucumber'] %}
-        {% include dev/posts-small.html posts=posts %}
+        {% include posts-small.html posts=posts %}
     </div>
 
     <div class="col-md-6 col-lg-4 col-xl-3">
         <h4 class="pt-0 pb-3">Top Posts in JS</h4>
         {% assign posts = site.categories['topjavascript'] %}
-        {% include dev/posts-small.html posts=posts %}
+        {% include posts-small.html posts=posts %}
     </div>
 
 </div>

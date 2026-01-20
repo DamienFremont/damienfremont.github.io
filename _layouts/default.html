@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include dev/head.html %}
+{% include head.html %}
 
 <body class="bg-dark text-light">
     <main class="">
-        {% include dev/header.html %}
-        {% include dev/header-section.html %}
+        {% include header.html %}
+        {% include header-section.html %}
 
         {% assign repo = 'DamienFremont/blog' %}
-        {% include dev/github-ribbon.html repo=repo %}
+        {% include github-ribbon.html repo=repo %}
 
         {{content}}
 
-        {% include dev/footer.html %}
+        {% include footer.html %}
     </main>
 </body>
 
