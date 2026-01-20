@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java rest test
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "Voici comment créer un client HTTP REST en Java appelant un simple service CRUD. La solution se base..."

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 title: 3D Game Starter – C99 OpenGL3 Raylib5 CMake (2500+ FPS in 2020!)
 tags: gamedev c opengl raylib cmake
 thumbnail: "/upload/20260111-thumbnail.png"

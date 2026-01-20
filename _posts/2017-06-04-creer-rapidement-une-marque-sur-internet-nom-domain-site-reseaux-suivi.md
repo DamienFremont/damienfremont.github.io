@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: other
 thumbnail: "/upload/170604105827473.jpg"
 description: "Voici un rapide retour sur rendre une idée visible sur Internet. Et comment en faire le suivi, à moindre frais..."

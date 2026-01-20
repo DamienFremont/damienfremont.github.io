@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 title: "How to Photoshop Script: Export Layers to PNG Files"
 tags: assets javascript photoshop tools
 thumbnail: "/upload/screenshot006.png"

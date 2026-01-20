@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: bdd cucumber java test
 thumbnail: "/upload/post-thumbnail-cucumber.png"
 description: "This post explains how to migrate source code from simple JUnit test to Cucumber Java Test..."

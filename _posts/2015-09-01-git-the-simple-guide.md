@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: git quicktip
 thumbnail: "/upload/180225142838577.png"
 description: "just a simple guide for getting started with git. no deep shit..."

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: bdd cucumber java junit test
 thumbnail: "/upload/post-thumbnail-cucumber.png"
 description: "Ce tutorial explique comment écrire et coder des tests BDD (Behavior Driven Development) grâce à Cucumber ..."

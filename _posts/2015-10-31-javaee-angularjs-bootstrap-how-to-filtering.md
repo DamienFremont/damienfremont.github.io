@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "This tutorial is about a simple field that will filter datas. Using Bootstrap’s Data-Table and..."

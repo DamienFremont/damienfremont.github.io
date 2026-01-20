@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: bootstrap css javascript
 categories: top top5 topjavascript
 thumbnail: "/upload/post-thumbnail-bootstrap.jpg"

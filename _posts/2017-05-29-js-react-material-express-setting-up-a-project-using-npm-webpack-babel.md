@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: expressjs javascript nodejs reactjs
 thumbnail: "/upload/post-thumbnail-react.png"
 description: "This is the simplest example to build a webapp using ReactJS, MaterialUI..."

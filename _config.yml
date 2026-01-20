@@ -46,10 +46,10 @@ defaults:
   - scope:
       type: categories  # select all categories pages
     values:
-      layout: dev/category
+      layout: category
       permalink: category/:category/
   - scope:
       type: tags  # select all tag pages
     values:
-      layout: dev/tag
+      layout: tag
       permalink: tag/:tag/

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: gamedev agile tools
 thumbnail: "/upload/screen-shot-11-24-18-at-07-52-pm1.png"
 description: "Do you find project management stressful? Do you struggle to keep your tasks, team members, ..."

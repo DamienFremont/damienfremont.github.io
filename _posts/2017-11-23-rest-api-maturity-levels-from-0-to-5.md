@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: design rest
 categories: top top5 topdesign
 thumbnail: "/upload/171123171941151.png"

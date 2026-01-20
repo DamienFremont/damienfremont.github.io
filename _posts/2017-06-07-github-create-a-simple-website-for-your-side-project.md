@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: gamedev git tools
 thumbnail: "/upload/170607104421527.png"
 description: "In this tutorial, you will see how to generate a website with your existing markdown..."

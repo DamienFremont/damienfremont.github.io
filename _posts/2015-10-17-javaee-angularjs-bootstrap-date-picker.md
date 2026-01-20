@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "Build a DatePicker with AngularUI Widget from Bootstrap and post it to a REST Java server with..."

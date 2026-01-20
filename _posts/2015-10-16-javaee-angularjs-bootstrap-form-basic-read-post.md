@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "A tutorial about form with AngularJS and a rest server. Featuring most current usecases..."

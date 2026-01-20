@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: other
 thumbnail: "/upload/10years3.jpg"
 title: My blog is turning 10 years old today!

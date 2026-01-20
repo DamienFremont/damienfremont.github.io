@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "In Java, the development of batch can be achieved with few solutions. Most applications use their own code from scratch..."

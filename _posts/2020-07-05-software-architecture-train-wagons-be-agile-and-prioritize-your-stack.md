@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 title: Software Architecture – “Train wagons” – Be agile and prioritize your stack
 tags: agile design 
 categories: top topdesign

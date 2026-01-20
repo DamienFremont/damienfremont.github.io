@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: bdd cucumber java junit test
 thumbnail: "/upload/160523003309729.jpg"
 description: "It is often useful to show the results of our tests to others people who are not developers, like managers or executive..."

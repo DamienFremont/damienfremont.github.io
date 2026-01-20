@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 title: "How to Photoshop Script: Translate Text Then Save PNG for Each Language"
 tags: assets javascript photoshop tools
 thumbnail: "/upload/example-screenshot007.png"

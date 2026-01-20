@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: other
 thumbnail: "/upload/post-thumbnail-book.png"
 description: "Here are some, well known, books that I think are useful for IT projects..."

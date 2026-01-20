@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: agile quicktip
 categories: top top5 topdesign
 thumbnail: "/upload/171111002555610.png"

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "A simple picture upload with preview with alert messages for avatar and a multiple files upload..."

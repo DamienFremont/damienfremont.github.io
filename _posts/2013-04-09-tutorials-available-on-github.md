@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: other
 thumbnail: "/upload/blog-github.png"
 description: "Java projects for each posts are now available on my GitHub account..."

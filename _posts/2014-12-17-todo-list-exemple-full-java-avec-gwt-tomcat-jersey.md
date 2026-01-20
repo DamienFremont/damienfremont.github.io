@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java rest
 thumbnail: "/upload/160523003106111.jpg"
 description: "Ce tutoriel est la suite de todoapp js, mais en java cette fois-ci. C’est le dev d’une simple TODO list de type client-serveur..."

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: c quicktip
 thumbnail: "/upload/160523003237123.png"
 description: "This tutorial is intended for developers who want to start developing in C on Windows..."

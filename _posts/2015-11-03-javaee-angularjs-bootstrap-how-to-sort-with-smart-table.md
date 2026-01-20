@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "Here is a sortable data-table. Using Twitter Bootstrap,  ng-module SmartTable for front-end..."

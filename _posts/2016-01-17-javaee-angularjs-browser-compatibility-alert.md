@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "An example of alert in case of client side incompatible browser, like IE8. On others browsers like..."

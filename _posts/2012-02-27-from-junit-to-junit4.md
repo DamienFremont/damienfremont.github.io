@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java junit test
 thumbnail: "/upload/160523003036184.jpg"
 description: "A post about simple JUnit tests. Unit testing is necessary, but reduce its volume (source test) is always interrestin..."

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java
 categories: top topjava
 thumbnail: "/upload/post-thumbnail-java.png"

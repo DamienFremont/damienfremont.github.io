@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: git java quicktip
 thumbnail: "/upload/post-thumbnail-git.png"
 description: "A fulll .gitignore content for Java/maven users..."

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "You’re tired of spring batch? the future JavaEE batch API  leaves you cold?  

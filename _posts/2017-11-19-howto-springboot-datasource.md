@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: hibernate java spring
 categories: top topjava
 thumbnail: "/upload/post-thumbnail-springboot.jpg"

@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: java rest spring
 categories: top
 thumbnail: "/upload/post-thumbnail-java.png"

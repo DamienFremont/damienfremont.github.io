@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 categories: top topjavascript
 thumbnail: "/upload/post-thumbnail-angularjs.png"

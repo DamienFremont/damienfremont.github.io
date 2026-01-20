@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: bdd cucumber java test
 categories: top topcucumber
 thumbnail: "/upload/post-thumbnail-cucumber.png"

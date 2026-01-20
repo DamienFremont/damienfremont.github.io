@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: other
 thumbnail: "/upload/devfestnantes2018-log.pict-site.png"
 description: "Nous avons pu participer pour la première fois à la conférence DevFest à Nantes le 18 octobre 2018..."

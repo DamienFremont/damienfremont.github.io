@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "Here simple use cases: a static Bar chart and a dynamic Line chart. It’s build with d3js and nvd3..."

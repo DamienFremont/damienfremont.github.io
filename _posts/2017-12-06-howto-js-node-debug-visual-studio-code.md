@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: expressjs javascript nodejs tools
 thumbnail: "/upload/post-thumbnail-nodejs.jpg"
 description: "Visual Studio Code has support for JavaScript and out-of-the-box Node.js debugging. Here’s how..."

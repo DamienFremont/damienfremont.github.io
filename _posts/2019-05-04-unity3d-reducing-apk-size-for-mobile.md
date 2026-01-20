@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: gamedev android unity3d
 thumbnail: "/upload/diapositive1_002.png"
 description: "Keeping the file size of the built app to a minimum is important, especially for mobile devices or..."

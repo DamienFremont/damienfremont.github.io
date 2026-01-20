@@ -1,5 +1,5 @@
 ---
-layout: dev/post
+layout: post
 tags: angularjs java javascript
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "A simple way to handle loading screen before javascript kick-in, rely on ng-if...."
