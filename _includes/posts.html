@@ -4,7 +4,7 @@
 <div class="list-group gap-4">
 
     {% for post in posts limit:limit %}
-        {% include item-post.html post=post %}
+        {% include components/item-post.html post=post %}
     {%endfor%}
 
 </div>
