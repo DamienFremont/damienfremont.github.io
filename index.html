@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
-    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
+    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4">
 
         <h2 class="pt-0 pb-3">Popular topics</h2>
         {% include tutorials.html %}
 
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-6">
+    <div class="col-sm-12 col-md-8 col-lg-4">
 
         <h2 class="pt-0 pb-3">Latest Posts</h2>
         {% assign posts = site.posts %}
@@ -20,7 +20,7 @@ layout: default
         </p>
 
     </div>
-    <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
+    <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-2">
 
         <h2 class="pt-0 pb-3">Top Posts</h2>
         {% assign posts = site.categories['top5'] %}
