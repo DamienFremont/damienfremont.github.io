@@ -25,6 +25,10 @@
     width: 40px;
 }
 
+.nav-link svg {
+    height: 24px;
+    width: 24px;
+}
 
 .dev-head {
     background-color: #171b1e;
@@ -37,16 +41,6 @@ header {
 .btn-primary {
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
-}
-
-/* HOME */
-
-.bg-red {
-    background-color: #f21313;
-}
-
-.card {
-    filter: drop-shadow(2px 2px 3px var(--shadow-bg));
 }
 
 /* INDEX */
@@ -109,19 +103,6 @@ pre.highlight {
     font-size: 85%;
     line-height: 1.45;
     background-color: #161b22 !important;
-}
-
-/* PAGINATION */
-
-.page-item .page-link {
-    color: var(--shadow-bg);
-}
-
-.page-item.active .page-link {
-    z-index: 3;
-    color: #fff;
-    background-color: var(--bs-primary);
-    border-color: var(--bs-primary);
 }
 
 /* TAGS */

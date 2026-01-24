@@ -2,62 +2,191 @@
 layout: default
 ---
 
-<div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
-    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4">
+{% assign post_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
+{% assign post_2 = site.posts | where: 'id', "/2022/03/01/cars2048-open-source-release" | first %}
+{% assign post_3 = site.posts | where: 'id', "/2022/02/20/my-blog-is-turning-10-years-old-today" | first %}
+{% assign post_4 = site.posts | where: 'id', "/2021/02/18/test-driven-development-tdd-in-java-helloworld-examples" | first %}
+{% assign post_5 = site.posts | where: 'id', "/2020/07/05/software-architecture-train-wagons-be-agile-and-prioritize-your-stack" | first %}
+{% assign post_6 = site.posts | where: 'id', "/2019/06/20/how-to-photoshop-script-translate-text-then-save-png-for-each-language" | first %}
 
-        <h2 class="pt-0 pb-3">Popular topics</h2>
-        {% include tutorials.html %}
+{% assign post_project_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
+{% assign post_project_2 = site.posts | where: 'id', "/2022/03/01/cars2048-open-source-release" | first %}
+
+<div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
+    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2 offset-1">
+
+        <h2 class="pt-0 pb-3">Popular Tags</h2>
+        <div class="px-3">
+            {% include tutorials.html %}
+        </div>"
 
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-4">
+    <div class="col-sm-12 col-md-8 col-lg-6 offset-0">
 
-        <h2 class="pt-0 pb-3">Latest Posts</h2>
-        {% assign posts = site.posts %}
-        {% assign limit = 15 %}
-        {% include posts.html posts=posts limit=limit %}
+
+        <h2>Featured Posts</h2>
+
+        <div class="row">
+            <div class="col-md-6 my-3">
+                {% include components/post-item-vertical.html post=post_1 img-height="255px" %}
+            </div>
+            <div class="col-md-6">
+                <div class="row my-3">
+                    {% include components/post-item-vertical.html post=post_2 img-height="0px" %}
+                </div>
+                <div class="row my-3">
+                    {% include components/post-item-vertical.html post=post_3 img-height="133px" %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 my-3">
+                {% include components/post-item-vertical.html post=post_4 img-height="133px" %}
+            </div>
+            <div class="col-md-4 my-3">
+                {% include components/post-item-vertical.html post=post_5 img-height="133px" %}
+            </div>
+            <div class="col-md-4 my-3">
+                {% include components/post-item-vertical.html post=post_6 img-height="133px" %}
+            </div>
+        </div>
+
+        <h2 class="mt-4">Projects</h2>
+
+        <div class="row my-3">
+
+        <div class="mx-3" style="width: 18rem; height: 30rem;">
+            <a class="text-decoration-none text-reset" target="_blank"
+                href="https://store.steampowered.com/app/1920830/Fractal_City/">
+                <img src="{{ site.baseurl }}/assets/img/site-games-fractalcity-card.jpg"
+                    class="card-img-top rounded shadow" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Fractal City</strong></h5>
+                    <p class="card-subtitle text-muted"><strong>Plateformer</strong></p>
+                    <div class="card-text mt-2">
+                        <a class="store-btn" target="_blank"
+                            href="https://store.steampowered.com/app/1920830/Fractal_City/">
+                            <img src="/assets/img/btn_steam.png" class="rounded" width="120" height="40">
+                        </a>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="" style="width: 18rem; height: 30rem;">
+            <a class="text-decoration-none text-reset" target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars">
+                <img src="{{ site.baseurl }}/assets/img/site-games-cars20482-card.jpg"
+                    class="card-img-top rounded shadow" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Cars 2048</strong></h5>
+                    <p class="card-subtitle text-muted"><strong>Puzzle</strong></p>
+                    <div class="card-text mt-2">
+                        <a class="store-btn" target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars">
+                            <img src="/assets/img/btn-googleplay.png" class="rounded" width="120" height="40">
+                        </a>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="" style="width: 18rem; height: 30rem;">
+            <a class="text-decoration-none text-reset" target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion">
+                <img src="{{ site.baseurl }}/assets/img/site-games-zombiesmustdie-card.jpg"
+                    class="card-img-top rounded shadow" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Zombies Must Die (colab)</strong></h5>
+                    <p class="card-subtitle text-muted"><strong>Shooter</strong></p>
+                    <div class="card-text mt-2">
+                        <a class="store-btn" target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion">
+                            <img src="/assets/img/btn-googleplay.png" class="rounded" width="120" height="40">
+                        </a>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 my-3">
+
+                <h2 class="mt-4">Top Posts in Tech</h2>
+
+                {% assign posts = site.categories['topdesign'] %}
+                {% for post in posts limit:3 %}
+                <div class="row my-3">
+                    {% include components/post-item-horizontal.html post=post %}
+                </div>
+                {%endfor%}
+
+            </div>
+            <div class="col-md-6 my-3">
+
+                <h2 class="mt-4">Top Posts in Java</h2>
+
+                {% assign posts = site.categories['topjava'] %}
+                {% for post in posts limit:3 %}
+                <div class="row my-3">
+                    {% include components/post-item-horizontal.html post=post %}
+                </div>
+                {%endfor%}
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 my-3">
+
+                <h2 class="mt-4">Top Posts in Cucumber</h2>
+
+                {% assign posts = site.categories['topcucumber'] %}
+                {% for post in posts limit:3 %}
+                <div class="row my-3">
+                    {% include components/post-item-horizontal.html post=post %}
+                </div>
+                {%endfor%}
+
+            </div>
+            <div class="col-md-6 my-3">
+
+                <h2 class="mt-4">Top Posts in Javacript</h2>
+
+                {% assign posts = site.categories['topjavascript'] %}
+                {% for post in posts limit:3 %}
+                <div class="row my-3">
+                    {% include components/post-item-horizontal.html post=post %}
+                </div>
+                {%endfor%}
+
+            </div>
+        </div>
+        
+        <h2 class="mt-4">Older Posts</h2>
+
+        {% for post in site.posts limit:15 offset:0 %}
+        <div class="row my-3">
+            {% include components/post-item-horizontal.html post=post %}
+        </div>
+        {%endfor%}
+
         <p class="pagination justify-content-center p-3">
-            <a class="btn btn-secondary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">ALL POSTS &#62;</a>
+            <a class="btn btn-secondary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">Load More Posts</a>
         </p>
 
     </div>
-    <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-2">
+    <div class="col-sm-6 col-md-4 col-lg-2 offset-0">
 
         <h2 class="pt-0 pb-3">Top Posts</h2>
         {% assign posts = site.categories['top5'] %}
-        {% include posts-small.html posts=posts %}
+        {% include components/post-list-top.html posts=posts %}
 
-        <br/>
+        <br />
 
         <h4 class="pt-0 pb-3">Follow on</h4>
         {% include follow.html %}
 
     </div>
-</div>
-
-<div class="row dev-head p-3 p-md-5 p-xl-3 p-xxl-5">
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in Tech</h4>
-        {% assign posts = site.categories['topdesign'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in Java</h4>
-        {% assign posts = site.categories['topjava'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
-        {% assign posts = site.categories['topcucumber'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in JS</h4>
-        {% assign posts = site.categories['topjavascript'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
 </div>
