@@ -1,0 +1,12 @@
+<img 
+    class="img-fluid {{ include.class }}" 
+    style="height: 100%; object-fit: cover; width: 100%;" 
+    alt="thumbnail"
+
+    {% if include.url %} 
+        src="/upload/512x{{ include.url | relative_url }}.512x.jpg"
+    {% else %}
+        src="{{ site.baseurl }}/assets/img/thumbnail-empty.png"
+    {% endif %}
+
+/>
