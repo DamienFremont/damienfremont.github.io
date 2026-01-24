@@ -20,11 +20,11 @@
 
             </div>
             <ul class="navbar-nav fw-bold">
-                <div class="nav-item text-decoration-none">
+                <li class="nav-item text-decoration-none">
                     <a class="nav-link active" href="{{ site.baseurl }}/search" rel="home">
-                        {% include svg/icon-search.svg %}
+                        {% include icons/search.html %}
                     </a>
-                </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ site.baseurl }}/" rel="home">HOME</a>
                 </li>
@@ -43,19 +43,19 @@
                 <li class="nav-item col-6 col-md-auto">
                     <a class="nav-link active p-2" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"
                         target="_blank" rel="noopener">
-                        {% include svg/icon-linkedin.svg %}
+                        {% include icons/linkedin.html %}
                     </a>
                 </li>
                 <li class="nav-item col-6 col-md-auto">
                     <a class="nav-link active p-2" href="https://github.com/{{ site.github_username }}" target="_blank"
                         rel="noopener">
-                        {% include svg/icon-github.svg %}
+                        {% include icons/github.html %}
                     </a>
                 </li>
                 <li class="nav-item col-6 col-md-auto">
                     <a class="nav-link active p-2" href="https://x.com/{{ site.twitter_username }}"
                         target="_blank" rel="noopener">
-                        {% include svg/icon-x.svg %}
+                        {% include icons/x.html %}
                     </a>
                 </li>
             </ul>
