@@ -1,0 +1,40 @@
+<div class="list-group">
+
+    {% for post in include.posts limit:5 %}
+
+    <div class="pb-xl-2 list-group-item">
+
+        <a href="{{ post.url }}" class="text-reset text-decoration-none h-100">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <span class="display-5">
+                        {{ forloop.index }}
+                    </span>
+                </div>
+                <div class="col">
+
+                    <h6 class="fw-bold text-limit-line-2 my-0">
+                        <span style="color: #f67d6f;">Dev.</span>
+
+                        {{ post.title }}
+
+                    </h6>
+                    <div>
+                        <small class="text-body-secondary">
+
+                            {% for tag in post.tags limit:3 %}
+                            <span class="text-muted"> {{tag}} </span>
+                            {% endfor %}
+
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+    </div>
+
+    {%endfor%}
+
+</div>

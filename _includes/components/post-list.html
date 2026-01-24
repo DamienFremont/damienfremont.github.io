@@ -1,0 +1,7 @@
+<div>
+    {% for post in include.posts limit:limit %}
+    <div class="my-3" style="height: 100px;">
+        {% include components/post-item-horizontal.html post=post %}
+    </div>
+    {%endfor%}
+</div>

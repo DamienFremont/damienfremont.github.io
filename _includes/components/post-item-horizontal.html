@@ -1,0 +1,34 @@
+<a href="{{ include.post.url }}" class="text-decoration-none">
+
+    <div class="card" style="height: 100px;">
+        <div class="row g-0">
+            <div class="col-3" style="height: 100px;">
+                
+                {% include components/post-thumbnail.html url=include.post.thumbnail class="rounded-start" %}
+
+            </div>
+            <div class="col">
+                <div class="card-body">
+                    <h6 class="card-title 
+                    
+                               fw-bold text-limit-line-2">
+                        <span style="color: #f67d6f;">Dev.</span>
+                        {{ include.post.title }}
+
+                    </h6>
+                    <p class="card-text">
+                        <small class="text-body-secondary">
+
+                            <small class="text-muted">{{ include.post.date | date: "%F" }}</small>
+                            {% for tag in include.post.tags limit:3 %}
+                            · <span class="text-muted"> {{tag}} </span>
+                            {% endfor %}
+
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</a>
