@@ -6,7 +6,6 @@ layout: default
 
         <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
 
-            <h2 class="pt-0 pb-3">Popular topics</h2>
             {% include tutorials.html %}
 
         </div>
@@ -19,7 +18,7 @@ layout: default
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
 
-            <h2 class="pt-0 pb-3">Top Posts</h2>
+            <h3 class="pt-0 fw-bold text-secondary">Most Read</h3>
             {% assign posts = site.categories['top5'] %}
             {% include posts-small.html posts=posts %}
 

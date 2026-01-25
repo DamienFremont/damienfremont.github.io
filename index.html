@@ -12,19 +12,17 @@ layout: default
 {% assign post_project_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
 {% assign post_project_2 = site.posts | where: 'id', "/2022/03/01/cars2048-open-source-release" | first %}
 
-<div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
-    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2 offset-1">
+<div class="container-fluid">
 
-        <h2 class="pt-0 pb-3">Popular Tags</h2>
-        <div class="px-3">
-            {% include tutorials.html %}
-        </div>"
+<div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
+    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2 offset-0">
+
+        {% include tutorials.html %}
 
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-6 offset-0">
+    <div class="col-sm-12 col-md-8 col-lg-7 offset-0">
 
-
-        <h2>Featured Posts</h2>
+        <!-- <h2>Featured Posts</h2> -->
 
         <div class="row">
             <div class="col-md-6 my-3">
@@ -55,7 +53,7 @@ layout: default
 
         <div class="row my-3">
 
-        <div class="mx-3" style="width: 18rem; height: 30rem;">
+        <div class="" style="width: 18rem; height: 30rem;">
             <a class="text-decoration-none text-reset" target="_blank"
                 href="https://store.steampowered.com/app/1920830/Fractal_City/">
                 <img src="{{ site.baseurl }}/assets/img/site-games-fractalcity-card.jpg"
@@ -177,9 +175,8 @@ layout: default
         </p>
 
     </div>
-    <div class="col-sm-6 col-md-4 col-lg-2 offset-0">
-
-        <h2 class="pt-0 pb-3">Top Posts</h2>
+    <div class="col-sm-6 col-md-4 col-lg-3 offset-0">
+        
         {% assign posts = site.categories['top5'] %}
         {% include components/post-list-top.html posts=posts %}
 
@@ -189,4 +186,6 @@ layout: default
         {% include follow.html %}
 
     </div>
+</div>
+
 </div>
