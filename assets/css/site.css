@@ -1,23 +1,25 @@
 /* PALETTE (BOOTSTRAP) */
 
 :root {
-    --bs-primary: #2b3641;;
+    --bs-primary: #712cf9;;
 
     --code-bg: rgb(70, 75, 85);
     --code-color: rgb(201, 209, 217);
-    --shadow-bg: rgb(70, 75, 85);
-    --navbar-bg: #2b3641;
+
+    --navbar-color: #FFF;
+    --navbar-bg: #712cf9;
 }
 
 /* SITE */
 
 .bd-navbar {
-    padding:.75rem 0;
     background-color: var(--navbar-bg);
 }
-.bd-navbar .navbar-toggler {
-    padding:0;
-    border:0
+
+.bd-navbar .navbar-toggler,
+.bd-navbar .nav-link,
+.bd-navbar #bd-theme {
+    color: var(--navbar-color);
 }
 
 .navbar .navbar-brand img {
@@ -25,7 +27,8 @@
     width: 40px;
 }
 
-.nav-link svg {
+.nav-link svg,
+.bd-navbar #bd-theme svg {
     height: 24px;
     width: 24px;
 }
@@ -149,10 +152,6 @@ ul#search-results li {
 }
 
 /* NAV SCROLLER */
-
-.site-header-section {
-    background-color: var(--navbar-bg);
-}
 
 .nav-scroller {
   position: relative;

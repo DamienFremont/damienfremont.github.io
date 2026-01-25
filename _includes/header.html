@@ -10,21 +10,24 @@
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            {% include icons/hamburger.html %}
         </button>
 
         <!-- Menu -->
 
         <div class="collapse navbar-collapse" id="navbarText">
-            <div class="navbar-nav me-auto">
-
-            </div>
-            <ul class="navbar-nav fw-bold">
-                <li class="nav-item text-decoration-none">
+            <ul class="navbar-nav me-auto text-decoration-none fw-bold">
+                <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/search" rel="home">
-                        {% include icons/search.html %}
+                        {% include icons/search.html %} 
+                        SEARCH
                     </a>
                 </li>
+                <li class="nav-item ">
+                    {% include components/theme-switch-button.html %}
+                </li>
+            </ul>
+            <ul class="navbar-nav fw-bold">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/" rel="home">HOME</a>
                 </li>

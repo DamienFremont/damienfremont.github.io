@@ -1,0 +1,39 @@
+<style>
+    .bi {
+        width: 1em;
+        height: 1em;
+        fill: currentcolor;
+    }
+</style>
+
+<div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="bd-theme">
+        <svg class="bi theme-icon-active" aria-hidden="true">
+            <use href="#circle-half"></use>
+            <symbol id="circle-half" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+            </symbol>
+        </svg>
+        <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+    </button>
+    <ul class="dropdown-menu">
+        <li>
+            <button type="button" class="dropdown-item" data-bs-theme-value="light">
+                {% include icons/sun-fill-16.html %}
+                light
+            </button>
+        </li>
+        <li>
+            <button type="button" class="dropdown-item" data-bs-theme-value="dark">
+                {% include icons/moon-stars-fill-16.html %}
+                dark
+            </button>
+        </li>
+        <li>
+            <button type="button" class="dropdown-item" data-bs-theme-value="auto">
+                {% include icons/circle-half-16.html %}
+                auto
+            </button>
+        </li>
+    </ul>
+</div>
