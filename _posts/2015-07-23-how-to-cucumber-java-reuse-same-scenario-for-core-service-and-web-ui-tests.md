@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "How-To Cucumber: Re-use Same Scenario For Core Service And Web UI Tests"
 tags: bdd cucumber java junit test selenium
 categories: top top5 topcucumber
 thumbnail: "/upload/160523003251963.jpg"

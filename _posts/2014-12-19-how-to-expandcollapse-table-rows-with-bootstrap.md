@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "How-To Bootstrap: Expand and Collapse Table Rows With Bootstrap"
 tags: bootstrap css javascript
 categories: top top5 topjavascript
 thumbnail: "/upload/post-thumbnail-bootstrap.jpg"
