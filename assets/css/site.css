@@ -8,6 +8,7 @@
 
     --navbar-color: #FFF;
     --navbar-bg: #712cf9;
+    --site-box-shadow: #0000001a;
 }
 
 /* SITE */
@@ -31,6 +32,11 @@
 .bd-navbar #bd-theme svg {
     height: 24px;
     width: 24px;
+}
+
+.bd-navbar,
+.site-banner {
+    box-shadow: 0 -10px 20px 10px var(--site-box-shadow);
 }
 
 .dev-head {
