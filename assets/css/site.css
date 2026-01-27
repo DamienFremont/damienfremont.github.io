@@ -54,6 +54,15 @@
   height: 1.5rem;
 }
 
+@media (max-width: 576px) {
+    .site-navbar .theme-switch #bd-theme.btn {
+        padding-left: 0px !important;
+    }
+}
+.site-navbar .theme-switch #bd-theme.btn {
+    font-weight: 700 !important;
+}
+
 /* HEADER BANNER */
 
 .site-navbar,

@@ -14,11 +14,11 @@
     <!-- Style -->
     {% include head-icon.html %}
     <meta name="theme-color" content="{{ site.browsercolor }}" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?version={{ site.time | date: '%Y%m%d' }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?version={{ site.time | date: '%Y%m%d_%H%M%S' }}">
 
     <!-- Style: Custom -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css?version={{ site.time | date: '%Y%m%d' }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css?version={{ site.time | date: '%Y%m%d' }}">   
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css?version={{ site.time | date: '%Y%m%d_%H%M%S' }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css?version={{ site.time | date: '%Y%m%d_%H%M%S' }}">   
 
 {% include head-analytics.html %}
 
