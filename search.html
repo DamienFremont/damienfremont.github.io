@@ -18,10 +18,10 @@ permalink: /search/
 </div>
 
 <!-- Import lunr.js from unpkg.com -->
-<script src="/assets/js/lunr-2.3.9.js?version={{ site.time | date: '%Y%m%d' }}"></script>
+<script src="/assets/js/lunr-2.3.9.js?version={{ site.time | date: '%Y%m%d_%H%M%S' }}"></script>
 <!-- Custom search script which we will create below -->
-<script src="/assets/js/site-search.js?version={{ site.time | date: '%Y%m%d' }}"></script>
+<script src="/assets/js/site-search.js?version={{ site.time | date: '%Y%m%d_%H%M%S' }}"></script>
 
 <script>
-  searchFromUrl("/search-index.json?version={{ site.time | date: '%Y%m%d' }}");
+  searchFromUrl("/search-index.json?version={{ site.time | date: '%Y%m%d_%H%M%S' }}");
 </script>
