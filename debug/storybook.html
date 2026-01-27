@@ -1,0 +1,219 @@
+---
+layout: storybook
+
+post:
+    title: "Gamedev Trello For Project Management"
+    url: "http://127.0.0.1:4000/"
+    thumbnail: "upload/debug/post-thumbnail.jpg"
+    date: "2015-08-07"
+    tags: "java"
+
+posts:
+  - title: "Gamedev Trello For Project Management"
+    url: "http://127.0.0.1:4000/"
+    thumbnail: "upload/debug/post-thumbnail.jpg"
+    date: "2015-08-07"
+    tags: "java"
+  - title: "Gamedev Trello For Project Management"
+    url: "http://127.0.0.1:4000/"
+    date: "2015-08-07"
+    tags: "java"
+
+thumbnail: "upload/debug/post-thumbnail.jpg"
+
+paginator:
+    page: 1
+    per_page: 5
+    total_posts: 15
+    total_pages: 10
+    previous_page: false
+    next_page: true
+---
+
+<div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
+    <div class="row">
+
+        <div id="sidebar" class="col-md-3 text-reset text-decoration-none">
+
+            <strong>Documentation</strong>
+
+            <ul>
+                <li> <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap </a> </li>
+            </ul>
+
+            <strong>Library</strong>
+
+            <ul>
+                <li>
+                    <a href="#Components">Components </a>
+                    <ul>
+                        <li> <a href="#Icons">Icons </a> </li>
+                        <li> <a href="#Pagination">Pagination </a> </li>
+                        <li> <a href="#Post">Post </a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#Customize">Customize </a>
+                    <ul>
+                        <li> <a href="#Theme">Theme </a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#Modules">Modules</a>
+                    <ul>
+                        <li> <a href="#Search">Search </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <main class="col-md-9 bg-body-tertiary">
+
+            <h1 class="fw-bold">Storybook</h1>
+
+            <p>Storybook is a frontend workshop for building UI components and pages in isolation. It helps you develop
+                and share hard-to-reach states and edge cases without needing to run your whole app.</p>
+
+            <hr>
+
+            <h1 id="Components">Components #</h1>
+
+            <hr>
+
+            <h2 id="Icons">Icons #</h2>
+
+            {% include icons/facebook.html %}
+            {% include icons/github.html %}
+            {% include icons/googleplay.html %}
+            {% include icons/linkedin.html %}
+            {% include icons/search.html %}
+            {% include icons/x.html %}
+
+            <br />
+
+            {% include icons/circle-half-16.html %}
+            {% include icons/moon-stars-fill-16.html %}
+            {% include icons/sun-fill-16.html %}
+
+            <hr>
+
+            <h2 id="Pagination">Pagination #</h2>
+
+            <p>
+                {% include components/pagination.html paginator=page.paginator %}
+            </p>
+
+            <hr>
+
+            <h2 id="Post">Post #</h2>
+
+            <hr>
+
+            <h3>post-horizontal.html</h3>
+
+            <div style="width: 100%; height: 100px;">
+                {% include components/post-item-horizontal.html post=page.post %}
+            </div>
+
+            <h4>640px</h4>
+
+            <div style="width: 640px;">
+                {% for post in page.posts limit:2 %}
+                    <div style="height: 100px;">
+                        {% include components/post-item-horizontal.html post=post %}
+                    </div>
+                {%endfor%}
+            </div>
+
+            <h4>200px</h4>
+
+            <div style="width: 280px;">
+                {% for post in page.posts limit:2 %}
+                    <div style="height: 100px;">
+                        {% include components/post-item-horizontal.html post=post %}
+                    </div>
+                {%endfor%}
+            </div>
+
+            <hr>
+
+            <h3>post-list.html</h3>
+
+            <div style="width: 640px;">
+                {% include components/post-list.html posts=page.posts %}
+            </div>
+
+            <hr>
+
+            <h3>post-list-top.html</h3>
+
+            <div style="width: 280px;">
+                {% include components/post-list-top.html posts=page.posts %}
+            </div>
+
+            <hr>
+
+            <h3>post-vertical.html</h3>
+
+            <h4>width: 100%; height: 280px;</h4>
+
+            <div style="width: 100%;">
+                {% include components/post-item-vertical.html post=page.post img-height="280px" %}
+            </div>
+
+            <h4>width: 420px; height: 280px;</h4>
+
+            <div style="width: 420px;">
+                {% for post in page.posts limit:2 %}
+                    {% include components/post-item-vertical.html post=post img-height="280px" %}
+                {%endfor%}
+            </div>
+
+            <h4>width: 200px; height: 133px;</h4>
+
+            <div style="width: 200px;">
+                {% for post in page.posts limit:2 %}
+                    {% include components/post-item-vertical.html post=post img-height="133px" %}
+                {%endfor%}
+            </div>
+
+            <hr>
+
+            <h1 id="Customize">Customize</h1>
+
+            <hr>
+
+            <h2 id="Theme">Theme</h2>
+
+            <hr>
+
+            <h3>theme-switch-button.html</h3>
+
+            <div>
+                {% include components/theme-switch-button.html %}
+            </div>
+
+            <nav class="navbar bg-body-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Navbar</a>
+                    {% include components/theme-switch-button.html %}
+                </div>
+            </nav>
+
+            <hr>
+
+            <h1 id="Modules">Modules #</h1>
+
+            <hr>
+
+            <h2 id="Search">Search</h2>
+
+            <hr>
+
+            <h3>search-box.html </h3>
+
+            {% include components/search-box.html %}
+
+        </main>
+    </div>
+</div>

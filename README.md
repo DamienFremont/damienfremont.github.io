@@ -29,6 +29,11 @@ bundle exec jekyll serve --watch
 
 http://127.0.0.1:4000/
 
+http://127.0.0.1:4000/debug/storybook
+
+http://127.0.0.1:4000/debug/thumbnails
+
+
 # Release
 
 ````bash
@@ -102,7 +107,11 @@ https://www.damienfremont.com/
     - https://nad.is/
 - Style
   - svg
+    - https://icons.getbootstrap.com/
+    - https://icon-icons.com/icon/twitter-x-new-logo-rounded/256078
+    - https://uxwing.com/x-social-media-round-icon/
     - https://iconmonstr.com/linkedin-3-svg/
+    - https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg/svg/outlined
   - palettes
     - http://colormind.io/bootstrap/
   - css
