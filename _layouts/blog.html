@@ -2,59 +2,35 @@
 layout: default
 ---
 
-    <div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
+{% assign repo = 'DamienFremont/blog' %}
+{% include components/github-ribbon.html repo=repo %}
 
-        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
+<div class="container-fluid">
 
-            {% include tutorials.html %}
+<div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
+    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2 offset-0">
 
-        </div>
-        <div class="col-md-8 col-lg-6 px-md-5" role="main">
+        {% include tutorials.html %}
+
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-7 offset-0">
 
             {{content}}
 
             {% include author.html %}
+            
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 offset-0">
+        
+        {% assign posts = site.categories['top5'] %}
+        {% include components/post-list-top.html posts=posts %}
 
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
+        <br />
 
-            <h3 class="pt-0 fw-bold text-secondary">Most Read</h3>
-            {% assign posts = site.categories['top5'] %}
-            {% include posts-small.html posts=posts %}
-
-            <br/>
-
-            <h4 class="pt-0 pb-3">Follow on</h4>
-            {% include follow.html %}
-
-        </div>
+        <h4 class="pt-0 pb-3">Follow on</h4>
+        {% include follow.html %}
 
     </div>
-
-<div class="row dev-head p-3 p-md-5 p-xl-3 p-xxl-5">
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in Tech</h4>
-        {% assign posts = site.categories['topdesign'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in Java</h4>
-        {% assign posts = site.categories['topjava'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in Cucumber</h4>
-        {% assign posts = site.categories['topcucumber'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h4 class="pt-0 pb-3">Top Posts in JS</h4>
-        {% assign posts = site.categories['topjavascript'] %}
-        {% include posts-small.html posts=posts %}
-    </div>
+</div>
 
 </div>

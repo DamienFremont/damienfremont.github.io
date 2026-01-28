@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 ---
 
 {% assign post_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
@@ -12,15 +12,7 @@ layout: default
 {% assign post_project_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
 {% assign post_project_2 = site.posts | where: 'id', "/2022/03/01/cars2048-open-source-release" | first %}
 
-<div class="container-fluid">
 
-<div class="row p-3 p-md-5 p-xl-3 p-xxl-5">
-    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2 offset-0">
-
-        {% include tutorials.html %}
-
-    </div>
-    <div class="col-sm-12 col-md-8 col-lg-7 offset-0">
 
         <!-- <h2>Featured Posts</h2> -->
 
@@ -174,18 +166,3 @@ layout: default
             <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">Load More Posts</a>
         </p>
 
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 offset-0">
-        
-        {% assign posts = site.categories['top5'] %}
-        {% include components/post-list-top.html posts=posts %}
-
-        <br />
-
-        <h4 class="pt-0 pb-3">Follow on</h4>
-        {% include follow.html %}
-
-    </div>
-</div>
-
-</div>

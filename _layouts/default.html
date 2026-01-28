@@ -4,17 +4,20 @@
 {% include head.html %}
 
 <body class="">
-        {% include header-navbar.html %}
-        {% include header-banner.html %}
+    
+    {% include header-navbar.html %}
+    {% include header-banner.html %}
 
-        {% assign repo = 'DamienFremont/blog' %}
-        {% include components/github-ribbon.html repo=repo %}
+    
+    {% assign repo = 'DamienFremont/blog' %}
+    {% include components/github-ribbon.html repo=repo %}
 
     <main>
         {{content}}
     </main>
 
-        {% include footer.html %}
+    {% include footer.html %}
+
 </body>
 
 </html>
