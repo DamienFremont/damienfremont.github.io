@@ -1,0 +1,37 @@
+# robots.txt for https://www.damienfremont.com/
+
+User-agent: *
+Disallow: /*shop/browse/overlay/*
+Disallow: /*shop/iphone/payments/overlay/*
+Disallow: /cn/*/aow/*
+Disallow: /tmall*
+Allow: /ac/globalnav/2.0/*/images/ac-globalnav/globalnav/search/* 	
+
+User-agent: Baiduspider
+Disallow: /*
+Allow: /cn/*
+Allow: /cn-edu/*
+Allow: /cn-k12/*
+
+User-agent: HaoSouSpider
+Disallow: /*
+Allow: /cn/*
+Allow: /cn-edu/*
+Allow: /cn-k12/*
+
+User-agent: Sogou web spider
+Disallow: /*
+Allow: /cn/*
+Allow: /cn-k12/*
+
+User-agent: Sogou inst spider
+Disallow: /*
+Allow: /cn/*
+Allow: /cn-k12/*
+
+User-agent: Sogou spider2
+Disallow: /*
+Allow: /cn/*
+Allow: /cn-k12/*
+
+Sitemap: https://www.damienfremont.com/sitemap.xml
