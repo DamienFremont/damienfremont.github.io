@@ -10,13 +10,13 @@
         {% if paginator.previous_page %}
         <li class="page-item">
             <a class="page-link rounded-start-pill" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
-                <span aria-hidden="true">&#60; Prev</span>
+                <span aria-hidden="true" class="text-primary">&#60; Prev</span>
             </a>
         </li>
         {% else %}
         <li class="page-item disabled">
             <a class="page-link rounded-start-pill" href="#" aria-label="Previous">
-                <span aria-hidden="true">&#60; Prev</span>
+                <span aria-hidden="true" class="text-primary">&#60; Prev</span>
             </a>
         </li>
         {% endif %}
@@ -26,15 +26,15 @@
         {% for page in (1..paginator.total_pages) %}
             {% if page == paginator.page %}
         <li class="page-item active" aria-current="page">
-            <a class="page-link" href="#">{{ page }}</a>
+            <a class="page-link text-primary bg-primary-subtle" href="#">{{ page }}</a>
         </li>
             {% elsif page == 1 %}
         <li class="page-item">
-            <a class="page-link" href="{{ '/posts/' | relative_url }}">{{ page }}</a>
+            <a class="page-link text-primary" href="{{ '/posts/' | relative_url }}">{{ page }}</a>
         </li>
             {% else %}
         <li class="page-item">
-            <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+            <a class="page-link text-primary" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
         </li>
             {% endif %}
         {% endfor %}
@@ -44,13 +44,13 @@
         {% if paginator.next_page %}
         <li class="page-item">
             <a class="page-link rounded-end-pill" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
-                <span aria-hidden="true">Next &#62;</span>
+                <span aria-hidden="true" class="text-primary">Next &#62;</span>
             </a>
         </li>
         {% else %}
         <li class="page-item disabled">
             <a class="page-link rounded-end-pill" href="#" aria-label="Next">
-                <span aria-hidden="true">Next &#62;</span>
+                <span aria-hidden="true" class="text-primary">Next &#62;</span>
             </a>
         </li>
         {% endif %}
