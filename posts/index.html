@@ -11,8 +11,15 @@ redirect_from:
 <h3 class="pt-0 fw-bold text-secondary">All Posts - Page {{ paginator.page }}</h3>
 
 {% assign posts = paginator.posts %}
-{% assign limit = 14 %}
-{% include posts.html posts=posts limit=limit %}
+{% assign limit = 15 %}
+
+<div>
+    {% for post in posts limit:limit %}
+    <div class="my-3" style="height: 100px;">
+        {% include components/post-item-horizontal.html post=post %}
+    </div>
+    {%endfor%}
+</div>
 
 <p>
     {% include components/pagination.html %}
