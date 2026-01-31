@@ -36,20 +36,8 @@ plugins:
   
 permalink: /:year/:month/:day/:title
 # https://jekyllrb.com/docs/pagination/
-paginate: 10
+paginate: 15
 paginate_path: "/posts/page:num/"
 
 browsercolor: #000
 copyright: © 2012-2026 Damien Fremont, All Rights Reserved
-
-defaults:
-  - scope:
-      type: categories  # select all categories pages
-    values:
-      layout: category
-      permalink: category/:category/
-  - scope:
-      type: tags  # select all tag pages
-    values:
-      layout: tag
-      permalink: tag/:tag/
