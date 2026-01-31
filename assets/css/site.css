@@ -29,6 +29,10 @@
     color: var(--bs-primary) !important;
 }
 
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
 .bi {
     width: 1em;
     height: 1em;

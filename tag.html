@@ -1,5 +1,5 @@
 ---
-layout: search
+layout: page
 title: Tag Results
 permalink: /tag/
 ---
@@ -9,8 +9,16 @@ permalink: /tag/
 <div class="pt-3">
   <p> </p>
   <h2>Tag</h2>
-  <input id="search-box" type="text" name="query" disabled>
-  <ul id="search-results"></ul>
+
+  <div class="mb-3 row">
+    <div class="col-auto">
+      <input id="search-box" name="query" type="text" readonly
+        class="form-control-plaintext fw-bold bg-primary text-light rounded px-3">
+    </div>
+  </div>
+
+  <ul id="search-results" class="p-0"></ul>
+
 </div>
 
 <!-- Import lunr.js from unpkg.com -->
