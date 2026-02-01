@@ -33,13 +33,32 @@ http://127.0.0.1:4000/debug/storybook
 
 http://127.0.0.1:4000/debug/thumbnails
 
+Sitemap:
+
+- Home
+  - http://127.0.0.1:4000/
+- Posts
+  - http://127.0.0.1:4000/posts
+  - http://127.0.0.1:4000/posts/page2
+- Pages
+  - http://127.0.0.1:4000/index
+  - http://127.0.0.1:4000/dev
+  - http://127.0.0.1:4000/games
+  - http://127.0.0.1:4000/about
+- Services
+  - http://127.0.0.1:4000/tag/?query=test
+  - http://127.0.0.1:4000/search/?query=test
+  - http://127.0.0.1:4000/404
+- Files
+  - http://127.0.0.1:4000/privacy-policy/
+  - http://127.0.0.1:4000/terms-and-conditions/
 
 # Release
 
 ````bash
 git checkout main
 git push
-----
+````
 
 https://www.damienfremont.com/
 
@@ -69,15 +88,15 @@ https://www.damienfremont.com/
 |     author      | :heavy_check_mark: |
 |  github-ribbon  | :heavy_check_mark: |
 |  breadcrumb     |                :x: |
-|    analytic     |                :x: |
-|     search      |                :x: |
-|      video      |                :x: |
+|    analytic     | :heavy_check_mark: |
+|     search      | :heavy_check_mark: |
+|      video      | :heavy_check_mark: |
 |  share-widget   |                :x: |
 | infinite-scroll |         :no_entry: |
 |    comments     |         :no_entry: |
-|    thumbnail    |         :no_entry: |
-|     sitemap     |                :x: |
-|       seo       |                :x: |
+|    thumbnail    | :heavy_check_mark: |
+|     sitemap     | :heavy_check_mark: |
+|       seo       | :heavy_check_mark: |
 |    redirect     | :heavy_check_mark: |
 
 |     Content      |              State |
@@ -92,12 +111,12 @@ https://www.damienfremont.com/
 |    games page    |          :warning: |
 |     404 page     | :heavy_check_mark: |
 |     cv page      |                :x: |
-|    game page     |                :x: |
+|    game page     | :heavy_check_mark: |
 | comments archive |                :x: |
 |   socials page   |                :x: |
 |    demos page    |         :no_entry: |
 |   support page   |         :no_entry: |
-|   contact page   |         :no_entry: |
+|   contact page   | :heavy_check_mark: |
 
 # Resources
 
