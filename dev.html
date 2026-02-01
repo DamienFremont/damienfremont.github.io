@@ -9,11 +9,7 @@ permalink: /dev/
                 <h2 class="mt-4">Top Posts in Tech</h2>
 
                 {% assign posts = site.categories['topdesign'] %}
-                {% for post in posts limit:3 %}
-                <div class="row my-3">
-                    {% include components/post-item-horizontal.html post=post %}
-                </div>
-                {%endfor%}
+                {% include components/post-list.html posts=posts %}
 
             </div>
             <div class="col-md-6 my-3">
@@ -21,11 +17,7 @@ permalink: /dev/
                 <h2 class="mt-4">Top Posts in Java</h2>
 
                 {% assign posts = site.categories['topjava'] %}
-                {% for post in posts limit:3 %}
-                <div class="row my-3">
-                    {% include components/post-item-horizontal.html post=post %}
-                </div>
-                {%endfor%}
+                {% include components/post-list.html posts=posts %}
 
             </div>
         </div>
@@ -35,11 +27,7 @@ permalink: /dev/
                 <h2 class="mt-4">Top Posts in Cucumber</h2>
 
                 {% assign posts = site.categories['topcucumber'] %}
-                {% for post in posts limit:3 %}
-                <div class="row my-3">
-                    {% include components/post-item-horizontal.html post=post %}
-                </div>
-                {%endfor%}
+                {% include components/post-list.html posts=posts %}
 
             </div>
             <div class="col-md-6 my-3">
@@ -47,22 +35,16 @@ permalink: /dev/
                 <h2 class="mt-4">Top Posts in Javacript</h2>
 
                 {% assign posts = site.categories['topjavascript'] %}
-                {% for post in posts limit:3 %}
-                <div class="row my-3">
-                    {% include components/post-item-horizontal.html post=post %}
-                </div>
-                {%endfor%}
+                {% include components/post-list.html posts=posts %}
 
             </div>
         </div>
         
         <h2 class="mt-4">Latest Posts</h2>
 
-        {% for post in site.posts limit:15 offset:0 %}
-        <div class="row my-3">
-            {% include components/post-item-horizontal.html post=post %}
-        </div>
-        {%endfor%}
+        {% assign posts = site.posts %}
+        {% assign limit = 15 %}
+        {% include components/post-list.html posts=posts limit=limit %}
 
         <p class="pagination justify-content-center p-3">
             <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">Load More Posts</a>
