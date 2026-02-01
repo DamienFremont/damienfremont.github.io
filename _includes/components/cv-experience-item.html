@@ -1,0 +1,44 @@
+{% if include.collapse %}
+{% assign button_collapse = 'collapsed' %}
+{% assign body_collapse = 'collapse' %}
+{% else %}
+{% assign button_collapse = '' %}
+{% assign body_collapse = 'show' %}
+{% endif %}
+
+{% if include.logo %}
+{% assign logo_src = include.logo %}
+{% else %}
+{% assign logo_src = "/assets/files/cv-logo-empty.jpg" %}
+{% endif %}
+
+<div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button bg-light text-dark {{ button_collapse }}" type="button"
+            data-bs-toggle="collapse" data-bs-target="#{{ include.id }}" aria-expanded="true"
+            aria-controls="{{ include.id }}">
+
+            <div class="row">
+                <div class="text-limit-line-1 fw-bold">{{ include.title }}</div>
+            </div>
+
+        </button>
+    </h2>
+    <div id="{{ include.id }}" class="accordion-collapse {{ body_collapse }}">
+        <div class="accordion-body bg-light text-dark pt-0">
+
+            <div class="row">
+                <div class="col-auto">
+                    <img class="rounded-square" width="48" height="48" src="{{ logo_src }}">
+                </div>
+                <div class="col">
+                    <div class="text-limit-line-1">{{ include.company}} - {{ include.emp_type }}</div>
+                    <div class="text-limit-line-1">{{ include.dates }}</div>
+                    <div class="text-limit-line-1">{{ include.location }}</div>
+                    <div class="text-limit-line-1"><i>&#9734; {{ include.skills}}</i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
