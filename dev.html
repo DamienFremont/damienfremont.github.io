@@ -3,49 +3,14 @@ layout: blog
 permalink: /dev/
 ---
 
-        <div class="row">
-            <div class="col-md-6 my-3">
+{% include post-top-section.html %}
 
-                <h2 class="mt-4">Top Posts in Tech</h2>
+<h2 class="mt-4">Latest Posts</h2>
 
-                {% assign posts = site.categories['topdesign'] %}
-                {% include components/post-list.html posts=posts %}
+{% assign posts = site.posts %}
+{% assign limit = 15 %}
+{% include components/post-list.html posts=posts limit=limit %}
 
-            </div>
-            <div class="col-md-6 my-3">
-
-                <h2 class="mt-4">Top Posts in Java</h2>
-
-                {% assign posts = site.categories['topjava'] %}
-                {% include components/post-list.html posts=posts %}
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 my-3">
-
-                <h2 class="mt-4">Top Posts in Cucumber</h2>
-
-                {% assign posts = site.categories['topcucumber'] %}
-                {% include components/post-list.html posts=posts %}
-
-            </div>
-            <div class="col-md-6 my-3">
-
-                <h2 class="mt-4">Top Posts in Javacript</h2>
-
-                {% assign posts = site.categories['topjavascript'] %}
-                {% include components/post-list.html posts=posts %}
-
-            </div>
-        </div>
-        
-        <h2 class="mt-4">Latest Posts</h2>
-
-        {% assign posts = site.posts %}
-        {% assign limit = 15 %}
-        {% include components/post-list.html posts=posts limit=limit %}
-
-        <p class="pagination justify-content-center p-3">
-            <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">Load More Posts</a>
-        </p>
+<p class="pagination justify-content-center p-3">
+    <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">Load More Posts</a>
+</p>
