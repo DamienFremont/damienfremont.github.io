@@ -12,7 +12,7 @@
     </title>
 
     <!-- Style -->
-    {% include head-icon.html %}
+    {% include conponents/head-icon.html %}
     <meta name="theme-color" content="{{ site.browsercolor }}" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?version={{ site.time | date: '%Y%m%d_%H%M%S' }}">
 
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css?version={{ site.time | date: '%Y%m%d_%H%M%S' }}">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css?version={{ site.time | date: '%Y%m%d_%H%M%S' }}">   
 
-{% include head-analytics.html %}
+{% include conponents/head-analytics.html %}
 
 {% include head-wordpress.html %}
 
