@@ -24,7 +24,9 @@ redirect_from:
                 I'm a software developer and trainer. Most of my work today is focused on Tech Lead, Continuous
                 Integration, Agile Methods, Testability, REST Web Services and JavaEE/Spring Architecture. I share
                 theses professional experiences on my blog, and search new trends at DevoxxFr and ParisJUG. Creator of
-                mobile game 'Cars 2048', I also enjoy running marathons.
+                mobile game 'Cars 2048', I also enjoy running marathons. 
+                
+                Check my blog at https://damienfremont.com/dev/
             </p>
         </div>
     </div>
@@ -55,10 +57,45 @@ redirect_from:
             <div>
                 <h2>Education</h2>
                 <hr />
+                <ul>
+                    <li>
+                        <span>2009</span>
+                        <br/>
+                        <span class="fw-bold">Master's Degree, Computer Engineering</span>
+                        <br/>
+                        <span>Le Mans University, France</span>
+                    </li>
+                    <li>
+                        <span>2006</span>
+                        <br/>
+                        <span class="fw-bold">Bachelor's degree, Electrical and Electronics</span>
+                        <br/>
+                        <span>Angers University, France</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Expertise</h2>
+                <hr />
+                <ul>
+                    <li>Backend: Java, Rest, SpringBoot</li>
+                    <li>Frontend: JS, TS, React, Angluar</li>
+                    <li>Test: BDD, Cucumber, Selenium</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Language</h2>
+                <hr />
+                <ul>
+                    <li>French</li>
+                    <li>English</li>
+                </ul>
             </div>
 
             <div class="text-light">
-                <h2>Licenses & certifications</h2>
+                <h2>License & certification</h2>
                 <hr />
                 <ul>
                     <li>
@@ -85,23 +122,6 @@ redirect_from:
                             Cisco - CCNA 1 - Networks Basics (2007) 💾
                         </a>
                     </li>
-                </ul>
-            </div>
-            <div>
-                <h2>Expertise</h2>
-                <hr />
-                <ul>
-                    <li>Backend: Java, Rest, SpringBoot</li>
-                    <li>Frontend: JS, TS, React, Angluar</li>
-                    <li>Test: BDD, Cucumber, Selenium</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Language</h2>
-                <hr />
-                <ul>
-                    <li>French</li>
-                    <li>English</li>
                 </ul>
             </div>
         </div>
@@ -138,7 +158,7 @@ redirect_from:
                 company='Leboncoin.fr'
                 dates="Nov 2022 - Mar 2024 · 1 yr 5"
                 location="🐘 Nantes, Pays de la Loire, France"
-                skills="Java, JavaScript, SQL, Springboot, React, Posgres"
+                skills="Java, JavaScript, SQL, Springboot, React, Postgres"
                 logo="/assets/files/cv-logo-leboncoin.jpg"
                 %}
 
@@ -289,6 +309,35 @@ redirect_from:
                 %}
 
             </div>
+
+            <h2>Project</h2>
+            <hr />
+
+            <div class="accordion accordion-flush" id="accordionExample">
+
+                {% include components/cv-experience-item.html
+                id="proj_blog"
+
+                title='2012-26 Dev Tutorials (dev blog)'
+                dates='Jan 2012 - Present · 15 yrs'
+                skills="dev, web, java, html, javascript, typescript"
+                logo="/assets/files/cv-logo-blog.jpg"
+                url='https://www.damienfremont.com/dev/'
+                %}
+
+                {% include components/cv-experience-item.html
+                id="proj_g1"
+                collapse=true
+
+                title='2017 Cars 2048 (mobile game)'
+                dates='Jun 2017 - Oct 2017 · 4 mos'
+                skills="gamedev, android, unity3d, blender3d, photoshop"
+                logo="/assets/files/cv-logo-googleplay.jpg"
+                url='https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars'
+                %}
+
+            </div>
+
         </div>
     </div>
 </div>

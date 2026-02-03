@@ -32,10 +32,22 @@
                     <img class="rounded-square" width="48" height="48" src="{{ logo_src }}">
                 </div>
                 <div class="col">
+
+                    {% if include.company %}
                     <div class="text-limit-line-1">{{ include.company}} - {{ include.emp_type }}</div>
+                    {% endif %}
+
                     <div class="text-limit-line-1">{{ include.dates }}</div>
                     <div class="text-limit-line-1">{{ include.location }}</div>
                     <div class="text-limit-line-1"><i>&#9734; {{ include.skills}}</i></div>
+
+                    {% if include.url %}
+                    <div class="text-limit-line-1">
+                        <a class="btn btn-outline-dark btn-sm rounded-pill" 
+                        href="{{ include.url }}" target="_blank">Show Project</a>
+                    </div>
+                    {% endif %}
+
                 </div>
             </div>
 
