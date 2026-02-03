@@ -41,10 +41,6 @@
 
 /* HEADER NAVBAR */
 
-.site-navbar {
-    background-color: var(--navbar-bg);
-}
-
 .site-navbar .navbar-toggler,
 .site-navbar .nav-link,
 .site-navbar #bd-theme {
@@ -197,4 +193,11 @@ ul#search-results li {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
+}
+
+/* GAME */
+
+img.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
