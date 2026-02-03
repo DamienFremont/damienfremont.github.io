@@ -78,7 +78,7 @@ Note: Captured on mid-tier PC from 2020 (GPU: RTX-2060 with 6 GB VRAM, CPU: Inte
   - [x] launching screen
 
 Repository layout:
-```
+````powershell
 ├── assets
 │   └── images
 │   └── ...
@@ -95,7 +95,7 @@ Repository layout:
 └── tools
     └── blender
     └── ci
-```
+````
 
 ## Install
 
@@ -117,9 +117,9 @@ Visual Studio:
 - Click on `modify`
 
 PowerShell:
-```powershell
+````powershell
 cmake -S "." -B "build" -G "Visual Studio 17 2022"
-```
+````
 
 ## Usage
 
@@ -128,22 +128,22 @@ cmake -S "." -B "build" -G "Visual Studio 17 2022"
 - Pros: basic, no Editor, CI friendly.
 - Cons: manual actions intensive.
 
-```powershell
+````powershell
 .\tools\ci\install.bat
 
 .\tools\ci\dev.bat
 # OR
 .\tools\ci\release.bat
-```
+````
 
 ### VisualStudio 2022 (IDE)
 
 - Pros: better integration, 1 step compile+debug.
 - Cons: very laggy UI, bad search tools.
 
-```powershell
+````powershell
 .\tools\ci\install.bat
-```
+````
 
 ![alt text](/upload/20260111-thumb-vs-open.png)
 
@@ -154,11 +154,11 @@ cmake -S "." -B "build" -G "Visual Studio 17 2022"
 - Pros: better code editor, lightweight. 
 - Cons: 2 steps compile+debug
 
-```powershell
+````powershell
 .\tools\ci\install.bat
 
 .\tools\ci\watch.bat
-```
+````
 
 Run (press Ctrl+F5, or Menu > "Run" > "Run without Debugging")
 
