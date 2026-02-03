@@ -10,7 +10,17 @@
     <a class="text-decoration-none text-reset" href="{{ include.url }}" target="_blank">
 {% endif %}
 
-        <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.img }}" alt="thumbnail">
+    <div class="image-container">
+
+            <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.img }}" alt="thumbnail">
+
+            {% if include.discontinued %}
+                <div class="image-overlay rounded p-3">
+                    <span class="fw-bold border border-3 p-1">DISCONTINUED</span>
+                </div>
+            {% endif %}
+
+    </div>
 
         <div class="card-body">
 
