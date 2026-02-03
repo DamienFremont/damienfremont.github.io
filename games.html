@@ -3,70 +3,48 @@ layout: page
 permalink: /games/
 ---
 
-<div class="container">
+<style>
+    body:has(.bg-games) {
+        background-image: linear-gradient(to bottom, black, blue);
+    }
+</style>
+
+<div class="container bg-games">
 
     <h2 class="mt-4 pt-0 fw-bold text-secondary"><strong>Featured Games</strong></h2>
 
     <div class="d-flex flex-wrap mb-4 mt-4">
 
-        <div class="h-100 m-3" style="width: 18rem;height: 30rem;">
-            <a class="text-decoration-none text-reset" target="_blank"
-                href="https://store.steampowered.com/app/1920830/Fractal_City/">
-                <img src="{{ site.baseurl }}/assets/img/site-games-fractalcity-card.jpg.512x.jpg"
-                    class="card-img-top rounded shadow" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Fractal City</strong></h5>
-                    <p class="card-subtitle text-muted"><strong>Plateformer</strong></p>
-                    <div class="card-text mt-2">
-                        <a class="store-btn" target="_blank"
-                            href="https://store.steampowered.com/app/1920830/Fractal_City/">
-                            <img src="/assets/img/btn_steam.png" class="rounded" width="120" height="40">
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
+        {% include components/game-card.html 
+            url="https://store.steampowered.com/app/1920830/Fractal_City/"
+            title="Fractal City"
+            type="PLATEFORMER"
+            img="/assets/img/site-games-fractalcity-card.jpg.512x.jpg"
+            steam_url="https://store.steampowered.com/app/1920830/Fractal_City/"
+        %}
 
-        <div class="h-100 m-3" style="width: 18rem;height: 30rem;">
-            <a class="text-decoration-none text-reset" target="_blank"
-                href="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars">
-                <img src="{{ site.baseurl }}/assets/img/site-games-cars20482-card.jpg.512x.jpg"
-                    class="card-img-top rounded shadow" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Cars 2048</strong></h5>
-                    <p class="card-subtitle text-muted"><strong>Puzzle</strong></p>
-                    <div class="card-text mt-2">
-                        <a class="store-btn" target="_blank"
-                            href="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars">
-                            <img src="/assets/img/btn-googleplay.png" class="rounded" width="120" height="40">
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
+        {% include components/game-card.html 
+            url="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars"
+            title="Cars 2048"
+            type="PUZZLE"
+            img="/assets/img/site-games-cars20482-card.jpg.512x.jpg"
+            googleplay_url="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars"
+        %}
 
-        <div class="h-100 m-3" style="width: 18rem;height: 30rem;">
-            <a class="text-decoration-none text-reset" target="_blank"
-                href="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion">
-                <img src="{{ site.baseurl }}/assets/img/site-games-zombiesmustdie-card.jpg.512x.jpg"
-                    class="card-img-top rounded shadow" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Zombies Must Die (colab)</strong></h5>
-                    <p class="card-subtitle text-muted"><strong>Shooter</strong></p>
-                    <div class="card-text mt-2">
-                        <a class="store-btn" target="_blank"
-                            href="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion">
-                            <img src="/assets/img/btn-googleplay.png" class="rounded" width="120" height="40">
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
+        {% include components/game-card.html 
+            discontinued=true
+
+            url="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion"
+            title="Zombies Must Die (colab)"
+            type="SHOOTER"
+            img="/assets/img/site-games-zombiesmustdie-card.jpg.512x.jpg"
+            googleplay_url="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion"
+        %}
 
     </div>
 
     <div class="d-grid gap-2 d-sm-flex">
-        <button class="btn btn-primary btn-lg fw-bold rounded-pill" type="button" data-toggle="collapse" data-bs-toggle="collapse"
+        <button class="btn btn-primary btn-lg bg-gradient fw-bold rounded-pill" type="button" data-toggle="collapse" data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
             See All Games</button>
     </div>
@@ -74,28 +52,23 @@ permalink: /games/
     <div class="collapse multi-collapse" id="multiCollapseExample2">
         <div class="d-flex flex-wrap mb-4 mt-4">
 
-            <div class="h-100 m-3" style="width: 18rem;height: 30rem;">
-                <a class="text-decoration-none text-reset" target="_blank"
-                    href="https://play.google.com/store/apps/details?id=com.damienfremont.project2048cars2">
-                    <img src="{{ site.baseurl }}/assets/img/site-games-cars2048-card.jpg.512x.jpg"
-                        class="card-img-top rounded shadow" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong>Cars 2048 Reloaded</strong></h5>
-                        <p class="card-subtitle text-muted"><strong>Puzzle</strong></p>
-                    </div>
-                </a>
-            </div>
+        {% include components/game-card.html 
+            discontinued=true
 
-            <div class="h-100 m-3 discontinued" style="width: 18rem;height: 30rem;">
-                <img src="{{ site.baseurl }}/assets/img/site-games-bikes2048-card.jpg.512x.jpg"
-                    class="card-img-top rounded shadow" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Bikes 2048 (discontinued)</strong></h5>
-                    <p class="card-subtitle text-muted"><strong>Puzzle</strong></p>
-                </div>
-                </a>
-            </div>
+            url="https://play.google.com/store/apps/details?id=com.damienfremont.project2048cars2"
+            title="Cars 2048 Reloaded (discontinued)"
+            type="PUZZLE"
+            img="/assets/img/site-games-cars2048-card.jpg.512x.jpg"
+            googleplay_url="https://play.google.com/store/apps/details?id=com.damienfremont.project2048cars2"
+        %}
 
+        {% include components/game-card.html 
+            discontinued=true
+
+            title="Bikes 2048 (discontinued)"
+            type="PUZZLE"
+            img="/assets/img/site-games-bikes2048-card.jpg.512x.jpg"
+        %}
 
         </div>
     </div>
@@ -104,7 +77,7 @@ permalink: /games/
 
     <div class="d-flex flex-row bd-highlight mb-4 mt-4">
 
-        <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/upload/presskits/damienfremont-cars2048-presskit.zip">Cars 2048 (press kit)</a>
+        <a class="btn btn-primary btn-lg bg-gradient fw-bold rounded-pill" href="{{ site.baseurl }}/upload/presskits/damienfremont-cars2048-presskit.zip">Cars 2048 (press kit)</a>
 
     </div>
 

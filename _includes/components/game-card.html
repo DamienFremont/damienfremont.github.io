@@ -1,0 +1,45 @@
+{% if include.discontinued %}
+{% assign img_css = "grayscale" %}
+{% else %}
+{% assign img_css = "" %}
+{% endif %}
+
+<div class="h-100 m-3" style="width: 18rem;height: 30rem;">
+
+{% if include.url %}
+    <a class="text-decoration-none text-reset" href="{{ include.url }}" target="_blank">
+{% endif %}
+
+        <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.img }}" alt="thumbnail">
+
+        <div class="card-body">
+
+            <h5 class="card-title mt-3">
+                <strong>{{ include.title }}</strong>
+            </h5>
+
+            <p class="card-subtitle text-muted">
+                <strong>{{ include.type }}</strong>
+            </p>
+
+            <div class="card-text mt-3">
+
+                {% if include.steam_url %}
+                <a class="store-btn" target="_blank" href="{{ include.steam_url }}">
+                    <img src="/assets/img/btn_steam.png" class="rounded" width="120" height="40">
+                </a>
+                {% endif %}
+                {% if include.googleplay_url %}
+                <a class="store-btn" target="_blank" href="{{ include.googleplay_url }}">
+                    <img src="/assets/img/btn-googleplay.png" class="rounded" width="120" height="40">
+                </a>
+                {% endif %}
+
+            </div>
+
+        </div>
+{% if include.url %}
+    </a>
+{% endif %}
+   
+</div>
