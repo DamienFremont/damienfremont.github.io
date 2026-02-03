@@ -5,7 +5,7 @@ Official website (static)
 - http://damienfremont.com
 
 
-![img](./doc/README.md-screenshot.png)
+![img](./docs/README.md-screenshot.png)
 
 ----
 
