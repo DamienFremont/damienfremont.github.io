@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: angularjs java javascript bootstrap
+strapline: "Dev"
 categories: top topjavascript
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "A paginated data-table with a back-end inspired by Spring-Data Repository pattern implementation..."

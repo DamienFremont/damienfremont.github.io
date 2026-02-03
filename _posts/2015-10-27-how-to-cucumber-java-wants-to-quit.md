@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: bdd cucumber java test
+strapline: "Dev"
 categories: top topcucumber
 thumbnail: "/upload/post-thumbnail-cucumber.png"
 description: "..."

@@ -2,6 +2,7 @@
 layout: post
 title: "How-To Bootstrap: Expand and Collapse Table Rows With Bootstrap"
 tags: bootstrap css javascript
+strapline: "Dev"
 categories: top top5 topjavascript
 thumbnail: "/upload/post-thumbnail-bootstrap.jpg"
 description: "How to do accordions effect on table rows with Bootstrap?..."

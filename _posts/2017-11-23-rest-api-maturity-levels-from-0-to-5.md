@@ -2,6 +2,7 @@
 layout: post
 title: "RESTful API Maturity Levels - From 0 To 5"
 tags: design rest
+strapline: "Dev"
 categories: top top5 topdesign
 thumbnail: "/upload/171123171941151.png"
 description: "This article is about RESTful maturity. It’s not a definition of levels of REST itself, but a simple approach..."

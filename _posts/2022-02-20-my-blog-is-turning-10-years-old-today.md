@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: other
+strapline: "News"
 thumbnail: "/upload/10years3.jpg"
 title: My blog is turning 10 years old today!
 description: "A decade has gone since I browse through the web looking for a platform for blogging and then decided to join WordPress after Blogge..."

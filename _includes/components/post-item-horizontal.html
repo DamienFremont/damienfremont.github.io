@@ -12,7 +12,11 @@
                     <h6 class="card-title 
                     
                                fw-bold text-limit-line-2">
-                        <span style="color: #f67d6f;">Dev.</span>
+
+                        {% if include.post.strapline %}
+                            <span style="color: #f67d6f;">{{ include.post.strapline }}.</span>
+                        {% endif %}
+
                         {{ include.post.title }}
 
                     </h6>

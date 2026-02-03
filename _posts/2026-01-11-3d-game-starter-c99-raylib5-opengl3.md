@@ -2,6 +2,7 @@
 layout: post
 title: 3D Game Starter – C99 OpenGL3 Raylib5 CMake (2500 FPS!)
 tags: gamedev c opengl raylib cmake
+strapline: "Dev"
 thumbnail: "/upload/20260111-thumbnail.png"
 description: 2024's small template to start your raylib game. Featuring 3D, C 2017, Raylib 5.0, OpenGL 3 and a modular architecture.
 ---
