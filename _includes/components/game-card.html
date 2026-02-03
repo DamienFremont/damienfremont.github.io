@@ -16,7 +16,12 @@
 
             {% if include.discontinued %}
                 <div class="image-overlay rounded p-3">
-                    <span class="fw-bold border border-3 p-1">DISCONTINUED</span>
+                    <span class="fw-bold border border-3 p-1 bg-black">DISCONTINUED</span>
+                </div>
+            {% endif %}
+            {% if include.upcoming %}
+                <div class="image-overlay rounded p-3">
+                    <span class="fw-bold border border-3 p-1 bg-black">UPCOMING</span>
                 </div>
             {% endif %}
 
