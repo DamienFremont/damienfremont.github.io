@@ -73,11 +73,6 @@
 
 /* HEADER BANNER */
 
-.site-navbar,
-.site-banner {
-    box-shadow: 0 -10px 20px 10px var(--site-box-shadow);
-}
-
 .site-banner a {
     color: var(--violet-light);
 }
