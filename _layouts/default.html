@@ -1,19 +1,15 @@
-<!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 
 {% include head.html %}
 
-<body class="">
-    
-    {% include navbar.html %}
-    {% include banner.html %}
-
-    
-    {% assign repo = 'DamienFremont/blog' %}
-    {% include components/github-ribbon.html repo=repo %}
-
+<body class="d-flex flex-column">
     <main>
+
+        {% include navbar.html %}
+
         {{content}}
+
+        </div>
     </main>
 
     {% include footer.html %}
