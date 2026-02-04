@@ -12,9 +12,7 @@ layout: home
 {% assign post_project_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
 {% assign post_project_2 = site.posts | where: 'id', "/2022/03/01/cars2048-open-source-release" | first %}
 
-
-
-        <!-- <h2>Featured Posts</h2> -->
+        <h2 class="mt-4">Featured</h2>
 
         <div class="row">
             <div class="col-md-6 my-3">
@@ -25,19 +23,8 @@ layout: home
                     {% include components/post-item-vertical.html post=post_2 img-height="0px" %}
                 </div>
                 <div class="row my-3">
-                    {% include components/post-item-vertical.html post=post_3 img-height="133px" %}
+                    {% include components/post-item-vertical.html post=post_3 img-height="175px" %}
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 my-3">
-                {% include components/post-item-vertical.html post=post_4 img-height="133px" %}
-            </div>
-            <div class="col-md-4 my-3">
-                {% include components/post-item-vertical.html post=post_5 img-height="133px" %}
-            </div>
-            <div class="col-md-4 my-3">
-                {% include components/post-item-vertical.html post=post_6 img-height="133px" %}
             </div>
         </div>
 
