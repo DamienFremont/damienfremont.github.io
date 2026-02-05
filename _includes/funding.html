@@ -4,21 +4,35 @@
 
     <ul class="list-unstyled">
 
+        {% if site.funding.buymeacoffee %}
         <li>
             <a class="text-reset text-decoration-none text-limit-line-1"
-                href="https://buymeacoffee.com/{{ site.funding.buy_me_a_coffee }}" target="_blank">
+                href="https://buymeacoffee.com/{{ site.funding.buymeacoffee }}" target="_blank">
                 {% include icons/buy-me-a-coffee.html %}
-                <span class="">buymeacoffee.com/{{ site.funding.buy_me_a_coffee }}</span>
+                <span class="">buymeacoffee.com/{{ site.funding.buymeacoffee }}</span>
             </a>
         </li>
+        {% endif %}
 
+        {% if site.funding.paypal_me %}
         <li>
             <a class="text-reset text-decoration-none text-limit-line-1"
-                href="https://www.paypal.com/paypalme/{{ site.funding.paypal }}" target="_blank">
+                href="https://www.paypal.com/paypalme/{{ site.funding.paypal_me }}" target="_blank">
                 {% include icons/paypal.html %}
-                <span class="">paypal.com/{{ site.funding.paypal }}</span>
+                <span class="">paypal.com/paypalme/{{ site.funding.paypal }}</span>
             </a>
         </li>
+        {% endif %}
+
+        {% if site.funding.paypal_donate %}
+        <li>
+            <a class="text-reset text-decoration-none text-limit-line-1"
+                href="https://www.paypal.com/donate/?hosted_button_id={{ site.funding.paypal_donate }}" target="_blank">
+                {% include icons/paypal.html %}
+                <span class="">paypal.com/donate/{{ site.funding.paypal }}</span>
+            </a>
+        </li>
+        {% endif %}
 
         <!-- TODO: pateron.com/damienfremont -->
         <!-- TODO: ko-fi.com/damienfremont -->

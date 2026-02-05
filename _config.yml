@@ -18,8 +18,10 @@ github_username:  damienfremont
 linkedin_username:  damienfremont
 
 funding:
-  buy_me_a_coffee: damienfremont
+  buymeacoffee: damienfremont
   paypal: damienfremont
+# paypal_me: damienfremont
+  paypal_donate: 5WTGL666THA58
 
 # Build settings
 plugins:
