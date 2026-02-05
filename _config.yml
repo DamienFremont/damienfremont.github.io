@@ -17,16 +17,8 @@ twitter_username: damien_fremont
 github_username:  damienfremont
 linkedin_username:  damienfremont
 
-games:
-  twitter_username: FremontGames
-  facebook_username: atalantoo
-  youtube_username: UCHN8g_PTmmdkJ291QmNSjQA
-  discord_username: TBA
-  instagram_username: fremontgames
-  reddit_username: DadaVinblanc
-  tumblr_username: atalantoo
-  itchio_username: TBA
-  imgur_username: atalantoo
+funding:
+  buy_me_a_coffee: damienfremont
 
 # Build settings
 plugins:
