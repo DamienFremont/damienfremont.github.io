@@ -22,7 +22,8 @@ funding:
   paypal: damienfremont
 # paypal_me: damienfremont
   paypal_donate: 5WTGL666THA58
-
+  itchio: damienfremont
+  
 # Build settings
 plugins:
   - jekyll-feed

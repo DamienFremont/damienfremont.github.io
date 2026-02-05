@@ -19,7 +19,7 @@
             <a class="text-reset text-decoration-none text-limit-line-1"
                 href="https://www.paypal.com/paypalme/{{ site.funding.paypal_me }}" target="_blank">
                 {% include icons/paypal.html %}
-                <span class="">paypal.com/paypalme/{{ site.funding.paypal }}</span>
+                <span class="">paypal.com/{{ site.funding.paypal }}</span>
             </a>
         </li>
         {% endif %}
@@ -29,17 +29,24 @@
             <a class="text-reset text-decoration-none text-limit-line-1"
                 href="https://www.paypal.com/donate/?hosted_button_id={{ site.funding.paypal_donate }}" target="_blank">
                 {% include icons/paypal.html %}
-                <span class="">paypal.com/donate/{{ site.funding.paypal }}</span>
+                <span class="">paypal.com/{{ site.funding.paypal }}</span>
             </a>
         </li>
         {% endif %}
 
-        <!-- TODO: pateron.com/damienfremont -->
+        {% if site.funding.itchio %}
+        <li>
+            <a class="text-reset text-decoration-none text-limit-line-1"
+                href="https://{{ site.funding.itchio }}.itch.io/" target="_blank">
+                {% include icons/itch-io.html %}
+                <span class="">itchio.com/{{ site.funding.itchio }}</span>
+            </a>
+        </li>
+        {% endif %}
+
+        <!-- TODO: patreon.com/damienfremont -->
         <!-- TODO: ko-fi.com/damienfremont -->
-        <!-- TODO:itch -->
 
     </ul>
-
-
 
 </div>
