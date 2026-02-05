@@ -15,13 +15,31 @@
             <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.img }}" alt="thumbnail">
 
             {% if include.discontinued %}
-                <div class="image-overlay rounded p-3">
+                <div class="fixed-overlay rounded p-3">
                     <span class="fw-bold border border-3 py-1 px-3 bg-black">DISCONTINUED</span>
                 </div>
             {% endif %}
             {% if include.upcoming %}
-                <div class="image-overlay rounded p-3">
+                <div class="fixed-overlay rounded p-3">
                     <span class="fw-bold border border-3 py-1 px-3 bg-black">UPCOMING</span>
+                </div>
+            {% endif %}
+
+            {% if include.overlay_gif %}
+                <div class="hover-overlay rounded p-3">
+                    <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.overlay_gif }}">
+                </div>
+            {% endif %}
+            {% if include.overlay_vid %}
+                <div class="hover-overlay rounded p-3">
+                    <video class="card-img-top rounded shadow {{ img_css }}" 
+                        loop preload="auto" 
+                        muted
+                        onmouseover="this.play()" 
+                        onmouseout="this.pause(); this.currentTime=0;" >
+                        <source src="{{ site.baseurl }}{{ include.overlay_vid }}" type="video/mp4">
+                    </video>
+
                 </div>
             {% endif %}
 
