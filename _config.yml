@@ -17,13 +17,16 @@ twitter_username: damien_fremont
 github_username:  damienfremont
 linkedin_username:  damienfremont
 
+social:
+  discord_invite: PPTjWjjm9a
+
 funding:
   buymeacoffee: damienfremont
   paypal: damienfremont
 # paypal_me: damienfremont
   paypal_donate: 5WTGL666THA58
   itchio: damienfremont
-  
+
 # Build settings
 plugins:
   - jekyll-feed
