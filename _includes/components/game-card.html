@@ -1,47 +1,16 @@
-{% if include.discontinued %}
-{% assign img_css = "grayscale" %}
-{% else %}
-{% assign img_css = "" %}
-{% endif %}
-
 <div class="h-100 m-3" style="width: 18rem;height: 30rem;">
-
-{% if include.url %}
-    <a class="text-decoration-none text-reset" href="{{ include.url }}" target="_blank">
-{% endif %}
 
     <div class="image-container">
 
+    {% if include.url %}
+        <a class="text-decoration-none text-reset" href="{{ include.url }}" target="_blank">
+    {% endif %}
+
             <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.img }}" alt="thumbnail">
 
-            {% if include.discontinued %}
-                <div class="fixed-overlay rounded p-3 ">
-                    <span class="fw-bold py-2 px-4 bg-black shadow">DISCONTINUED</span>
-                </div>
-            {% endif %}
-            {% if include.upcoming %}
-                <div class="fixed-overlay rounded p-3">
-                    <span class="fw-bold py-2 px-4 bg-primary shadow">UPCOMING</span>
-                </div>
-            {% endif %}
-
-            {% if include.overlay_gif %}
-                <div class="hover-overlay rounded p-3">
-                    <img class="card-img-top rounded shadow {{ img_css }}" src="{{ site.baseurl }}{{ include.overlay_gif }}">
-                </div>
-            {% endif %}
-            {% if include.overlay_vid %}
-                <div class="hover-overlay rounded p-3">
-                    <video class="card-img-top rounded shadow {{ img_css }}" 
-                        loop preload="auto" 
-                        muted
-                        onmouseover="this.play()" 
-                        onmouseout="this.pause(); this.currentTime=0;" >
-                        <source src="{{ site.baseurl }}{{ include.overlay_vid }}" type="video/mp4">
-                    </video>
-
-                </div>
-            {% endif %}
+    {% if include.url %}
+        </a>
+    {% endif %}
 
     </div>
 
@@ -71,8 +40,5 @@
             </div>
 
         </div>
-{% if include.url %}
-    </a>
-{% endif %}
    
 </div>
