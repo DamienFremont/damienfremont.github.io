@@ -1,89 +1,48 @@
 ---
-layout: page
+layout: default
 permalink: /games/
 ---
 
-<style>
-    body:has(.bg-games) {
-        background-image: linear-gradient(to bottom, black, blue);
-    }
-</style>
+<div class="p-0">
 
-<div class="container bg-games">
+    {% include components/game-item-container.html 
+        url="https://store.steampowered.com/app/1920830/Fractal_City/"
+        img="/assets/img/site-games-fractalcity-card.jpg.512x.jpg"
+        title="Fractal City (UPCOMING)"
+        type="PLATEFORMER"
+        description="Fractal City is a puzzle and surviving game. Set in a mysterious and old city, it's an innovative new game and will offer gamers hours of unique gameplay."
+        steam_url="https://store.steampowered.com/app/1920830/Fractal_City/"
+        background="/assets/img/site-games-fractalcity-background.jpg"
+    %}
 
-    <h2 class="mt-4 pt-0 fw-bold text-secondary"><strong>Featured Games</strong></h2>
+    {% include components/game-item-container.html 
+        url="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars"
+        title="Cars 2048"
+        type="PUZZLE"
+        description="Cars 2048 is a fun and easy to play game. Swipe to move the cars parts and assemble them to create new cars. There are multiple levels and cars. Unlock them all!"
+        img="/assets/img/site-games-cars20482-card.jpg.512x.jpg"
+        googleplay_url="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars"
+        background="/assets/img/site-games-cars2048-card-background.jpg"
+    %}
 
-    <div class="d-flex flex-wrap mb-4 mt-4">
+    {% include components/game-item-container.html 
+        title="Zombies Must Die (colab, DISCONTINUED)"
+        type="SHOOTER"
+        description="Zombies Must Die is an addictive top-down arcade shooter. It's like Ikary Warriors, but better!"
+        img="/assets/img/site-games-zombiesmustdie-card.jpg.512x.jpg"
+        background="/assets/img/site-games-zombiesmustdie-background.jpg"
+    %}
 
-        {% include components/game-card.html 
-            upcoming=true
-            overlay_gif="/assets/img/site-games-fractalcity-card.hover.gif"
+</div>
 
-            url="https://store.steampowered.com/app/1920830/Fractal_City/"
-            title="Fractal City"
-            type="PLATEFORMER"
-            img="/assets/img/site-games-fractalcity-card.jpg.512x.jpg"
-            steam_url="https://store.steampowered.com/app/1920830/Fractal_City/"
-        %}
+<div class="container py-3">
 
-        {% include components/game-card.html
-            overlay_vid="/assets/img/site-games-cars20482-card.hover.mp4"
-
-            url="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars"
-            title="Cars 2048"
-            type="PUZZLE"
-            img="/assets/img/site-games-cars20482-card.jpg.512x.jpg"
-            googleplay_url="https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars"
-        %}
-
-        {% include components/game-card.html 
-            discontinued=true 
-            overlay_vid="/assets/img/site-games-zombiesmustdie-card.hover.mp4"
-
-            url="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion"
-            title="Zombies Must Die (colab)"
-            type="SHOOTER"
-            img="/assets/img/site-games-zombiesmustdie-card.jpg.512x.jpg"
-            googleplay_url="https://play.google.com/store/apps/details?id=com.michthegamedev.zombieinvazion"
-        %}
-
-    </div>
-
-    <div class="d-grid gap-2 d-sm-flex">
-        <button class="btn btn-primary btn-lg fw-bold rounded-pill" type="button" data-toggle="collapse" data-bs-toggle="collapse"
-            data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
-            See All Games</button>
-    </div>
-
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-        <div class="d-flex flex-wrap mb-4 mt-4">
-
-        {% include components/game-card.html 
-            discontinued=true
-
-            url="https://play.google.com/store/apps/details?id=com.damienfremont.project2048cars2"
-            title="Cars 2048 Reloaded (discontinued)"
-            type="PUZZLE"
-            img="/assets/img/site-games-cars2048-card.jpg.512x.jpg"
-            googleplay_url="https://play.google.com/store/apps/details?id=com.damienfremont.project2048cars2"
-        %}
-
-        {% include components/game-card.html 
-            discontinued=true
-
-            title="Bikes 2048 (discontinued)"
-            type="PUZZLE"
-            img="/assets/img/site-games-bikes2048-card.jpg.512x.jpg"
-        %}
-
-        </div>
-    </div>
-
-    <h2 class="mt-4 pt-0 fw-bold text-secondary"><strong>Press Kits</strong></h2>
-
+    <h2 class="fw-bold text-secondary"><strong>Press Kits</strong></h2>  
+    <p>Want a quick to-go bag of these games, wallpapers, and logos? Download this handy zip file.</p>
     <div class="d-flex flex-row bd-highlight mb-4 mt-4">
 
-        <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/upload/presskits/damienfremont-cars2048-presskit.zip">Cars 2048 (press kit)</a>
+        <a class="btn btn-primary btn-lg fw-bold rounded-pill" 
+            href="{{ site.baseurl }}/upload/presskits/damienfremont-cars2048-presskit.zip">Cars 2048 (presskit)</a>
 
     </div>
 

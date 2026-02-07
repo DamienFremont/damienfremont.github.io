@@ -1,0 +1,68 @@
+{% if include.discontinued %}
+{% assign img_css = "grayscale" %}
+{% else %}
+{% assign img_css = "" %}
+{% endif %}
+
+<div class="py-5 bg-primary text-white"
+    style='background: url("{{ include.background }}") 0% 0% / cover;'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+
+                {% if include.url %}
+                <a class="text-decoration-none text-reset" href="{{ include.url }}" target="_blank">
+                {% endif %}
+                
+                    <img class="card-img-top rounded shadow {{ img_css }}" style="height: 300px; width: 230px;"
+                        src="{{ site.baseurl }}{{ include.img }}" alt="thumbnail">
+
+                {% if include.url %}
+                </a>
+                {% endif %}
+
+            </div>
+            <div class="col-md-6 col-lg-6 justify-content-start">
+
+                {% if include.url %}
+                <a class="text-decoration-none text-reset" href="{{ include.url }}" target="_blank">
+                {% endif %}
+
+                    <h2 class="mt-3">
+                        <strong>{{ include.title }}</strong>
+                    </h2>
+
+                    <p class="">
+                        <strong>{{ include.type }}</strong>
+                    </p>
+
+                    <p>
+                        {{ include.description }}
+                    </p>
+                {% if include.url %}
+                </a>
+                {% endif %}
+
+                <hr />
+
+                {% if include.url %}
+
+                    <h4>Available on</h4>
+
+                    {% if include.steam_url %}
+                    <a class="store-btn" target="_blank" href="{{ include.steam_url }}">
+                        <img src="/assets/img/btn_steam.png" class="rounded" width="120" height="40">
+                    </a>
+                    {% endif %}
+                    {% if include.googleplay_url %}
+                    <a class="store-btn" target="_blank" href="{{ include.googleplay_url }}">
+                        <img src="/assets/img/btn-googleplay.png" class="rounded" width="120" height="40">
+                    </a>
+                    {% endif %}
+
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>

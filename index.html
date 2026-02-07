@@ -12,8 +12,21 @@ layout: home
 {% assign post_project_1 = site.posts | where: 'id', "/2026/01/11/3d-game-starter-c99-raylib5-opengl3" | first %}
 {% assign post_project_2 = site.posts | where: 'id', "/2022/03/01/cars2048-open-source-release" | first %}
 
-        <h2 class="">Featured</h2>
+<div class="mb-3">
 
+    {% include components/game-item-container.html 
+        url="https://store.steampowered.com/app/1920830/Fractal_City/"
+        img="/assets/img/site-games-fractalcity-card.jpg.512x.jpg"
+        title="Fractal City (UPCOMING)"
+        type="PLATEFORMER"
+        description="Fractal City is a puzzle and surviving game. Set in a mysterious and old city, it's an innovative new game and will offer gamers hours of unique gameplay."
+        steam_url="https://store.steampowered.com/app/1920830/Fractal_City/"
+        background="/assets/img/site-games-fractalcity-background.jpg"
+    %}
+
+</div>
+<div class="border rounded-4 bg-primary g-3 py-3 px-4 m-0 mt-2 mt-md-0">
+        <h2 class="fw-bold text-light">Latest Posts</h2>
         <div class="row">
             <div class="col-md-6 my-3">
                 {% include components/post-item-vertical.html post=post_1 img-height="255px" %}
@@ -23,12 +36,18 @@ layout: home
                     {% include components/post-item-vertical.html post=post_2 img-height="0px" %}
                 </div>
                 <div class="row my-3">
-                    {% include components/post-item-vertical.html post=post_3 img-height="175px" %}
+                    {% include components/post-item-vertical.html post=post_3 img-height="155px" %}
                 </div>
             </div>
         </div>
+</div>
+<div class="">
 
-        <h2 class="">Projects</h2>
+        <p class="pagination justify-content-center mt-4">
+            <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">See More Posts</a>
+        </p>
+
+        <h3 class="fw-bold">Projects</h3>
 
         <div class="row my-3">
 
@@ -62,9 +81,13 @@ layout: home
 
         </div>
 
+        <p class="pagination justify-content-center p-3">
+            <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/games/">See More Games</a>
+        </p>
+
        {% include post-top-section.html %}
         
-        <h2 class="mt-4">Latest Posts</h2>
+        <h3 class="mt-4 fw-bold">Latest Posts</h3>
 
         {% assign posts = site.posts %}
         {% assign limit = 15 %}
@@ -74,3 +97,4 @@ layout: home
             <a class="btn btn-primary btn-lg fw-bold rounded-pill" href="{{ site.baseurl }}/posts/">Load More Posts</a>
         </p>
 
+</div>
