@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Books"
 tags: other
 thumbnail: "/upload/post-thumbnail-book.png"
 description: "Here are some, well known, books that I think are useful …in any case, they were for me! Some are about Java or JavaEE, other Object Oriented Programming..."

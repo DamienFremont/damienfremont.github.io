@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Photoshop Script: Translate Text Then Save PNG for Each Language"
+strapline: "GameDev"
 tags: assets javascript photoshop tools
 thumbnail: "/upload/example-screenshot007.png"
 description: Photoshop script to translate text layers based on language JSON files, then export project to PNG images for each language...

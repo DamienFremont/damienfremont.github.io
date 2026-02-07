@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "GameDev"
 tags: unity3d
 thumbnail: "/upload/160523003233055.jpg"
 description: "This tutorial is for those who choose to program rather than using the Unity3d IDE..."

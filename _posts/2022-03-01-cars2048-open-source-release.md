@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "My Mobile Game Cars-2048 Is Open-Source Now!"
+strapline: "GameDev"
 tags: gamedev unity3d git
-strapline: "Dev"
 thumbnail: "/upload/opensource.png"
 description: Hi everyone, this is the complete source code for my game Cars2048 (Android, 2017, Unity3D)...
 ---

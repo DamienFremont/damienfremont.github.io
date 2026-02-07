@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Article"
 tags: other
 thumbnail: "/upload/170604105827473.jpg"
 description: "Suite du post Développeur freelance en 2015 : se lancer (1/3), autour des missions et de la paperasse quotidienne..."

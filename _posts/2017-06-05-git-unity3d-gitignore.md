@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "GameDev"
 tags: git quicktip unity3d
 thumbnail: "/upload/post-thumbnail-git.png"
 description: "A fulll .gitignore content for Unity3d users...."

@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "GameDev"
 tags: unity3d
 thumbnail: "/upload/160523003233055.jpg"
 description: "This tuturial explains how to build application without using the pro edition of Unity3d editor..."
@@ -56,17 +57,17 @@ Create a new file named build.bat at the project root folder, next to Assets fol
  
 build.bat
  
-```
+````powershell
 "C:\Program Files\Unity\Editor\Unity.exe" -quit -batchmode  -logFile stdout.log -buildWindowsPlayer "builds\build.exe"
-```
+````
  
 ## Details :
  
 execute unity3d in batchmode / command line :
  
-```
+````powershell
 "C:\Program Files\Unity\Editor\Unity.exe" -quit -batchmode
-```
+````
  
 create a log file containning build console output :
  
