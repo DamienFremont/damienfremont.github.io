@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: bootstrap css
 thumbnail: "/upload/post-thumbnail-bootstrap.jpg"
 description: "Comment faire des accordéons dans des lignes de tableau en Twitter Bootstrap ? Nous verrons..."

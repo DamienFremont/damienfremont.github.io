@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Books."
 tags: other
 thumbnail: "/upload/post-thumbnail-book.png"
 description: "Here are some, well known, books that I think are useful for IT projects..."

@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: java quicktip
 thumbnail: "/upload/160523003652696.png"
 description: "Use this when : a dependency is not available on a public Maven repository and you need your project..."

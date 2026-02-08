@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: git tools
 thumbnail: "/upload/170608110202364.png"
 description: "To be more productive, you can test your README.md locally and preview it in your IDE..."

@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: design quicktip
 thumbnail: "/upload/20150113-screenshot015.jpg"
 description: "Voici un tutoriel expliquant comment simplifier un modèle objet devenu trop complexe ou lourd à gérer..."

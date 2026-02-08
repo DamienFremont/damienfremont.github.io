@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: git quicktip
 thumbnail: "/upload/170614122312840.png"
 description: "Sometimes, you need to merge multiples repos, but you don’t want to loose your commit history. In this tutorial..."

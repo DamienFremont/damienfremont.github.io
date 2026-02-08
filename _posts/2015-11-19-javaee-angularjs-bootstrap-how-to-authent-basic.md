@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "This post is about basic authentification with AngularJs, Satellizer and JAX-RS Jersey..."

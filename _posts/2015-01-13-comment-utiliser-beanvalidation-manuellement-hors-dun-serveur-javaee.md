@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: java rest spring
 categories: top
 thumbnail: "/upload/post-thumbnail-java.png"

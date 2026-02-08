@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: expressjs javascript nodejs 
 thumbnail: "/upload/post-thumbnail-nodejs.jpg"
 description: "Express has support for REST API. This example is inspired by SpringBoot’s Data/REST generated API..."

@@ -1,6 +1,6 @@
 ---
 layout: post
 tags: other
-strapline: "Bot"
+strapline: "Dev."
 ---
 

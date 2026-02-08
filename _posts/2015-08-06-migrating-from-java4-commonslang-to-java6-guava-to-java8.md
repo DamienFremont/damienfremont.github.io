@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: java
-strapline: "Dev"
+strapline: "Dev."
 categories: top topjava
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "This tutorial cover code migration from different historical technical stacks. It goes from Java 1.4..."

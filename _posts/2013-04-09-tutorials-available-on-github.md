@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: other
 thumbnail: "/upload/blog-github.png"
 description: "Java projects for each posts are now available on my GitHub account..."

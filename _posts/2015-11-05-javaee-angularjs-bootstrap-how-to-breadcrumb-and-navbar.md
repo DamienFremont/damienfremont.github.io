@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "A navigation feature: simple responsive navbar, with breadcrumb and home view. Using vanilla AngularJS..."

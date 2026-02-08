@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "This tutorial is a basic integration of AngularJS, Bootstrap3, JavaEE JAX-RS, Maven and WebJars..."

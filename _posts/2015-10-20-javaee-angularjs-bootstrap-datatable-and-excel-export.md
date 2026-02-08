@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "This is a read-only table with a CSV export button, then an editable table form like Excel tab..."

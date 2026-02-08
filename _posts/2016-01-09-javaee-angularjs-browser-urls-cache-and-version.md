@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "This tutorial provides a way for the browser to manage different versions of the same resource...."

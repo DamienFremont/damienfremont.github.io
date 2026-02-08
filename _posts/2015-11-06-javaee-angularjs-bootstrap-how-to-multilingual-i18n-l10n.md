@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "This is about dynamic Internationalization (i18n*), Localization (L10n*) , Globalization..."

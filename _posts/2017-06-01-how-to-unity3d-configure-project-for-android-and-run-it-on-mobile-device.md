@@ -1,6 +1,6 @@
 ---
 layout: post
-strapline: "GameDev"
+strapline: "GameDev."
 tags: gamedev android unity3d
 thumbnail: "/upload/170601181253444.png"
 description: "In this tutorial, you start from scratch. You will install Unity3D, Android SDK, then configure a project for Android, and run it on a mobile device..."

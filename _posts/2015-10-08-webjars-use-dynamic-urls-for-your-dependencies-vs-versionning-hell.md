@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: java javascript
 thumbnail: "/upload/post-thumbnail-java.png"
 description: "WebJars is a useful tool. It’s a client-side web libraries (e.g. jQuery & Bootstrap) packaged..."

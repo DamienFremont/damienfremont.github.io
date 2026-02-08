@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: bootstrap css
-strapline: "Dev"
+strapline: "Dev."
 categories: top topjavascript
 thumbnail: "/upload/post-thumbnail-bootstrap.jpg"
 description: "The default Bootstrap buttons is not responsive. When the device is too small, the grid is responsive..."

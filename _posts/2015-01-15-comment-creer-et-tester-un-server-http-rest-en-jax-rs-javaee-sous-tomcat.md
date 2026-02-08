@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: java rest test
 thumbnail: "/upload/160523003128416.png"
 description: "Ce tutoriel couvre l’implémentation d’un server HTTP REST exposant du CRUD sur un simple objet...."

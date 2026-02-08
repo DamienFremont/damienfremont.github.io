@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: git java quicktip
 thumbnail: "/upload/post-thumbnail-git.png"
 description: "A fulll .gitignore content for Java/maven users..."

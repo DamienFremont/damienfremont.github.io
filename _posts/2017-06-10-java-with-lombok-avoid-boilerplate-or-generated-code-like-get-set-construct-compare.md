@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: java
 thumbnail: "/upload/170610105636974.png"
 description: "In this tutorial, you will compare the code between a “vanilla” approach..."

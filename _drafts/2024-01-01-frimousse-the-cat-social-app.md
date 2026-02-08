@@ -1,5 +1,5 @@
 ---
 layout: post
-strapline: "Cat"
+strapline: "Fun."
 tags: other
 ---

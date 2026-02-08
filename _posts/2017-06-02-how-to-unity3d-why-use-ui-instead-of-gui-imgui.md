@@ -1,6 +1,6 @@
 ---
 layout: post
-strapline: "GameDev"
+strapline: "GameDev."
 tags: gamedev csharp unity3d
 thumbnail: "/upload/170602225326751.png"
 description: "In this use-case, you will see the difference between GUI and UI API. And why use the later in your game, for constancy between platforms and API long term support..."

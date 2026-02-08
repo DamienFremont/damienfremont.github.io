@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: bdd cucumber java junit test
-strapline: "Dev"
+strapline: "Dev."
 categories: top topcucumber
 thumbnail: "/upload/160523003729271.png"
 description: "It is often useful to show the results of our tests to others people who are not developers..."

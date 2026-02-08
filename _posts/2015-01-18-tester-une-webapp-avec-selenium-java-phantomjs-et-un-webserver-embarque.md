@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: java junit selenium test
 thumbnail: "/upload/160523003143820.jpg"
 description: "Vous avez besoin de tester en permanence votre webapp ? Mais ne disposez pas d’une infrastructure de test..."

@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: agile quicktip
 thumbnail: "/upload/171110172023808.png"
 description: "Here is a quick reminder of the Agile Manifesto’s content from 2001, followed by some examples..."

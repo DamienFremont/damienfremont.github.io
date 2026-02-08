@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Photoshop Script: Export Layers to PNG Files"
-strapline: "GameDev"
+strapline: "GameDev."
 tags: assets javascript photoshop tools
 thumbnail: "/upload/screenshot006.png"
 description: "When you don’t want to do repetitive tasks in Photoshop… This script exports root layers from your current project..."

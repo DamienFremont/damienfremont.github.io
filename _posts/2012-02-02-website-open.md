@@ -1,6 +1,6 @@
 ---
 layout: post
-strapline: "News"
+strapline: "News."
 tags: other
 thumbnail: "/upload/champagne1.jpg"
 description: "..."

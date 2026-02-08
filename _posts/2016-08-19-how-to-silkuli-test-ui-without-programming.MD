@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: python test
 thumbnail: "/upload/20160820-ScreenShot025.png"
 description: "This tutorial show how to organize UI tests and reuse most of your existing usecases elements..."

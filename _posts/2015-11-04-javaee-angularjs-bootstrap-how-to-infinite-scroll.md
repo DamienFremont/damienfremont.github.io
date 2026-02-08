@@ -1,5 +1,6 @@
 ---
 layout: post
+strapline: "Dev."
 tags: angularjs java javascript bootstrap
 thumbnail: "/upload/post-thumbnail-angularjs.png"
 description: "A simple infinite scroll like Twitter or Facebook’s timelines. You’ll never reach the footer..."
