@@ -102,7 +102,22 @@
 
         <div class="row p-0 m-0">
             <div class="fs-post col p-0 m-0">
-                <img src="./content/20220212_005832-compressed.64.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+                <img src="./content/20220212_005832-compressed.64.jpg" class="img-fluid border border-2" style="width: 100%" alt="..."
+                    data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-target="#exampleModal" data-toggle="modal">
+
+                <div class="modal fade pt-4" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body p-0">
+                                    <img src="./content/20220212_005832-compressed.64.jpg" class="rounded" style="width: 100%" alt="..."/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="fs-post col p-0 m-0">
                 <img src="./content/20220211_202422-compressed.64.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
@@ -174,6 +189,7 @@
 
     </div>
 
+    <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/jquery-3.7.1.slim.min.js"></script>
     <script>
         $(document).ready(function () {
