@@ -12,24 +12,23 @@
   <link rel="apple-touch-icon" href="./assets/img/favicon-64.png?version=20250323" />
   <meta name="msapplication-TileImage" content="./assets/img/favicon-64.png?version=20250323" />
 
-  <!-- bootstrap 5.3.3 -->
+  <!-- Bootstrap and icons -->
   <meta name="theme-color" content="{{ site.browsercolor }}" />
-  <link href="./assets/css/bootstrap.min.css?version=20250323" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/font/bootstrap-icons.min.css?version=20250323">
-
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css?version=20250323" />
+  <link rel="stylesheet" href="./assets/font/bootstrap-icons.min.css?version=20250323" />
   <!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
   <title>Frimousse Social</title>
   <meta name="description" content="Just your typical tabby cat.">
   <meta name="author" content="Damien FREMONT">
   <meta name="keywords" content="pet,cat,tabby,photo,cute">
 
-  <!-- App -->
-  <link href="./assets/css/my-app.css?version=20250323" rel="stylesheet">
-
+  <!-- Application styles -->
+  <link rel="stylesheet" href="./assets/css/my-app.css?version=20250323" />
 </head>
 
-<body lang="en">
-
+<!-- App container -->
+<body>
+  
   <!-- App -->
   <script type="importmap">
     {
@@ -44,7 +43,6 @@
   <script type="module">
     import { createApp } from 'vue'
     import App from './assets/js/my-app.js?version=20250323'
-
     createApp(App).mount('#app')
   </script>
 
