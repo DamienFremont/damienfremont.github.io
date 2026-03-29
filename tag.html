@@ -30,5 +30,5 @@ permalink: /tag/
   var searchTerm = getQuery('query');
   document.getElementById('search-box').setAttribute("value", searchTerm);
 
-  searchFromUrl("/search-index.json?version={{ site.time | date: '%Y%m%d_%H%M%S' }}");
+  searchFromUrl("/api/search-index.json?version={{ site.time | date: '%Y%m%d_%H%M%S' }}");
 </script>
