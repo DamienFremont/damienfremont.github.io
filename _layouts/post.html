@@ -9,17 +9,22 @@ layout: blog
         {{page.title}}
     </h2>
 
-    <p class="post-meta taxonomy-category">
-        <small>By <a class="text-reset wp-block-heading" href="{{ site.baseurl }}/about">Damien</a></small>
-        ·
-        <small class="date wp-block-post-date">{{ page.date | date: "%F" }}</small>
-        ·
-        {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/tag/?query={{ tag }}"
-            class="badge rounded-pill bg-secondary text-decoration-none"
-            rel="tag">{{tag}}</a>
-        {% endfor %}
-    </p>
+    <div class="post-meta taxonomy-category d-flex flex-wrap">
+
+        <div class="">
+            <small>By <a class="text-reset wp-block-heading" href="{{ site.baseurl }}/about">Damien</a></small>
+            ·
+            <small class="date wp-block-post-date">{{ page.date | date: "%F" }}</small>
+        </div>
+
+        <div class="flex-grow-1">
+            {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tag/?query={{ tag }}"
+                class="badge rounded-pill bg-secondary text-decoration-none" rel="tag">{{tag}}</a>
+            {% endfor %}
+        </div>
+
+    </div>
 
 </div>
 
