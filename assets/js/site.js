@@ -26,6 +26,21 @@
 
   setTheme(getPreferredTheme())
 
+  const showActiveTheme = (theme, focus = false) => {
+    const themeSwitcher = document.querySelector('#bd-theme')
+
+    if (!themeSwitcher) {
+      return
+    }
+
+    const svg = themeSwitcher.querySelector('svg');
+    svg.style.transform = (theme == 'dark') ? "rotate(180deg)" : "rotate(0deg)";
+
+    if (focus) {
+      themeSwitcher.focus()
+    }
+  }
+
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     const storedTheme = getStoredTheme()
     if (storedTheme !== 'light' && storedTheme !== 'dark') {
@@ -34,12 +49,14 @@
   })
 
   window.addEventListener('DOMContentLoaded', () => {
+    showActiveTheme(getPreferredTheme())
 
     document.querySelector('#bd-theme').addEventListener('click', () => {
           const storedTheme = getStoredTheme()
-          const theme = (storedTheme == 'light') ? 'dark' : 'light'
+          const theme = (storedTheme == 'dark') ? 'light' : 'dark'
           setStoredTheme(theme)
           setTheme(theme)
+          showActiveTheme(theme, true)
         })
   })
 })()
