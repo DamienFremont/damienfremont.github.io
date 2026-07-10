@@ -2,7 +2,11 @@
 
 <div class="px-3">
     <ul class="list-unstyled site-tag-list">
-        <li><a class="text-reset text-decoration-none my-3" rel="tag" href="{{ site.baseurl }}/posts/">{% include icons/tags-16.html %} All Tutorials</a></li>
+        <li>
+            <a class="text-reset text-decoration-none my-3" rel="tag" href="{{ site.baseurl }}/posts/">
+                {% include icons/tags-16.html %} All Tutorials ({{ site.posts.size }})
+            </a>
+        </li>
     </ul>
 </div>
 
