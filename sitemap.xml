@@ -1,6 +1,5 @@
 ---
 layout: null
-permalink: /sitemap.xml
 sitemap:
   exclude: 'yes'
 ---

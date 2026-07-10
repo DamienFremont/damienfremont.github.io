@@ -1,5 +1,1 @@
----
-layout: none
-permalink: /app-ads.txt
----
 google.com, pub-2137428709527727, DIRECT, f08c47fec0942fa0

@@ -1,7 +1,3 @@
----
-layout: none
-permalink: /robots.txt
----
 # robots.txt for https://www.damienfremont.com/
 
 User-agent: *
