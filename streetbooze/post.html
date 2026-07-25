@@ -52,9 +52,15 @@
 
     <!-- Posts -->
     <div class="fs-posts container p-0">
-        <img src="./content/posts/2020-06-03_COVID.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+        <img id="post-img" src="./content/posts/2020-06-03_COVID.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
     </div>
 
 </body>
+
+<script type="text/javascript">
+    const urlObject = new URL(window.location);
+    const paramValue = urlObject.searchParams.get('post');
+    document.getElementById('post-img').src = `./content/posts/${paramValue}.jpg`;
+</script>
 
 </html>
