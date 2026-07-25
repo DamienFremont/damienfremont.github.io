@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +29,16 @@
             }
         }
 
-        [data-bs-theme="violet"] {
-            --bs-body-color: var(--bs-white);
-            --bs-body-color-rgb: #{to-rgb($white)};
-            --bs-body-bg: #5347ed;
-            /* --bs-body-bg:  var(#5347ed); */
-            --bs-body-bg-rgb: #{to-rgb(#5347ed)};
-            --bs-tertiary-bg: #{$blue-600};
+        /* https://mdbootstrap.com/docs/standard/content-styles/hover-effects/ */
 
-            .fs-post img.border {
-                border-color: var(--bs-body-bg) !important;
-            }
+        .hover-overlay img {
+            opacity: 1;
+        }
+
+        .hover-overlay img:hover {
+            --mdb-image-hover-transition: all 0.1s ease-in-out;
+            transition: var(--mdb-image-hover-transition);
+            opacity: 0.5;
         }
     </style>
 
@@ -55,28 +55,30 @@
                 <span style="font-size:0.5em;">SOCIAL</span>
             </a>
         </div>
-      </nav>
-    
+    </nav>
+
     <!-- Hero section -->
     <div class="fs-social container p-0">
         <div class="d-flex p-0 m-0">
             <div class="">
-                <img id="test0" src="./content/avatar-512.jpg" alt="Logo" width="128" class="rounded-circle border border-4">
+                <img id="test0" src="./content/avatar-512.jpg" alt="Logo" width="128"
+                    class="rounded-circle border border-4">
             </div>
             <div class="px-4">
                 <h2><strong style="font-size:1em;">Street Booze</strong></h2>
                 <p>
-                    Born in France, 
-                    I am a full-time professional wildlife photographer, 
+                    Born in France,
+                    I am a full-time professional wildlife photographer,
                     adventurer and passionate travellers to some of the world's wildest regions.
                 </p>
                 <p>
-                    <a class="text-decoration-none" href="https://linktr.ee/streetbooze" target="_blank">linktr.ee/streetbooze</a>
+                    <a class="text-decoration-none" href="https://linktr.ee/streetbooze"
+                        target="_blank">linktr.ee/streetbooze</a>
                 </p>
             </div>
         </div>
     </div>
-  
+
     <!-- Social links -->
     <div class="fs-social container py-2">
         <div class="row p-1 m-0">
@@ -88,35 +90,44 @@
                 <a class="btn" href="https://www.facebook.com/streetbooze/" target="_blank">
                     <i class="bi bi-facebook"></i></a>
                 <a class="btn" href="https://www.tumblr.com/streetbooze-blog" target="_blank">
-                    <bold>t</bold></a>
+                    <bold>t</bold>
+                </a>
             </div>
         </div>
     </div>
-  
+
     <!-- Posts -->
     <div class="fs-posts container p-0">
 
         <div class="row p-0 m-0">
-            <div class="fs-post col p-0 m-0">
-                <img src="./content/posts/2020-06-03_COVID.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+            <div class="fs-post col p-0 m-0 bg-image hover-overlay">
+                <a href="./post.html?post=2020-06-03_COVID">
+                    <img src="./content/posts/2020-06-03_COVID.jpg" class="img-fluid border border-2"
+                        style="width: 100%" alt="...">
+                </a>
             </div>
             <div class="fs-post col p-0 m-0">
-                <img src="./content/posts/2020-02-05_Perspective.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+                <img src="./content/posts/2020-02-05_Perspective.jpg" class="img-fluid border border-2"
+                    style="width: 100%" alt="...">
             </div>
-                        <div class="fs-post col p-0 m-0">
-                <img src="./content/posts/2019-10-25_Into_the_Woods.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+            <div class="fs-post col p-0 m-0">
+                <img src="./content/posts/2019-10-25_Into_the_Woods.jpg" class="img-fluid border border-2"
+                    style="width: 100%" alt="...">
             </div>
         </div>
 
-                <div class="row p-0 m-0">
+        <div class="row p-0 m-0">
             <div class="fs-post col p-0 m-0">
-                <img src="./content/posts/2020-01-20_Moon.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+                <img src="./content/posts/2020-01-20_Moon.jpg" class="img-fluid border border-2" style="width: 100%"
+                    alt="...">
             </div>
             <div class="fs-post col p-0 m-0">
-                <img src="./content/posts/2020-02-26_The Pit.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+                <img src="./content/posts/2020-02-26_The Pit.jpg" class="img-fluid border border-2" style="width: 100%"
+                    alt="...">
             </div>
-                        <div class="fs-post col p-0 m-0">
-                <img src="./content/posts/2019-12-17_Bridge_of_Spies.jpg" class="img-fluid border border-2" style="width: 100%" alt="...">
+            <div class="fs-post col p-0 m-0">
+                <img src="./content/posts/2019-12-17_Bridge_of_Spies.jpg" class="img-fluid border border-2"
+                    style="width: 100%" alt="...">
             </div>
         </div>
 
