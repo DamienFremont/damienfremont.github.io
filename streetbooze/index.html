@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/img/favicon-64.png" />
+    <link rel="apple-touch-icon" href="./assets/img/favicon-64.png" />
+    <meta name="msapplication-TileImage" content="./assets/img/favicon-64.png" />
+
+    <!-- Bootstrap and icons -->
+    <meta name="theme-color" content="{{ site.browsercolor }}" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/font/bootstrap-icons.min.css">
+
+    <!-- SEO Meta Tags -->
+    <title>StreetBooze Social</title>
+    <meta name="description" content="Just your typical street booze." />
+    <meta name="author" content="Damien FREMONT" />
+    <meta name="keywords" content="beer,booze,street,photo" />
+
+    <style>
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 935px;
+            }
+        }
+
+        [data-bs-theme="violet"] {
+            --bs-body-color: var(--bs-white);
+            --bs-body-color-rgb: #{to-rgb($white)};
+            --bs-body-bg: #5347ed;
+            /* --bs-body-bg:  var(#5347ed); */
+            --bs-body-bg-rgb: #{to-rgb(#5347ed)};
+            --bs-tertiary-bg: #{$blue-600};
+
+            .fs-post img.border {
+                border-color: var(--bs-body-bg) !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body lang="en" data-bs-theme="dark">
+
+    <!-- Navigation -->
+    <nav class="navbar" data-bs-theme="dark" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-slash-square-fill"></i>
+                <strong style="font-size:1em;">STREETBOOZE</strong>
+                <span style="font-size:0.5em;">SOCIAL</span>
+            </a>
+        </div>
+      </nav>
+    
+    <!-- Hero section -->
+    <div class="fs-social container p-0">
+        <div class="d-flex p-0 m-0">
+            <div class="">
+                <img id="test0" src="./content/avatar-512.jpg" alt="Logo" width="128" class="rounded-circle border border-4">
+            </div>
+            <div class="px-4">
+                <h2><strong style="font-size:1em;">Street Booze</strong></h2>
+                <p>
+                    Born in France, 
+                    I am a full-time professional wildlife photographer, 
+                    adventurer and passionate travellers to some of the world's wildest regions.
+                </p>
+                <p>
+                    <a class="text-decoration-none" href="https://linktr.ee/streetbooze" target="_blank">linktr.ee/streetbooze</a>
+                </p>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Social links -->
+    <div class="fs-social container py-2">
+        <div class="row p-1 m-0">
+            <div class="col p-0 m-0">
+                <a class="btn" href="https://www.instagram.com/streetbooze/" target="_blank">
+                    <i class="bi bi-instagram"></i></a>
+                <a class="btn" href="https://twitter.com/streetbooze" target="_blank">
+                    <i class="bi bi-twitter-x"></i></a>
+                <a class="btn" href="https://www.facebook.com/streetbooze/" target="_blank">
+                    <i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Posts -->
+    <div class="fs-posts container p-0">
+
+    </div>
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
