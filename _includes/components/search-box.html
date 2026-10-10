@@ -1,16 +1,18 @@
 <!-- SOURCE: https://www.stephanmiller.com/static-site-search/ -->
 <div class="header-search-form border rounded-4 bg-primary g-3 p-2 m-0">
-    <form class="header-search-form row g-3 p-0 m-0" action="/search/" method="get">
-        <div class="col-auto offset-1">
-            <button type="submit" class="btn btn-light fw-bold rounded-start-pill">
+    <form class="header-search-form row g-1 p-0 m-0" action="/search/" method="get">
+        <div class="col-8 offset-1">
+ 
+            <input class="form-control text-black bg-white rounded-start-pill" id="search-box" type="text" name="query" placeholder="Search..." autofocus="autofocus">
+            <div class="form-text text-light offset-1 text-limit-line-1">Examples: test, java, bdd, etc</div>
+ 
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-light fw-bold rounded-end-pill">
 
                 {% include icons/search.html %}
                 
             </button>
-        </div>
-        <div class="col-8">
-            <input class="form-control text-black bg-white rounded-end-pill" id="search-box" type="text" name="query" placeholder="Search..." autofocus="autofocus">
-            <div class="form-text text-light text-limit-line-1">Examples: test, java, bdd, etc</div>
         </div>
     </form>
 </div>
