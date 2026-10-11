@@ -33,6 +33,10 @@ http://127.0.0.1:4000/debug/storybook
 
 http://127.0.0.1:4000/debug/thumbnails
 
+http://127.0.0.1:4000/frimoussethecat/
+
+http://127.0.0.1:4000/streetbooze/
+
 Sitemap:
 
 - Home
@@ -189,3 +193,10 @@ https://www.damienfremont.com/
       - term of services
       - ads.txt ?
     - includes
+
+
+# Backlog
+
+TODO:
+- buy me a coffee
+- news letter
