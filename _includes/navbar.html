@@ -16,11 +16,11 @@
         <!-- Menu -->
 
         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto text-decoration-none fw-bold">
+            <ul class="navbar-nav me-auto text-decoration-none">
                 <li class="nav-item ">
                     <a class="nav-link" href="#" id="bd-theme">
                         {% include icons/circle-half-16.html %}
-                        <span class="d-lg-none ms-2" id="bd-theme-text">THEME</span>
+                        <span class="d-lg-none ms-2" id="bd-theme-text">Theme</span>
                     </a>
                 </li>
             </ul>
@@ -28,7 +28,7 @@
                 <li class="nav-item border-top">
                     <a class="nav-link" href="{{ site.baseurl }}/search" rel="home">
                         {% include icons/search.html %} 
-                        <span class="d-lg-none ms-2 fw-bold" id="bd-theme-text">SEARCH</span>
+                        <span class="d-lg-none ms-2" id="bd-theme-text">Search</span>
                     </a>
                 </li>
             </ul>
@@ -51,18 +51,21 @@
                     <a class="nav-link p-2" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"
                         target="_blank" rel="noopener">
                         {% include icons/linkedin.html %}
+                        <span class="d-lg-none ms-2" id="bd-theme-text">LinkedIn</span>
                     </a>
                 </li>
                 <li class="nav-item col-6 col-md-auto">
                     <a class="nav-link p-2" href="https://github.com/{{ site.github_username }}" target="_blank"
                         rel="noopener">
                         {% include icons/github.html %}
+                        <span class="d-lg-none ms-2" id="bd-theme-text">GitHub</span>
                     </a>
                 </li>
                 <li class="nav-item col-6 col-md-auto">
                     <a class="nav-link p-2" href="https://x.com/{{ site.twitter_username }}"
                         target="_blank" rel="noopener">
                         {% include icons/x.html %}
+                        <span class="d-lg-none ms-2" id="bd-theme-text">X/Twitter</span>
                     </a>
                 </li>
             </ul>
