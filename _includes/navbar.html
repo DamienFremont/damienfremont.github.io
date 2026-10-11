@@ -17,16 +17,18 @@
 
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto text-decoration-none fw-bold">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}/search" rel="home">
-                        {% include icons/search.html %} 
-                        <span class="d-lg-none ms-2" id="bd-theme-text">SEARCH</span>
-                    </a>
-                </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="#" id="bd-theme">
                         {% include icons/circle-half-16.html %}
                         <span class="d-lg-none ms-2" id="bd-theme-text">THEME</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item border-top">
+                    <a class="nav-link" href="{{ site.baseurl }}/search" rel="home">
+                        {% include icons/search.html %} 
+                        <span class="d-lg-none ms-2 fw-bold" id="bd-theme-text">SEARCH</span>
                     </a>
                 </li>
             </ul>
@@ -44,7 +46,6 @@
                     <a class="nav-link px-md-3 fs-3" href="{{ site.baseurl }}/about">ABOUT</a>
                 </li>
             </ul>
-
             <ul class="navbar-nav">
                 <li class="nav-item col-6 col-md-auto">
                     <a class="nav-link p-2" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"
